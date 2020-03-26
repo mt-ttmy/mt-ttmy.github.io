@@ -1,0 +1,260 @@
+@charset "UTF-8";
+
+body{font-family: Helvetica Neue, Helvetica, Arial, sans-serif;font-size:12px;color:#777;background: url(../graphic/background_stripes.gif);text-align:center;}
+select {border:1px solid #ccc;background:#fff;padding:5px;}
+option{padding-right:10px;line-height:1;}
+#wraplog{width:400px;margin:80px auto 0;text-align:left;background:#fff url(../graphic/header.png) repeat-x left -35px;border-radius:4px 4px 0 0;}
+#wraplog h1{margin:0;width:100%;height:70px;background: #f5f8fa url(../graphic/logo_tt_svg.svg) no-repeat center center;text-indent:-9999px;border:1px solid #ddd;background-size:auto 60%;}
+#wraplog h1 span{display:none;}
+#wraplog h2{font: 18px Arial, Helvetica, sans-serif;color:#3f3f3f;margin:0 0 10px 0;border-bottom:1px dashed #ddd;padding:0 0 2px 0;}
+#wraplog #mainwrap{padding:20px;text-align:left;background:none;border:1px solid #ddd;border-top:none;}
+#contact{text-align:left;font-size:11px;margin-top:10px;}
+#contact a{text-decoration:none;color:#3f3f3f;font-weight:normal;}
+#contact a:hover{text-decoration:underline;}
+#tamtamyLoginBox input, #openId{width:100%;border:1px solid #ccc;background:#fff url(../graphic/grad_01_rev.gif) 0px 1px repeat-x;padding:5px; color:#555;}
+#mainwrap #formwrap{width:100%;}
+#mainwrap ul{list-style:none;text-align:left;font-size:12px;color:#a83333;padding:10px;margin:0;}
+#mainwrap ul li span.errorMessage{color:#fff;border:none;}
+/* #tamtamyLoginBox label{float:left;width:100%;font-weight:normal;clear:left;padding:6px 0;}*/
+#tamtamyLoginBox label{font-weight:normal;}
+#formwrap label.agrem{}
+#formwrap textarea{width:300px;height:80px;}
+#formwrap p#remembme{padding:18px 0 0 0;clear:both;line-height:normal;}
+#formwrap p#remembme input{margin:0 3px 1px 0;vertical-align:middle; border:none;background:none;}
+#formwrap p#regol{padding:8px 0 0;font-size:11px;color:#0090FF;line-height:normal;clear:both;}
+#formwrap p#regol input{margin:0 3px 1px 0;vertical-align:middle;}
+#formwrap p#regol a{text-decoration:none;color:#0090ff;}
+#formwrap input.bsub{width:80px;border:1px solid #ccc;background:#fff url(../graphic/grad_01.gif) bottom center repeat-x;text-align:center;color:#555; font-weight:bold;padding:4px 6px;font-size:12px;text-transform:uppercase;}
+#formwrap input.bsub{cursor:pointer;font-size:12px;text-transform:none;border-radius:2px;width:auto;padding:0 10px;height:25px;line-height:25px;}
+div#pwb{display:none;}
+div#mainwrap #formwrap span.openIdLogo{background:url(../graphic/openid-inputicon.gif) 0 0 no-repeat;display:block;width:16px;height:16px;float:left;}
+a#signIn_ {color:#666;margin:0 5px 0 0;}
+a#signIn_:hover {color:#777;}
+.login-actions {padding:5px 0 0 0;}
+#mainwrap div.info ul {list-style:none;background:none;text-align:left;font-size:12px;color:#777;padding:10px;margin:0;}
+#mainwrap div.info ul {list-style:none;background:none;text-align:left;font-size:12px;color:#777;padding:10px;margin:0;}
+
+.networkLayout #networkMainwrap{text-align:left;}
+.networkLayout #networklog{margin-top:90px;}
+.networkLayout .navbar-brand{background: url(../graphic/tt_logo_80.png) no-repeat;text-indent: -99999px;background-size: 90%;width: 185px;}
+.networkLayout .navbar{padding-top:10px;}
+.networkLayout .panel-title{font-size: 35px;text-transform: capitalize;font-weight: bold;padding: 18px 0;}
+.networkLayout .modal-title{text-transform: capitalize;font-weight: bold;}
+.networkLayout #createNetworkModal .img-container{max-height:538px;overflow:hidden;}
+.networkLayout .carousel-caption {padding-left: 10px;background: rgba(0,0,0,0.5);text-align: left;left: 5%;right: 10%;padding-bottom: 10px;padding-top: 0;}
+.networkLayout .inner-modal-header{clear: both;}
+.networkLayout .inner-modal-header .modal-title{width:80%;display: inline-block;}
+.networkLayout .inner-modal-header img{float: right;width: 41px;}
+.networkLayout .modal-dialog{background:white;}
+body.networkLayout {background: url("../graphic/ttsi_background-2.jpg");}
+
+.registrationLayout #registrationMainwrap{text-align:left;}
+.registrationLayout #registrationlog{margin-top:40px;}
+.registrationLayout .navbar-brand{background: url(../graphic/tt_logo_80.png) no-repeat;text-indent: -99999px;background-size: 90%;width: 185px;}
+.registrationLayout .navbar{padding-top:10px;}
+.registrationLayout .panel-title{font-family: 'Open Sans', sans-serif; font-weight: 100; font-size: 20px; padding: 18px 0; color:#fff;}
+.registrationLayout .panel-title span{vertical-align: middle; height:70px; display: inline-block;}
+.registrationLayout .modal-title{text-transform: capitalize;font-weight: bold;}
+.registrationLayout #createNetworkModal .img-container{max-height:538px;overflow:hidden;}
+.registrationLayout .carousel-caption {padding-left: 10px;background: rgba(0,0,0,0.5);text-align: left;left: 5%;right: 10%;padding-bottom: 10px;padding-top: 0;}
+.registrationLayout .inner-modal-header{height: 40px;clear: both;}
+.registrationLayout .inner-modal-header .modal-title{float: left;}
+.registrationLayout .inner-modal-header img{float: right;width: 41px;}
+.registrationLayout .modal-dialog{background:white;}
+
+/* Color suggestions in create network */
+#color-suggestions {text-align: center;}
+#color-suggestions .swatch{margin-left: 20px; border: 1px solid #ccc; border-radius: 4px; -webkit-box-shadow: inset 0 0 2px 2px rgba(0,0,0,0.075); box-shadow: inset 0 0 2px 2px rgba(0,0,0,0.075); height: 1.429em; width: 1.429em; display: inline-block; cursor: pointer; margin-right: 5px;}
+.btn-group a.btn{color: white;}
+
+@media (max-width:640px){
+	
+	#wraplog{width:100%;margin:0 auto;}
+	
+}
+
+@font-face{
+/*font-family:"Proxima Nova W07 Black";*/
+font-family:"Proxima Nova Black";
+src:url("../proxima/9e87ad7f-6820-4b24-82f0-00f80e23b088.eot?#iefix");
+src:url("../proxima/9e87ad7f-6820-4b24-82f0-00f80e23b088.eot?#iefix") format("eot"),url("../proxima/301904b9-fe52-494e-aeca-bb946a866993.woff2") format("woff2"),url("../proxima/ab408b66-5692-4473-b167-5819ca620b83.woff") format("woff"),url("../proxima/19260682-1047-465b-b29b-66c48ea2e00e.ttf") format("truetype"),url("../proxima/3943e845-1e8d-442c-b4fd-222b664b7e35.svg#3943e845-1e8d-442c-b4fd-222b664b7e35") format("svg");
+}
+@font-face{
+/*font-family:"Proxima Nova W07 Bold";*/
+font-family:"Proxima Nova Bold";
+src:url("../proxima/b9234758-e038-4622-b531-1e89eef11dc8.eot?#iefix");
+src:url("../proxima/b9234758-e038-4622-b531-1e89eef11dc8.eot?#iefix") format("eot"),url("../proxima/301b29be-a6b5-467a-ba10-926b40436a87.woff2") format("woff2"),url("../proxima/a01242ac-07ee-44eb-97b4-3f6df729e51a.woff") format("woff"),url("../proxima/713e8042-cdd9-4f87-b79b-59bb8e43daca.ttf") format("truetype"),url("../proxima/b39f961b-4c68-4114-8a71-76bfe004cf14.svg#b39f961b-4c68-4114-8a71-76bfe004cf14") format("svg");
+}
+@font-face{
+/*font-family:"Proxima Nova W07 Extrabold";*/
+font-family:"Proxima Nova Extra Bold";
+src:url("../proxima/98efc59a-892b-4055-a50c-3a62f5f46e88.eot?#iefix");
+src:url("../proxima/98efc59a-892b-4055-a50c-3a62f5f46e88.eot?#iefix") format("eot"),url("../proxima/fc89076c-e531-4a6c-a0a0-cb26387f4260.woff2") format("woff2"),url("../proxima/0333c78e-0245-4dd1-91f0-95e76486e4fe.woff") format("woff"),url("../proxima/075af3d9-ba60-4f41-8fa1-fc89feed423d.ttf") format("truetype"),url("../proxima/7eec8f01-73b9-4a88-a52d-6e36ef34ccec.svg#7eec8f01-73b9-4a88-a52d-6e36ef34ccec") format("svg");
+}
+@font-face{
+/*font-family:"Proxima Nova W07 Italic";*/
+font-family:"Proxima Nova Italic";
+src:url("../proxima/aee0de3d-ba67-42ed-a243-74d635a296d1.eot?#iefix");
+src:url("../proxima/aee0de3d-ba67-42ed-a243-74d635a296d1.eot?#iefix") format("eot"),url("../proxima/bd5d3098-6dfd-49d7-9805-257c1f9c6a45.woff2") format("woff2"),url("../proxima/e4322432-dab6-4aa4-9547-41939c3d234d.woff") format("woff"),url("../proxima/275b8c7d-2a25-4f4c-a2d4-f3c14c3f3d16.ttf") format("truetype"),url("../proxima/edd9165a-3902-4b98-b7d9-925853b65b82.svg#edd9165a-3902-4b98-b7d9-925853b65b82") format("svg");
+}
+@font-face{
+/*font-family:"Proxima Nova W07 Semibold";*/
+font-family:"Proxima Nova Semibold";
+src:url("../proxima/48de68cb-1e43-48a1-a302-a7383eccdbb4.eot?#iefix");
+src:url("../proxima/48de68cb-1e43-48a1-a302-a7383eccdbb4.eot?#iefix") format("eot"),url("../proxima/ef5b26a4-7dc7-4234-9b93-0c9c0fadd85d.woff2") format("woff2"),url("../proxima/11063ead-72ce-471f-9c94-697b0a2acedb.woff") format("woff"),url("../proxima/bfb11b96-6d58-46c7-9d38-6dafbceffd44.ttf") format("truetype"),url("../proxima/033a4cc6-8a9b-4bc2-9505-c92af71ba166.svg#033a4cc6-8a9b-4bc2-9505-c92af71ba166") format("svg");
+}
+@font-face{
+/*font-family:"Proxima Nova W07 Semibold It";*/
+font-family:"Proxima Nova Semibold Italic";
+src:url("../proxima/41c72b54-e1e2-42dc-b7ff-55e7a2ffe2d5.eot?#iefix");
+src:url("../proxima/41c72b54-e1e2-42dc-b7ff-55e7a2ffe2d5.eot?#iefix") format("eot"),url("../proxima/91008af8-151b-4838-8603-fda6eddd311e.woff2") format("woff2"),url("../proxima/6d58f459-8846-4b16-9d36-0e12d741d9d4.woff") format("woff"),url("../proxima/d3c52b77-4ae0-40fc-84b0-4f1f66a4ebe9.ttf") format("truetype"),url("../proxima/cc51d0ca-1e4b-43b8-9bab-12b3376c2f89.svg#cc51d0ca-1e4b-43b8-9bab-12b3376c2f89") format("svg");
+}
+@font-face{
+/*font-family:"Proxima N W01 Light";*/
+font-family:"Proxima Nova Light";
+src:url("../proxima/93cc6d34-798e-42c8-87d2-fd6391801b63.eot?#iefix");
+src:url("../proxima/93cc6d34-798e-42c8-87d2-fd6391801b63.eot?#iefix") format("eot"),url("../proxima/d9fe41ee-4904-4a11-ba11-b61cd3be767f.woff2") format("woff2"),url("../proxima/2fa30669-9bbd-4ced-912f-db94a367ed6c.woff") format("woff"),url("../proxima/c12b3ebb-3771-483f-a84a-ac63d615c28e.ttf") format("truetype"),url("../proxima/2a961063-ea56-4a4b-8cea-bdae32edb0e2.svg#2a961063-ea56-4a4b-8cea-bdae32edb0e2") format("svg");
+}
+@font-face{
+/*font-family:"Proxima Nova W08 Reg";*/
+font-family:"Proxima Nova Regular";
+src:url("../proxima/0020eb30-c98c-4a76-aaa5-c39374f14534.eot?#iefix");
+src:url("../proxima/0020eb30-c98c-4a76-aaa5-c39374f14534.eot?#iefix") format("eot"),url("../proxima/781c5453-0067-4e64-9386-7c0726d63d57.woff2") format("woff2"),url("../proxima/510df0e5-5b9f-4a1c-b46a-bcf1739bda43.woff") format("woff"),url("../proxima/47e08118-5050-469b-a40c-dc3b2307e87e.ttf") format("truetype"),url("../proxima/d93bd409-7380-4bb8-9d9f-d8035b5e0387.svg#d93bd409-7380-4bb8-9d9f-d8035b5e0387") format("svg");
+}
+
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+/* Document
+   ========================================================================== */
+
+html {
+	font-family: "Proxima Nova Regular", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	/* 1 */
+	line-height: 1.15;
+	/* 2 */
+	-ms-text-size-adjust: 100%;
+	/* 3 */
+	-webkit-text-size-adjust: 100%;
+	/* 3 */ 
+}
+html body {
+	font-family: "Proxima Nova Regular", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	background: #fff;
+}
+body #wraplog h1, body #wraplog .h1, body #wraplog h2, body #wraplog .h2, body #wraplog h3, body #wraplog .h3, body #wraplog h4, body #wraplog .h4, body #wraplog h5, body #wraplog .h5 {
+	text-rendering: optimizelegibility;
+	font-weight: 600;
+	font-family: "Proxima Nova Black", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	color: #252527;
+}
+
+body #wraplog [data-network-logo] {
+	background-image: url('../images/replywebinar-logo-negative.png');
+	background-color: #292a2c;
+	background-size: auto auto;
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+	padding: 20px 0;
+	border-top: 7px solid #15b138;
+	/*font-weight: 400;*/
+}
+body #wraplog h2 {
+	text-align: center;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 19px;
+	padding-bottom: 0;
+	border: none;
+}
+
+body .btn-default,
+body .btn-primary {
+	background-color: #15b138;
+	display: block;
+	width: 100%;
+	border-radius: 0;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 15px;
+	border: none;
+}
+.box_register .form-group {
+	position: relative;
+	width: 100%;
+	float: left;
+}
+.box_register .form-group .form-control,
+#wraplog #tamtamyLoginBox input, #wraplog #openId {
+	box-shadow: none;
+	background: transparent;
+	padding: 15px;
+	height: auto;
+	border-radius: 0;
+}
+.box_register .form-group select.form-control {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: url(../images/arrow_select.png) top right / auto 100% no-repeat;
+}
+#wraplog #contact {
+	text-align: center;
+	margin-bottom: 0;
+	margin-top: 15px;
+}
+#wraplog #mainwrap {
+	position: relative;
+	/*padding: 20px 10px 10px;*/
+	box-shadow: 0 0 35px 5px rgba(0,0,0,0.1);
+}
+.login-actions {
+	position: absolute;
+	bottom: -30px;
+	text-align: center;
+	width: 100%;
+	left: 0;
+	font-size: 14px;
+	font-weight: 400;
+}
+body {
+	padding-bottom: 50px;
+	font-weight: 400;
+}
+#wraplog .panel-body {
+	padding: 0;
+}
+input.generic_button {
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	height: 50px;
+	background: transparent;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+#wraplog .buttons_wrapper {
+	border: none;
+	padding: 0;
+}
+#wraplog label {
+	/*color: #252527;*/
+	font-family:"Proxima Nova Light", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	padding-bottom: 0;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #204d74;
+    background-color: #EEE;
+    border-color: #204d74;
+}
+
+.user_consent_check_container label {margin-right:15px;}
