@@ -38,10 +38,11 @@
 
 [class^=template-hero] .slider-hero a.btn.read-more{
     margin-top: 50px;
-    padding: 10px 0px;
     width: 210px;
-    height: 20px;
+    line-height: 40px;
     font-family: ProximaNova;
     background-color: #00b32d;
+    padding: 0px;
+    border: 0px !important;
 }
 
