@@ -7,3 +7,7 @@
     height: 436px;
     min-height: auto;
 }
+
+.flexslider .contents_wrapper>div[class^="template-"]{
+ height: 436px;
+}
