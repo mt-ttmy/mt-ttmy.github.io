@@ -13,7 +13,7 @@
 }
 
 .slider-hero .hero-message-container{
-    min-height: 436px;
+    min-height: 436px !important;
     margin: 0 !important;
     padding: 0px 8%;
 }
@@ -22,8 +22,9 @@
     padding: 0px !important;
 }
 
-.slider-hero .hero-message h2{
+.template-heroPlain .slider-hero .hero-message h2{
     font-family: ProximaNova-Extrabld;
     font-size: 60px;
+    font-weight: bold;
 }
 
