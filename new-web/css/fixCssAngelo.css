@@ -26,5 +26,22 @@
     font-family: ProximaNova-Extrabld;
     font-size: 60px;
     font-weight: bold;
+    line-height: 48px;
+}
+
+.template-heroPlain .slider-hero .hero-message h3{
+    margin-top: 38px;
+    font-family: ProximaNova;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.template-heroPlain .slider-hero .read-more{
+    margin-top: 50px;
+    padding: 10px 0px;
+    width: 210px;
+    height: 20px;
+    font-family: ProximaNova;
+    background-color: #00b32d;
 }
 
