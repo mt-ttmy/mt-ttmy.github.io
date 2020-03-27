@@ -59,26 +59,26 @@
     margin: 80px auto 0px;
 }
 
-.wrapwidg.custom .contents_wrapper .template-event.content-list-element{
+.wrapwidg.custom .contents_wrapper .content-list-element{
     width: 33.3%;
     padding: 16px;
     min-height: 435px;
 }
 
-.wrapwidg.custom .contents_wrapper .template-event.content-list-element section .event-cover{
+.wrapwidg.custom .contents_wrapper .content-list-element section .event-cover{
     height: 130px;
     background-size: cover;
     background-position: center;
 }
 
-.wrapwidg.custom .contents_wrapper .template-event.content-list-element section .border-text{
+.wrapwidg.custom .contents_wrapper .content-list-element section .border-text{
     min-height: calc(100% - 130px);
     border: solid 1px #e3e3e3;
     border-top: 0px;
     padding: 20px 30px;
 }
 
-.wrapwidg.custom .contents_wrapper .template-event.content-list-element section .fx-xs-display{
+.wrapwidg.custom .contents_wrapper .content-list-element section .fx-xs-display{
     font-family: ProximaNova;
     font-size: 14px;
     font-weight: bold;
@@ -86,7 +86,7 @@
     text-transform: uppercase;
 }
 
-.wrapwidg.custom .contents_wrapper .template-event.content-list-element section .event-title a{
+.wrapwidg.custom .contents_wrapper .content-list-element section .event-title a{
     font-family: ProximaNova-Extrabld;
     font-size: 22px;
     font-weight: normal;
@@ -97,14 +97,14 @@
     line-height: 22px;
 }
 
-.wrapwidg.custom .contents_wrapper .template-event.content-list-element article event-datetime{
+.wrapwidg.custom .contents_wrapper .content-list-element article event-datetime{
     font-family: ProximaNova;
     font-size: 14px;
     font-weight: bold;
     color: #000000;
 }
 
-.wrapwidg.custom .contents_wrapper .template-event.content-list-element section article .event-abstract{
+.wrapwidg.custom .contents_wrapper .content-list-element section article .event-abstract{
     font-family: ProximaNova;
     font-size: 14px;
     color: #030303;
