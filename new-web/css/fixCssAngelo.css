@@ -47,10 +47,11 @@
     font-weight: normal;
 }
 
-
-
 .discover-calendar{
     padding-top: 55px;
+}
+
+.discover-calendar h3{
     font-family: ProximaNova-Extrabld;
     font-size: 30px;
     font-weight: normal;
