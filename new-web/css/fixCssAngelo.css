@@ -68,6 +68,14 @@
 .wrapwidg.custom .contents_wrapper .template-custom.content-list-element section .event-cover{
     height: 130px;
     background-size: cover;
+    background-position: center;
+}
+
+.wrapwidg.custom .contents_wrapper .template-custom.content-list-element section .border-text{
+    min-height: calc(100% - 130px);
+    border: solid 1px #e3e3e3;
+    border-top: 0px;
+    padding: 20px 30px;
 }
 
 .wrapwidg.custom .contents_wrapper .template-custom.content-list-element section .fx-xs-display{
@@ -75,7 +83,7 @@
     font-size: 14px;
     font-weight: bold;
     color: #393939;
-    padding: 20px 30px 0px 30px;
+    padding-top: 20px;
     text-transform: uppercase;
 }
 
@@ -85,11 +93,7 @@
     font-weight: normal;
     color: #030303;
     text-transform: uppercase;
-    padding: 10px 30px 0px 30px;
-}
-
-.wrapwidg.custom .contents_wrapper .template-custom.content-list-element section article{
-    padding: 0px 30px;
+    padding: 10px;
 }
 
 .wrapwidg.custom .contents_wrapper .template-custom.content-list-element section article event-datetime{
@@ -103,5 +107,6 @@
     font-family: ProximaNova;
     font-size: 14px;
     color: #030303;
+    font-weight: normal;
 }
 
