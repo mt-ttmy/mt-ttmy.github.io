@@ -93,9 +93,14 @@
 }
 
 .wrapwidg.events-card-list .contents_wrapper .content-list-element{
-    width: 33.3%;
-    padding: 16px;
     min-height: 435px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.wrapwidg.events-card-list .contents_wrapper .content-list-element section{
+    height: 480px;
+
 }
 
 .wrapwidg.events-card-list .contents_wrapper .content-list-element section .event-cover{
@@ -105,10 +110,14 @@
 }
 
 .wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text{
-    min-height: calc(100% - 130px);
+    height: 350px;
     border: solid 1px #e3e3e3;
     border-top: 0px;
     padding: 20px 30px;
+}
+
+.wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text .event-title{
+    padding: 10px 0px 15px;
 }
 
 .wrapwidg.events-card-list .contents_wrapper .content-list-element section .fx-xs-display{
