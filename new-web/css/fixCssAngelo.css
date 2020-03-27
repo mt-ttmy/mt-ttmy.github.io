@@ -44,5 +44,21 @@
     background-color: #00b32d;
     padding: 0px;
     border: 0px !important;
+    font-weight: normal;
+}
+
+.wrapwidg.custom{
+    margin: 0px;
+    border: 0px;
+}
+
+.wrapwidg.custom .contents_wrapper{
+    width: 1200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.wrapwidg.custom .contents_wrapper .template-custom.content-list-element{
+    width: 33.3%;
 }
 
