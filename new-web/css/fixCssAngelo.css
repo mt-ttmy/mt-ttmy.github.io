@@ -62,6 +62,18 @@
     height: 55px;
     border: solid 1px #a3a3a3;
     background-color: #ffffff;
+    width: 300px;
+    line-height: 55px;
+    padding: 0px;
+    margin: 0 auto;
+    font-family: ProximaNova-Extrabld;
+    font-size: 20px;
+    font-weight: normal;
+    color: #000;
+}
+
+.discover-calendar a.btn .fa-chevron-right{
+    line-height: 55px;
 }
 
 .wrapwidg.custom{
