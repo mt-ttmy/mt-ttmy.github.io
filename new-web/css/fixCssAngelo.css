@@ -155,6 +155,27 @@
     padding-top: 25px;
 }
 
+
+/* Pagina di dettaglio */
+.container.container-event-detail{
+    width: auto;
+    max-width: 1440px;
+    padding: 0px;
+}
+
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget{
+    margin: 0px;
+}
+
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire-image-container{
+    width: 100%;
+    height: 435px;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Fine pagina di dettaglio */
+
 @media (max-width: 1199px) {
     .wrapwidg.events-card-list .contents_wrapper .content-list-element{
         min-height: ;
