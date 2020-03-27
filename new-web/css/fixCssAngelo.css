@@ -23,7 +23,7 @@
 }
 
 .template-heroPlain .slider-hero .hero-message h2{
-    font-family: ProximaNova-Extrabld;
+    font-family: Proxima Nova Extra Bold;
     font-size: 60px;
     font-weight: bold;
     line-height: 48px;
@@ -31,7 +31,7 @@
 
 .template-heroPlain .slider-hero .hero-message h3{
     margin-top: 38px;
-    font-family: ProximaNova;
+    font-family: Proxima Nova Black;
     font-size: 24px;
     font-weight: 600;
 }
@@ -40,24 +40,27 @@
     margin-top: 50px;
     width: 210px;
     line-height: 40px;
-    font-family: ProximaNova;
+    font-family: Proxima Nova Black;
     background-color: #00b32d;
     padding: 0px;
     border: 0px !important;
     font-weight: normal;
 }
 
+
+
 .discover-calendar{
     padding-top: 55px;
 }
 
 .discover-calendar h3{
-    font-family: ProximaNova-Extrabld;
+    font-family: Proxima Nova Extra Bold;
     font-size: 30px;
     font-weight: normal;
     color: #000000;
     line-height: 60px;
 }
+
 
 .discover-calendar a.btn{
     height: 55px;
@@ -109,7 +112,7 @@
 }
 
 .wrapwidg.custom .contents_wrapper .content-list-element section .fx-xs-display{
-    font-family: ProximaNova;
+    font-family: Proxima Nova Black;
     font-size: 14px;
     font-weight: bold;
     color: #393939;
@@ -128,14 +131,14 @@
 }
 
 .wrapwidg.custom .contents_wrapper .content-list-element article event-datetime{
-    font-family: ProximaNova;
+    font-family: Proxima Nova Black;
     font-size: 14px;
     font-weight: bold;
     color: #000000;
 }
 
 .wrapwidg.custom .contents_wrapper .content-list-element section article .event-abstract{
-    font-family: ProximaNova;
+    font-family: Proxima Nova Black;
     font-size: 14px;
     color: #030303;
     font-weight: normal;
