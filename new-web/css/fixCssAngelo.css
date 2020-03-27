@@ -50,15 +50,17 @@
 .wrapwidg.custom{
     margin: 0px;
     border: 0px;
+    padding: 0px;
 }
 
 .wrapwidg.custom .contents_wrapper{
-    width: 1200px;
+    width: 100%;
     display: block;
     margin: 0 auto;
 }
 
 .wrapwidg.custom .contents_wrapper .template-custom.content-list-element{
     width: 33.3%;
+    padding: 0px 16px;
 }
 
