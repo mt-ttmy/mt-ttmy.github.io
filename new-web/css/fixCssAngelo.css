@@ -189,11 +189,17 @@
     padding-bottom: 35px;
 }
 
-.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container h2{
-    font-size: 60px;
-    font-family: Proxima Nova Extra Bold;
-    line-height: 65px;
-    margin: 0px;
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .fx-xs-display .event-type{
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: solid 1px #fff;
+}
+
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container h2:not(.section_title){
+    font-size: 60px !important;
+    font-family: Proxima Nova Extra Bold !important;
+    line-height: 65px !important;
+    margin: 0px !important;
 }
 
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire-image-container{
