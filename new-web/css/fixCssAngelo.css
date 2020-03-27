@@ -74,6 +74,7 @@
     font-size: 20px;
     font-weight: normal;
     color: #000;
+    padding: 0px 10px;
 }
 
 .discover-calendar a.btn .fa-chevron-right{
@@ -155,5 +156,19 @@
 }
 
 @media (max-width: 1199px) {
+    .wrapwidg.events-card-list .contents_wrapper .content-list-element{
+        min-height: ;
+    }
 
+    .wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text{
+        padding: 20px 20px;
+        height: 420px;
+    }
+}
+
+@media (max-width: 1024px) {
+    [class^="wrapwidg hero"] .contents_wrapper > div .slider-hero .hero-message-container {
+        height: 100%;
+        min-height: 560px;
+    }
 }
