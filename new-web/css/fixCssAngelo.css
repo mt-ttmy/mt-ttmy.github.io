@@ -83,20 +83,19 @@
     font-size: 14px;
     font-weight: bold;
     color: #393939;
-    padding-top: 20px;
     text-transform: uppercase;
 }
 
-.wrapwidg.custom .contents_wrapper .template-custom.content-list-element section .event-title{
+.wrapwidg.custom .contents_wrapper .template-custom.content-list-element section .event-title a{
     font-family: ProximaNova-Extrabld;
     font-size: 22px;
     font-weight: normal;
     color: #030303;
     text-transform: uppercase;
-    padding: 10px;
+    padding-top: 10px;
 }
 
-.wrapwidg.custom .contents_wrapper .template-custom.content-list-element section article event-datetime{
+.wrapwidg.custom .contents_wrapper .template-custom.content-list-element article event-datetime{
     font-family: ProximaNova;
     font-size: 14px;
     font-weight: bold;
@@ -108,5 +107,6 @@
     font-size: 14px;
     color: #030303;
     font-weight: normal;
+    padding-top: 25px;
 }
 
