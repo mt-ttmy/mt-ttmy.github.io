@@ -100,7 +100,7 @@
 }
 
 .wrapwidg.events-card-list .contents_wrapper .content-list-element section{
-    height: 530px;
+    height: 550px;
 
 }
 
@@ -167,8 +167,22 @@
 }
 
 @media (max-width: 1024px) {
+
+    [class^="wrapwidg hero"], [class^="wrapwidg hero"] .flexslider,
+    [class^="wrapwidg hero"] .contents_wrapper,
+    [class^="wrapwidg hero"] .contents_wrapper > div,
+    [class^="wrapwidg hero"] .contents_wrapper > div .slider-hero,
     [class^="wrapwidg hero"] .contents_wrapper > div .slider-hero .hero-message-container {
-        height: 100%;
-        min-height: 560px;
+        height: 100% !important;
+        min-height: 560px !important;
+    }
+
+    .wrapwidg.events-card-list .contents_wrapper .content-list-element section{
+        height: 620px;
+    }
+
+    .wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text{
+        padding: 15px;
+        height: 485px;
     }
 }
