@@ -70,7 +70,7 @@
     line-height: 55px;
     padding: 0px;
     margin: 0 auto;
-    font-family: ProximaNova-Extrabld;
+    font-family: Proxima Nova Extra Bold;
     font-size: 20px;
     font-weight: normal;
     color: #000;
@@ -80,38 +80,38 @@
     line-height: 55px;
 }
 
-.wrapwidg.custom{
+.wrapwidg.events-card-list{
     margin: 0px;
     border: 0px;
     padding: 0px;
 }
 
-.wrapwidg.custom .contents_wrapper{
+.wrapwidg.events-card-list .contents_wrapper{
     width: 100%;
     display: block;
     margin: 80px auto 0px;
 }
 
-.wrapwidg.custom .contents_wrapper .content-list-element{
+.wrapwidg.events-card-list .contents_wrapper .content-list-element{
     width: 33.3%;
     padding: 16px;
     min-height: 435px;
 }
 
-.wrapwidg.custom .contents_wrapper .content-list-element section .event-cover{
+.wrapwidg.events-card-list .contents_wrapper .content-list-element section .event-cover{
     height: 130px;
     background-size: cover;
     background-position: center;
 }
 
-.wrapwidg.custom .contents_wrapper .content-list-element section .border-text{
+.wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text{
     min-height: calc(100% - 130px);
     border: solid 1px #e3e3e3;
     border-top: 0px;
     padding: 20px 30px;
 }
 
-.wrapwidg.custom .contents_wrapper .content-list-element section .fx-xs-display{
+.wrapwidg.events-card-list .contents_wrapper .content-list-element section .fx-xs-display{
     font-family: Proxima Nova Black;
     font-size: 14px;
     font-weight: bold;
@@ -119,8 +119,8 @@
     text-transform: uppercase;
 }
 
-.wrapwidg.custom .contents_wrapper .content-list-element section .event-title a{
-    font-family: ProximaNova-Extrabld;
+.wrapwidg.events-card-list .contents_wrapper .content-list-element section .event-title a{
+    font-family: Proxima Nova Extra Bold;
     font-size: 22px;
     font-weight: normal;
     color: #030303;
@@ -130,14 +130,14 @@
     line-height: 22px;
 }
 
-.wrapwidg.custom .contents_wrapper .content-list-element article event-datetime{
+.wrapwidg.events-card-list .contents_wrapper .content-list-element article event-datetime{
     font-family: Proxima Nova Black;
     font-size: 14px;
     font-weight: bold;
     color: #000000;
 }
 
-.wrapwidg.custom .contents_wrapper .content-list-element section article .event-abstract{
+.wrapwidg.events-card-list .contents_wrapper .content-list-element section article .event-abstract{
     font-family: Proxima Nova Black;
     font-size: 14px;
     color: #030303;
