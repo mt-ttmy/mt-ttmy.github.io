@@ -47,6 +47,23 @@
     font-weight: normal;
 }
 
+
+
+.discover-calendar{
+    padding-top: 55px;
+    font-family: ProximaNova-Extrabld;
+    font-size: 30px;
+    font-weight: normal;
+    color: #000000;
+    line-height: 60px;
+}
+
+.discover-calendar a.btn{
+    height: 55px;
+    border: solid 1px #a3a3a3;
+    background-color: #ffffff;
+}
+
 .wrapwidg.custom{
     margin: 0px;
     border: 0px;
