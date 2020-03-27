@@ -181,6 +181,19 @@
     height: auto;
 }
 
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .fx-xs-display{
+    font-family: Proxima Nova Regular;
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 35px;
+}
+
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .{
+    font-size: 60px;
+    font-family: Proxima Nova Extra Bold;
+    line-height: 65px;
+}
+
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire-image-container{
     width: 100%;
     height: 435px;
