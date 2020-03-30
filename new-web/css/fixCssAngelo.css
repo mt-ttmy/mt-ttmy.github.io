@@ -210,6 +210,29 @@
     background-size: cover;
 }
 
+.content-rich-metas{
+    padding-top: 45px;
+    padding-bottom: 60px;
+}
+
+.content-rich-metas h3.section_title{
+    font-family: Proxima Nova Black;
+    font-size: 22px;
+    font-weight: 600;
+    color: #282828;
+    padding-bottom: 20px;
+}
+
+.content-rich-metas .rich-description{
+    font-family: Proxima Nova Black;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.content-rich-metas .rich-description p{
+    padding-bottom: 20px;
+}
+
 /* Fine pagina di dettaglio */
 
 @media (max-width: 1199px) {
