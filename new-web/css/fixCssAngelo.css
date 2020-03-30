@@ -159,7 +159,7 @@
 /* Pagina di dettaglio */
 .container.container-event-detail{
     width: auto;
-    max-width: 1440px;
+    /*max-width: 1440px;*/
     padding: 0px;
 }
 
@@ -210,16 +210,28 @@
     background-size: cover;
 }
 
-.content-rich-metas {
-    padding-top: 45px;
-}
-
-.content-rich-metas .row{
-    padding-bottom: 60px;
-}
-
 .content-rich-metas .row .about{
-    padding: 0px 50px 0px 40px;
+    padding: 60px 0px 0px 65px;
+    display: flex;
+    align-items: center;
+}
+
+.content-rich-metas .row .about div{
+    width: 40%;
+}
+
+.content-rich-metas .row .about .section_title{
+    font-size: 50px;
+    margin: 0px;
+    line-height: 54px;
+    font-family: Proxima Nova Semibold;
+}
+
+.content-rich-metas .row .about div.rich-description{
+    width: 60%;
+    font-family: Proxima Nova Regular;
+    font-size: 18px;
+    line-height: 28px;
 }
 
 .content-rich-metas .row .learn{
@@ -230,6 +242,7 @@
     background-color: #eb884f;
     text-align: center;
     color: #fff;
+    padding-top: 45px;
 }
 
 .content-rich-metas .row.when-and-where .when-where .event-datetime{
