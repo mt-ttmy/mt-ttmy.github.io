@@ -1,6 +1,11 @@
 #header {
     background-color: #000;
 }
+#mainwrap #header [data-network-logo]{
+    width: 290px;
+    background-position: center;
+    background-size: 100% auto;
+}
 
 .flexslider .slider-hero{
     max-height: 436px;
@@ -179,33 +184,46 @@
     min-height: auto;
     display: block;
     height: auto;
-    width: 556px;
-    padding-left: 9.5%;
+    width: 100%;
+    padding-left: 10.5%;
 }
-
 
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .esquire-message{
     text-align: left;
     width: 555px;
 }
 
-.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .esquire-message .days-until{
-    font-family: Proxima Nova Extra Bold;
-    font-size: 35px;
-    padding: 25px 0px 10px 0px;
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .esquire-message .text-uppercase h2:not(.section_title){
+    font-family: Proxima Nova Extra Bold !important;
+    font-size: 60px !important;
+    line-height: 55px !important;
+    padding: 0px 0px 20px 0px;
 }
 
-.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .language{
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .type-language{
     font-family: Proxima Nova Bold;
     font-size: 18px;
     line-height: 16px;
-    padding-bottom: 35px;
+    padding-bottom: 25px;
 }
 
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .event-datetime{
     font-family: Proxima Nova Bold;
     font-size: 30px;
+    line-height: 30px;
     display: block;
+}
+
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .event-actions-container{
+    padding-top: 25px;
+}
+
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .event-actions-container button{
+    width: 255px;
+    height: 45px;
+    font-family: Proxima Nova Regular;
+    font-size: 20px;
+    color: #3d3d3d;
 }
 
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .fx-xs-display .event-type{
