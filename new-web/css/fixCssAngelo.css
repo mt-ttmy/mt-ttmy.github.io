@@ -168,9 +168,9 @@
 }
 
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire{
-    height: 435px;
+    height: 640px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
 }
 
@@ -179,15 +179,33 @@
     min-height: auto;
     display: block;
     height: auto;
-    width: 920px;
+    width: 556px;
+    padding-left: 9.5%;
 }
 
-.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .fx-xs-display{
-    font-family: Proxima Nova Regular;
-    font-size: 14px;
-    font-weight: bold;
+
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .esquire-message{
+    text-align: left;
+    width: 555px;
+}
+
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .esquire-message .days-until{
+    font-family: Proxima Nova Extra Bold;
+    font-size: 35px;
+    padding: 25px 0px 10px 0px;
+}
+
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .language{
+    font-family: Proxima Nova Bold;
+    font-size: 18px;
+    line-height: 16px;
     padding-bottom: 35px;
-    line-height: 10px;
+}
+
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .event-datetime{
+    font-family: Proxima Nova Bold;
+    font-size: 30px;
+    display: block;
 }
 
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .fx-xs-display .event-type{
