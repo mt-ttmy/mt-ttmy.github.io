@@ -210,13 +210,16 @@
     background-size: cover;
 }
 
-.content-rich-metas .row{
+.content-rich-metas {
     padding-top: 45px;
+}
+
+.content-rich-metas .row{
     padding-bottom: 60px;
 }
 
 .content-rich-metas h3.section_title{
-    font-family: Proxima Nova Black;
+    font-family: Proxima Nova Semibold;
     font-size: 22px;
     font-weight: 600;
     color: #282828;
@@ -224,7 +227,7 @@
 }
 
 .content-rich-metas .rich-description{
-    font-family: Proxima Nova Light;
+    font-family: Proxima Nova Regular;
     font-size: 16px;
     font-weight: normal;
     color: #000;
