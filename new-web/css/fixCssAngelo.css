@@ -222,8 +222,26 @@
     padding: 0px 50px 0px 40px;
 }
 
-.content-rich-metas .row .about{
+.content-rich-metas .row .learn{
     padding: 0px 40px 0px 50px;
+}
+
+.content-rich-metas .row.when-and-where{
+    background-color: #eb884f;
+    text-align: center;
+    color: #fff;
+}
+
+.content-rich-metas .row.when-and-where .when-where .event-datetime{
+    font-size: 16px;
+    font-family: Proxima Nova Bold;
+    padding-bottom: 25px;
+}
+
+.content-rich-metas .row.when-and-where .when-where .rich-description{
+    font-family: Proxima Nova Regular;
+    font-size: 16px;
+    text-align: center;
 }
 
 .content-rich-metas h3.section_title{
