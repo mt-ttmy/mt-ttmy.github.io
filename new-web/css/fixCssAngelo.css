@@ -210,7 +210,7 @@
     background-size: cover;
 }
 
-.content-rich-metas{
+.content-rich-metas .row{
     padding-top: 45px;
     padding-bottom: 60px;
 }
@@ -224,13 +224,14 @@
 }
 
 .content-rich-metas .rich-description{
-    font-family: Proxima Nova Black;
+    font-family: Proxima Nova Light;
     font-size: 16px;
     font-weight: normal;
+    color: #000;
 }
 
 .content-rich-metas .rich-description p{
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 /* Fine pagina di dettaglio */
