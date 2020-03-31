@@ -3,3 +3,28 @@
 @import url("xchange.css");
 @import url("webinar.css");
 @import url("reply-site.css");
+
+/* Editing cog menu into content detail page */
+/*
+.plugin_contentDetailWidget .editing[data-ct="event"] [data-act="edit"],
+.plugin_contentDetailWidget .editing[data-ct="event"] [data-act="show-version-history"],
+.plugin_contentDetailWidget .editing[data-ct="event"] [data-act="manage-sessions"],
+.plugin_contentDetailWidget .editing[data-ct="event"] [data-act="delete"],
+.plugin_contentDetailWidget .editing[data-ct="event"] [data-act="export-comments"],
+.plugin_contentDetailWidget .editing[data-ct="event"] [data-act="show-stats"],
+.plugin_contentDetailWidget .editing[data-ct="event"] [data-act="highlight"],
+.plugin_contentDetailWidget .editing[data-ct="event"] [data-act="send-newsletter"],
+.plugin_contentDetailWidget .editing[data-ct="event"] [data-act="moderate"],
+.plugin_contentDetailWidget .editing[data-ct="event"] [data-act="moderate-comments"],
+.plugin_contentDetailWidget .editing[data-ct="event"] [data-act="show-suervey-stats"]
+*/
+
+.plugin_contentDetailWidget .editing[data-ct="event"] [data-act] {
+	display: none;
+}
+
+.plugin_contentDetailWidget .editing[data-ct="event"] [data-act="edit"],
+.plugin_contentDetailWidget .editing[data-ct="event"] [data-act="manage-sessions"],
+.plugin_contentDetailWidget .editing[data-ct="event"] [data-act="delete"] {
+	display: inherit;
+}
