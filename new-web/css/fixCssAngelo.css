@@ -299,7 +299,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-bottom: 45px;
+    padding-bottom: 30px;
 }
 
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until .share {
@@ -330,11 +330,22 @@
     font-family: Proxima Nova Extra Bold;
     font-size: 24px;
     background-color: #fff;
+    position: relative;
+}
+
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until .days-until::after{
+    position: absolute;
+    width: 5px;
+    height: 36px;
+    left: 0px;
+    top: 0px;
+    border: solid 5px transparent;
+    border-left: solid 5px #fff;
 }
 
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .esquire-message{
     text-align: left;
-    width: 555px;
+    width: 800px;
 }
 
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .esquire-message .text-uppercase h2:not(.section_title){
@@ -362,12 +373,24 @@
     padding-top: 25px;
 }
 
-.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .event-actions-container button{
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .event-actions-container a.btn-default{
     width: 255px;
     height: 45px;
     font-family: Proxima Nova Regular;
     font-size: 20px;
     color: #3d3d3d;
+}
+
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .cancel-registation{
+    margin-top: 15px;
+}
+
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container button{
+    font-family: Proxima Nova Semibold;
+    text-decoration: underline;
+    font-size: 20px;
+    color: #2C6AA4;
+    cursor: pointer;
 }
 
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .fx-xs-display .event-type{
