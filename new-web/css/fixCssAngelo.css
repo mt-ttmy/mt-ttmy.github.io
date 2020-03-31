@@ -346,9 +346,9 @@
 
 .content-rich-metas .row .about .section_title,
 .content-rich-metas .row .learn .section_title{
-    font-size: 50px;
+    font-size: 40px;
     margin: 0px;
-    line-height: 54px;
+    line-height: 46px;
     font-family: Proxima Nova Semibold;
     width: 260px;
 }
@@ -383,8 +383,8 @@
     font-family: Proxima Nova Semibold;
     padding: 0px;
     margin: 0px;
-    font-size: 48px;
-    line-height: 48px;
+    font-size: 40px;
+    line-height: 40px;
     color: #3d3d3d;
 }
 
