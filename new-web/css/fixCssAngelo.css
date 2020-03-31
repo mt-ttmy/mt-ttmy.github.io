@@ -538,9 +538,15 @@
 }
 
 .more a.pager-more{
-    height: 40px;
-    line-height: 40px;
     padding: 0px;
+    height: 75px;
+    line-height: 75px;
+}
+
+.more a.pager-more i.fa-chevron-down{
+    border: solid 1px #3d3d3d;
+    padding: 10px !important;
+    border-radius: 100%;
 }
 
 /* Fine pagina di dettaglio */
@@ -571,6 +577,7 @@
     height: 21px;
     border: solid 1px #979797;
     background-color: #ffffff;
+    margin-right: 7px;
 }
 
 #webinar-date-filters .webinar-date-filters-container .fa-square{
@@ -581,6 +588,38 @@
 #webinar-date-filters .webinar-date-filters-container .fa-square::before{
     font-size: 14px;
     color: #3d3d3d;
+}
+
+.all-webinars{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 60px 25px 30px;
+    align-items: center;
+}
+
+.all-webinars .title{
+    font-size: 40px;
+    line-height: 68px;
+    font-family: Proxima Nova Semibold;
+    margin: 0px;
+}
+
+.all-webinars .go-to-calendar{
+    font-family: Proxima Nova Semibold;
+    font-size: 16px;
+    font-weight: 600;
+    border: 0px;
+    color: #3d3d3d;
+    line-height: unset;
+    padding: 0px;
+    height: 30px;
+}
+
+.all-webinars .go-to-calendar .fa-calendar{
+    padding-right: 0px !important;
+    font-size: 25px;
+    margin-left: 10px;
 }
 
 /* Iniizio pagina dei wallet */
