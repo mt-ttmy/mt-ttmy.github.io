@@ -2,9 +2,10 @@
     background-color: #000;
 }
 #mainwrap #header [data-network-logo]{
-    width: 290px;
+    width: 237px;
     background-position: center;
     background-size: 100% auto;
+    margin-left: 28px;
 }
 
 .dropdown.user_menu{
@@ -291,7 +292,7 @@
     display: block;
     height: auto;
     width: 100%;
-    padding-left: 10.5%;
+    padding-left: 9.5%;
     max-height: inherit;
 }
 
@@ -469,6 +470,11 @@
     font-family: Proxima Nova Regular;
     font-size: 18px;
     line-height: 28px;
+}
+
+.content-rich-metas .row .about div.rich-description ul,
+.content-rich-metas .row .learn div.rich-description ul{
+
 }
 
 .content-rich-metas .row .about div.rich-description{
@@ -695,14 +701,18 @@
     }
 
     .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until{
-        padding-bottom: 60px;
+        padding-bottom: 45px;
         align-items: flex-end;
     }
 
     .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until .days-until{
-        line-height: 35px;
+        line-height: 28px;
         margin-right: -30px;
-        width: 130px;
+        width: 100px;
+    }
+
+    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until .days-until::after{
+        border: solid 14px #fff;
     }
 
     .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .type-language{
@@ -726,6 +736,36 @@
         position: relative;
         bottom: 0px;
         padding-top: 20px;
+    }
+
+    .clearfix.content_details.content_details_editorial{
+        padding: 0px;
+    }
+
+    .content-rich-metas .row .about,
+    .content-rich-metas .row .learn{
+        padding: 35px 30px 30px 30px;
+        flex-wrap: wrap;
+    }
+
+    .content-rich-metas .row .about div,
+    .content-rich-metas .row .learn div{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .content-rich-metas .row .about div.rich-description,
+    .content-rich-metas .row .learn div.rich-description{
+        width: 100%;
+        font-size: 16px;
+        line-height: 21px;
+        padding-bottom: 0px;
+    }
+
+    .content-rich-metas .row .about .section_title,
+    .content-rich-metas .row .learn .section_title{
+        font-size: 32px;
+        line-height: 36px;
     }
 
 }
