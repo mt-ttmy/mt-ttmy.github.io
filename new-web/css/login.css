@@ -156,7 +156,7 @@ body #wraplog h1, body #wraplog .h1, body #wraplog h2, body #wraplog .h2, body #
 }
 
 body #wraplog [data-network-logo] {
-	background-image: url('../images/replywebinar-logo-negative.png');
+	background-image: url('../images/reply-webinars-logo.png');
 	background-color: #292a2c;
 	background-size: auto auto;
 	margin: 0 auto;
