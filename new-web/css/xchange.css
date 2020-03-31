@@ -108,7 +108,7 @@ body .home-gallery {
   text-align: center;
 }
 #mainwrap #header [data-network-logo] {
-  background-image: url('../images/replywebinar-logo-negative.png');
+  background-image: url('../images/reply-webinars-logo.png');
   margin: 0;
   left: 50%;
   transform: translateX(-50%);
