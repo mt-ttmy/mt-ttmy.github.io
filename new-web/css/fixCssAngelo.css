@@ -28,7 +28,7 @@
 .slider-hero .hero-message-container{
     min-height: 436px !important;
     margin: 0 !important;
-    padding: 0px 8%;
+    padding: 0px 15%;
 }
 
 .slider-hero .hero-message{
@@ -44,7 +44,7 @@
 
 .template-heroPlain .slider-hero .hero-message h3{
     margin-top: 38px;
-    font-family: Proxima Nova Black;
+    font-family: Proxima Nova Semibold;
     font-size: 24px;
     font-weight: 600;
 }
@@ -92,11 +92,12 @@
 }
 
 .discover-calendar h3{
-    font-family: Proxima Nova Regular;
-    font-size: 50px;
+    font-family: Proxima Nova Semibold;
+    font-size: 40px;
     font-weight: 600;
-    padding: 60px 0px 50px 0px;
+    padding: 50px 0px 45px 0px;
     color: #3d3d3d;
+    margin: 0px;
 }
 
 .wrapwidg.events-card-list{
@@ -158,11 +159,32 @@
 }
 
 .wrapwidg.events-card-list .contents_wrapper .content-list-element section .fx-xs-display{
-    font-family: Proxima Nova Black;
+    font-family: Proxima Nova Bold;
     font-size: 14px;
     font-weight: bold;
     color: #393939;
     text-transform: uppercase;
+    line-height: 10px;
+}
+
+.wrapwidg.events-card-list .contents_wrapper .content-list-element section .fx-xs-display.event-datetime{
+    display: block;
+}
+
+.wrapwidg.events-card-list .contents_wrapper .content-list-element section .fx-xs-display.event-datetime .event-date{
+    display: inline-block;
+    border-right: solid 1px #3d3d3d;
+    padding-right: 5px;
+}
+
+.wrapwidg.events-card-list .contents_wrapper .content-list-element section .fx-xs-display.event-datetime .event-time{
+    line-height: 25px;
+}
+
+.wrapwidg.events-card-list .contents_wrapper .content-list-element section .fx-xs-display .event-type{
+    padding-right: 5px;
+    border-right: solid 1px #3d3d3d;
+    margin-right: 5px;
 }
 
 .wrapwidg.events-card-list .contents_wrapper .content-list-element section .event-title a{
