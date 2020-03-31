@@ -297,8 +297,7 @@
 
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     padding-bottom: 30px;
 }
 
@@ -334,13 +333,14 @@
 }
 
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until .days-until::after{
+    content: " ";
     position: absolute;
     width: 5px;
     height: 36px;
-    left: 0px;
+    left: -10px;
     top: 0px;
-    border: solid 5px transparent;
-    border-left: solid 5px #fff;
+    border: solid 16px #fff;
+    border-left: solid 5px transparent;
 }
 
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .esquire-message{
