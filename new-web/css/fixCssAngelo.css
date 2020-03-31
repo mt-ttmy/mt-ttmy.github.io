@@ -427,11 +427,15 @@
     width: 260px;
 }
 
-.content-rich-metas .row .about div.rich-description{
-    width: 53%;
+.content-rich-metas .row .about div.rich-description,
+.content-rich-metas .row .learn div.rich-description{
     font-family: Proxima Nova Regular;
     font-size: 18px;
     line-height: 28px;
+}
+
+.content-rich-metas .row .about div.rich-description{
+    width: 53%;
     color: #3d3d3d;
 }
 
@@ -450,7 +454,7 @@
 
 .content-rich-metas .row.when-and-where{
     text-align: center;
-    padding: 100px 6.5% 0px;
+    padding: 70px 6.5% 0px;
 }
 
 .content-rich-metas .row.when-and-where .section_title{
@@ -477,8 +481,13 @@
     font-weight: normal;
 }
 
+.content-rich-metas .row.when-and-where .rich-description p{
+    margin-bottom: 10px;
+}
+
 .clearfix.content_details.content_details_editorial{
     padding-right: 0px;
+    margin: 0px !important;
 }
 
 /* Fine pagina di dettaglio */
