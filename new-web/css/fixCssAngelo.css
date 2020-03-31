@@ -373,6 +373,12 @@
     padding-top: 25px;
 }
 
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .event-actions-container .status{
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-family: Proxima Nova Bold;
+}
+
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .event-actions-container a.btn-default{
     width: 255px;
     height: 45px;
@@ -385,7 +391,7 @@
     margin-top: 15px;
 }
 
-.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container button{
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .cancel-registation button{
     font-family: Proxima Nova Semibold;
     text-decoration: underline;
     font-size: 20px;
