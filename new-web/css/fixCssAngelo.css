@@ -379,6 +379,14 @@
     font-family: Proxima Nova Bold;
 }
 
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .event-actions-container button{
+    width: 255px;
+    height: 45px;
+    font-family: Proxima Nova Regular;
+    font-size: 20px;
+    color: #3d3d3d;
+}
+
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .event-actions-container a.btn-default{
     width: 255px;
     height: 45px;
