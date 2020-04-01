@@ -1019,14 +1019,6 @@ h2.widget_title i.fa {
 display:none !important;
 }
 
-#home-wrapcontent .widget_title{
-text-align: left;
-font-family:none !important;
-padding-left:20px;
-font-size: 20px;
-border:0 !important;
-}
-
 #webinarChatCommentList .commentWidget h2.section_title{
 display:none !important;
 }
