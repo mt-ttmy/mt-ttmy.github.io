@@ -437,10 +437,8 @@
     cursor: pointer;
 }
 
-.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .fx-xs-display .event-type{
-    padding-right: 10px;
-    margin-right: 10px;
-    border-right: solid 1px #fff;
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .fx-xs-display .pipe{
+    padding: 0px 8px;
 }
 
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container h2:not(.section_title){
