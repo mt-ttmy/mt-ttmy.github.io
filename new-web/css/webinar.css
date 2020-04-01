@@ -478,13 +478,6 @@ min-height:200px !important;
 
 #homeCalendarWebinars .fc-other-month {     background: #f7f6f7!important; }
 
-
-
-.plugin_contentFullCalendar .widget_title {
-   display: none;
-}
-
-
 #homeCalendarWebinars thead .fc-today span {
    background: red;
    color: white;
@@ -1017,14 +1010,6 @@ body.webinar .wrapwidg.nestedPage.nestedDepth2 .homeColumn1 {
 
 h2.widget_title i.fa {
 display:none !important;
-}
-
-#home-wrapcontent .widget_title{
-text-align: left;
-font-family:none !important;
-padding-left:20px;
-font-size: 20px;
-border:0 !important;
 }
 
 #webinarChatCommentList .commentWidget h2.section_title{

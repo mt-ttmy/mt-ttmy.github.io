@@ -284,11 +284,6 @@ body .home-gallery {
 }
 
 /**/
-#home-wrapcontent .widget_title {
-  text-transform: uppercase;
-  color: #292a2c;
-  font-family: 'Proxima Nova Black', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-}
 body #home-wrapcontent, body #wrapcontent, body .toolbarPanel {
   background-color: #fff;
 }
