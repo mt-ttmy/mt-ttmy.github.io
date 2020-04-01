@@ -574,6 +574,78 @@
     border-radius: 100%;
 }
 
+/* Inizio pagina di calendario */
+.wrapwidg.plugin_contentFullCalendar{
+    border: 0px;
+    margin: 0px;
+    padding: 50px 20px 80px 20px;
+}
+
+.wrapwidg.plugin_contentFullCalendar .fc-head>tr>td.fc-head-container.fc-widget-header{
+    border: solid 1px #adadad;
+    border-bottom: 0px;
+}
+
+.wrapwidg.plugin_contentFullCalendar .fc-body>tr>td.fc-widget-content{
+    border: solid 1px #adadad;
+    border-top: 0px;
+}
+
+.wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-row.fc-widget-header tr{
+    height: 63px;
+    opacity: 0.9;
+    background-color: #ebebeb;
+    min-height: auto !important;
+}
+
+.wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-row.fc-widget-header tr th{
+    vertical-align: middle;
+    height: 63px;
+    text-align: left;
+    padding-left: 20px;
+    font-family: Proxima Nova Bold;
+    font-size: 16px;
+}
+
+.wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-row.fc-week.fc-widget-content .fc-bg .fc-past{
+    background-color: #f6f6f6;
+}
+
+.wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-row.fc-week.fc-widget-content .fc-bg .fc-today{
+    background-color: #fff;
+}
+
+.wrapwidg.plugin_contentFullCalendar .fc-basic-view .fc-body .fc-row{
+    min-height: 180px;
+}
+
+.wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-row.fc-week.fc-widget-content .fc-content-skeleton .fc-day-number{
+    padding-top: 7px;
+    padding-right: 12px;
+    padding-bottom: 25px;
+}
+
+.wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-row.fc-week.fc-widget-content .fc-content-skeleton .fc-day-number span{
+    margin: 0px;
+    display: block;
+    float: right;
+    font-size: 16px;
+    font-family: Proxima Nova Regular;
+}
+
+.wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-row.fc-week.fc-widget-content .fc-content-skeleton .fc-day-number.fc-today span {
+    width: 30px;
+    height: 30px;
+    background-color: #3d3d3d;
+    text-align: center;
+    border-radius: 100%;
+    color: #fff;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+    /* Fine pagina di calendario */
+
 /* Fine pagina di dettaglio */
 #webinarFilters {
     border: 0px;
