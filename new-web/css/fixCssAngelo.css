@@ -1,5 +1,11 @@
+#mainwrap{
+    max-width: 1440px;
+}
+
 #header {
     background-color: #000;
+    left: auto;
+    max-width: 1440px;
 }
 #mainwrap #header [data-network-logo]{
     width: 237px;
@@ -31,6 +37,8 @@
 #footer .webinars-footer{
     height: 50px;
     background-color: #000;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 #footer .webinars-footer .nav-tabs{
@@ -59,17 +67,23 @@
 }
 
 .flexslider .slider-hero{
-    max-height: 436px;
-    height: 436px;
+    max-height: 355px;
+    height: 355px;
     min-height: auto;
 }
 
+.slider-hero .hero-image-container{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .flexslider .contents_wrapper>div{
- height: 436px;
+ height: 355px;
 }
 
 .slider-hero .hero-message-container{
-    min-height: 436px !important;
+    min-height: 355px !important;
     margin: 0 !important;
     padding: 0px 15%;
 }
@@ -79,7 +93,7 @@
 }
 
 .template-heroPlain .slider-hero .hero-message h2{
-    font-family: Proxima Nova Extra Bold;
+    font-family: Proxima Nova Black;
     font-size: 60px;
     font-weight: bold;
     line-height: 48px;
@@ -186,7 +200,7 @@
 
 .wrapwidg.events-card-list .contents_wrapper .content-list-element section{
     height: 550px;
-
+    border: solid 1px #e3e3e3;
 }
 
 .wrapwidg.events-card-list .contents_wrapper .content-list-element section .event-cover{
@@ -197,8 +211,6 @@
 
 .wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text{
     height: 420px;
-    border: solid 1px #e3e3e3;
-    border-top: 0px;
     padding: 20px 30px;
     position: relative;
 }
@@ -226,7 +238,7 @@
 
 .wrapwidg.events-card-list .contents_wrapper .content-list-element section .fx-xs-display{
     font-family: Proxima Nova Bold;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
     color: #393939;
     text-transform: uppercase;
@@ -235,12 +247,6 @@
 
 .wrapwidg.events-card-list .contents_wrapper .content-list-element section .fx-xs-display.event-datetime{
     display: block;
-}
-
-.wrapwidg.events-card-list .contents_wrapper .content-list-element section .fx-xs-display.event-datetime .event-date{
-    display: inline-block;
-    border-right: solid 1px #3d3d3d;
-    padding-right: 5px;
 }
 
 .wrapwidg.events-card-list .contents_wrapper .content-list-element section .fx-xs-display.event-datetime .event-time{
@@ -255,9 +261,9 @@
 
 .wrapwidg.events-card-list .contents_wrapper .content-list-element section .event-title a{
     font-family: Proxima Nova Extra Bold;
-    font-size: 22px;
+    font-size: 24px;
     font-weight: normal;
-    color: #030303;
+    color: #3d3d3d;
     text-transform: uppercase;
     padding-top: 10px;
     font-weight: bold;
@@ -273,7 +279,7 @@
 
 .wrapwidg.events-card-list .contents_wrapper .content-list-element section article .event-abstract{
     font-family: Proxima Nova Regular;
-    font-size: 14px;
+    font-size: 16px;
     color: #030303;
     font-weight: normal;
     padding-top: 25px;
