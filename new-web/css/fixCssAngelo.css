@@ -634,6 +634,10 @@
     background-color: #f6f6f6;
 }
 
+.wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-row.fc-week.fc-widget-content .fc-bg .fc-day{
+    border: solid 1px #dcdcdc;
+}
+
 .wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-row.fc-week.fc-widget-content .fc-bg .fc-today{
     background-color: #fff;
 }
