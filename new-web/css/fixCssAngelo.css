@@ -675,6 +675,11 @@
     padding: 10px 14px;
 }
 
+.wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-event-container.fc-past a.fc-day-grid-event{
+    border: 0px;
+    background-color: #ebebeb;
+}
+
 .wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-event-container a.fc-day-grid-event .fc-content{
     font-size: 14px !important;
 }
