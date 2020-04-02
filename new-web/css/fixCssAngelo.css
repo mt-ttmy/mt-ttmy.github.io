@@ -470,6 +470,10 @@
     min-height: 320px;
 }
 
+.past-event .content-rich-metas .row .video-container iframe{
+    min-height: 320px;
+}
+
 .past-event .content-rich-metas .row .about{
     padding: 55px 90px 50px 65px;
     flex-wrap: wrap;
