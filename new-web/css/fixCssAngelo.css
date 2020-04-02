@@ -467,6 +467,7 @@
 
 .past-event .content-rich-metas .row .video-container{
     padding: 55px 90px 50px 65px;
+    min-height: 320px;
 }
 
 .past-event .content-rich-metas .row .about{
@@ -478,6 +479,10 @@
 .past-event .content-rich-metas .row .about .section_title{
     text-align: center;
     padding-bottom: 20px;
+    width: 100%;
+}
+
+.past-event .content-rich-metas .row .about div.rich-description{
     width: 100%;
 }
 
