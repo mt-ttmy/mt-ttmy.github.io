@@ -1161,4 +1161,18 @@
         width: 100%;
     }
 
+    #footer .webinars-footer{
+        border: solid 1px #979797;
+        height: 30px;
+    }
+
+    #footer .webinars-footer .nav-tabs li{
+        font-size: 12px;
+        font-family: Proxima Nova Bold;
+    }
+
+    #footer .webinars-footer .nav-tabs li a{
+        margin-top: 5px;
+    }
+
 }
