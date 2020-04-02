@@ -466,6 +466,12 @@
     max-height: initial;
 }
 
+.past-event .content-rich-metas .row.row-flexWrap{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
 .past-event .content-rich-metas .row .col-sm-6.video-container{
     padding: 55px 90px 50px 65px;
     min-height: 320px;
