@@ -1152,4 +1152,13 @@
         font-size: 14px;
     }
 
+    .past-event .content-rich-metas .row .col-sm-6.about{
+        padding: 35px 15px 50px 15px;
+    }
+
+    .past-event .content-rich-metas .row .col-sm-6.video-container{
+        padding: 35px 15px 0px 15px;
+        width: 100%;
+    }
+
 }
