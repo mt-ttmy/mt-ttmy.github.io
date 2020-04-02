@@ -678,10 +678,8 @@
     transition: all 0.3s ease-out;
 }
 
-.more a.pager-more i.fa-chevron-down{
-    border: solid 1px #3d3d3d;
-    padding: 10px !important;
-    border-radius: 100%;
+.more a.pager-more .pager-icon{
+    display: none;
 }
 
 /* Inizio pagina di calendario */
