@@ -300,6 +300,7 @@
     width: auto;
     /*max-width: 1440px;*/
     padding: 0px;
+    margin: 0px;
 }
 
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget{
@@ -493,6 +494,10 @@
 .past-event .content-rich-metas .row .col-sm-6.about div,
 .past-event .content-rich-metas .row .col-sm-6.learn div{
     width: 100%;
+}
+
+#home-wrapcontent .wrapcontent_padding{
+    padding-bottom: 0px;
 }
 
 .content-rich-metas .row .about,
