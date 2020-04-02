@@ -20,6 +20,17 @@
     text-transform: inherit;
     padding: 0px 20px;
     line-height: 59px;
+    border: 0px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+#header #navbar-xchange-first-level .nav-tabs [role="presentation"] > a:hover{
+    background-color: initial;
+    opacity: 0.5;
+    color: #fff;
 }
 
 #header #navbar-xchange-first-level .nav-tabs [role="presentation"] > a.active{
