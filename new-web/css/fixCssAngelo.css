@@ -19,6 +19,10 @@
     font-size: 15px;
 }
 
+#header nav.pull-left ul li a.active{
+    font-family: Proxima Nova Extra Bold;
+}
+
 .dropdown.user_menu{
     height: 39px;
     margin: 10px 10px 10px 0px;
