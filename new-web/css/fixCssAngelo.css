@@ -17,6 +17,9 @@
 #header #navbar-xchange-first-level .nav-tabs [role="presentation"] > a{
     font-family: Proxima Nova Regular;
     font-size: 15px;
+    text-transform: inherit;
+    padding: 0px 20px;
+    line-height: 59px;
 }
 
 #header #navbar-xchange-first-level .nav-tabs [role="presentation"] > a.active{
