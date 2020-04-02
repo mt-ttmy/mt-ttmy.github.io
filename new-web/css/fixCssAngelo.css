@@ -470,7 +470,7 @@
     min-height: 320px;
 }
 
-.past-event .content-rich-metas .row .video-container iframe{
+.past-event .content-rich-metas .row .video-container>div{
     min-height: 320px;
 }
 
