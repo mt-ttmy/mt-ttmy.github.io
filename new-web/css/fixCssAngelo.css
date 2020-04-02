@@ -14,12 +14,12 @@
     margin-left: 28px;
 }
 
-#header nav.pull-left ul li a{
+#header #navbar-xchange-first-level .nav-tabs [role="presentation"] > a{
     font-family: Proxima Nova Regular;
     font-size: 15px;
 }
 
-#header nav.pull-left ul li a.active{
+#header #navbar-xchange-first-level .nav-tabs [role="presentation"] > a.active{
     font-family: Proxima Nova Extra Bold;
 }
 
