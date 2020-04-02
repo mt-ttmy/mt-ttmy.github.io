@@ -14,6 +14,11 @@
     margin-left: 28px;
 }
 
+#header nav.pull-left ul li a{
+    font-family: Proxima Nova Regular;
+    font-size: 15px;
+}
+
 .dropdown.user_menu{
     height: 39px;
     margin: 10px 10px 10px 0px;
