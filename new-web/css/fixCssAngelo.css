@@ -306,6 +306,15 @@
     margin: 0px;
 }
 
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .past-event .esquire_row .esquire,
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .past-event .esquire-image-container{
+    height: 385px;
+}
+
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .past-event .esquire_row .esquire .esquire-message-container .share-until{
+    display: none;
+}
+
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire{
     height: 640px;
     display: flex;
@@ -454,6 +463,27 @@
     background-position: center;
     background-size: cover;
     max-height: initial;
+}
+
+.past-event .content-rich-metas .row .video-container{
+    padding: 55px 90px 50px 65px;
+}
+
+.past-event .content-rich-metas .row .about{
+    padding: 55px 90px 50px 65px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.past-event .content-rich-metas .row .about .section_title{
+    text-align: center;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.past-event .content-rich-metas .row .about div,
+.past-event .content-rich-metas .row .learn div{
+    width: 100%;
 }
 
 .content-rich-metas .row .about,
