@@ -182,7 +182,7 @@ body .btn-primary {
 	display: block;
 	width: 100%;
 	border-radius: 0;
-	color: #fff;
+	color: #fff !important;
 	border: none;
 	line-height: 50px;
 	background-color: #00af00;
@@ -343,3 +343,44 @@ input.generic_button {
 }
 
 .user_consent_check_container label {margin-right:15px;}
+
+
+/* Per la pagina di registrazione */
+#mainwrap.registration{
+	padding: 50px 6% 0px 6%;
+
+}
+
+#mainwrap.registration .panel-title{
+	font-family: Proxima Nova Semibold;
+	font-size: 30px;
+	line-height: 20px;
+	color: #3d3d3d;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#mainwrap.registration .already-registered{
+	margin: 10px 0px 20px 0px;
+	font-family: Proxima Nova Semibold;
+	font-size: 16px;
+	line-height: 26px;
+	color: #3d3d3d;
+}
+
+#mainwrap.registration .already-registered a{
+	text-decoration: underline;
+}
+
+#mainwrap.registration .privay-policy-box{
+	font-family: Proxima Nova Regular;
+	color: #000;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+#mainwrap.registration .privay-policy-box a{
+	color: #00af4f;
+	text-decoration: underline;
+}
