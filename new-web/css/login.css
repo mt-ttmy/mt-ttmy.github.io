@@ -412,7 +412,7 @@ input.generic_button {
 }
 
 #mainwrap.registration .content_tab_edit .form-group:nth-last-child(5){
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 	border-bottom: solid 1px #3d3d3d;
 }
 
@@ -437,6 +437,23 @@ input.generic_button {
 	font-family: Proxima Nova Extra Bold;
 }
 
+#mainwrap.registration .content_tab_edit .form-group:nth-last-child(2) .user_consent_check_container{
+	overflow: hidden;
+	line-height: 20px;
+	display: flex;
+	align-items: center;
+	padding-top: 15px;
+}
+
+#mainwrap.registration .content_tab_edit .form-group:nth-last-child(2) .user_consent_check_container label{
+	font-family: Proxima Nova Semibold !important;
+	font-size: 14px !important;
+	line-height: 20px !important;
+	padding-left: 10px;
+	cursor: pointer;
+	margin: 0px 20px 0px 0px;
+}
+
 #mainwrap.registration .content_tab_edit .form-group label{
 	font-size: 16px;
 	line-height: 20px;
@@ -451,12 +468,12 @@ input.generic_button {
 	background-color: #ffffff;
 }
 
-#mainwrap.registration .content_tab_edit .buttons_wrapper#{
+#mainwrap.registration .content_tab_edit .buttons_wrapper{
 	width: 100%;
 	overflow: hidden;
 	padding-top: 40px;
 }
 
-mainwrap.registration .content_tab_edit .buttons_wrapper button{
+#mainwrap.registration .content_tab_edit .buttons_wrapper button.btn-default{
 	width: 330px;
 }
