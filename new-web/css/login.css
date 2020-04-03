@@ -280,13 +280,18 @@ body .btn-primary:hover{
 }
 
 #wraplog #mainwrap .webinars-footer ul li a{
-	color: #fff;
+	color: #fff !important;
 	font-family: Proxima Nova Semibold;
 	font-size: 14px;
 	border-right: solid 1px #fff;
 	padding: 0px 15px;
 	line-height: 14px;
 	margin-top: 15px;
+	background-color: transparent !important;
+	border-top: 0px;
+	border-radius: 0px;
+	border-bottom: 0px;
+	border-left: 0px;
 }
 
 #wraplog #mainwrap .webinars-footer ul li:last-child a{
@@ -457,7 +462,39 @@ input.generic_button {
 	line-height: 20px !important;
 	padding-left: 10px;
 	cursor: pointer;
-	margin: 0px 20px 0px 0px;
+	position: relative;
+	margin: 0px 20px 0px 15px;
+}
+#mainwrap.registration .content_tab_edit .form-group:nth-last-child(2) .user_consent_check_container input[type="radio"]{
+	display: none;
+}
+
+#mainwrap.registration .content_tab_edit .form-group:nth-last-child(2) .user_consent_check_container label:before {
+	content: "";
+	width: 20px;
+	height: 20px;
+	border: solid 1px red;
+	display: block;
+	border-radius: 100%;
+	position: absolute;
+	top: 0px;
+	left: -15px;
+}
+
+#mainwrap.registration .content_tab_edit .form-group:nth-last-child(2) .user_consent_check_container label:after {
+	content: "";
+	width: 12px;
+	height: 12px;
+	background-color: #292a2c;
+	position: absolute;
+	top: 4px;
+	left: -11px;
+	border-radius: 100%;
+	visibility: hidden;
+}
+
+#mainwrap.registration .content_tab_edit .form-group:nth-last-child(2) .user_consent_check_container input[type="radio"]:checked + label:after{
+	visibility: visible;
 }
 
 #mainwrap.registration .content_tab_edit .form-group label{
