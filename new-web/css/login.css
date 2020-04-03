@@ -255,6 +255,7 @@ body .btn-primary:hover{
 	height: 50px;
 	background-color: #000;
 	color: #fff;
+	left: 0px;
 }
 
 #wraplog #mainwrap .webinars-footer ul{
@@ -348,7 +349,10 @@ input.generic_button {
 /* Per la pagina di registrazione */
 #mainwrap.registration{
 	padding: 50px 6% 0px 6%;
+}
 
+#mainwrap.registration .panel-body{
+	padding: 0px;
 }
 
 #mainwrap.registration .panel-title{
@@ -383,4 +387,24 @@ input.generic_button {
 #mainwrap.registration .privay-policy-box a{
 	color: #00af4f;
 	text-decoration: underline;
+}
+
+#mainwrap.registration .content_tab_edit .form-group{
+	width: 26%;
+	margin-right: 12%;
+	float: left;
+	padding-top: 20px;
+}
+
+#mainwrap.registration .content_tab_edit .form-group label{
+	font-size: 16px;
+	line-height: 20px;
+	color: #3d3d3d;
+	font-family: Proxima Nova Regular;
+}
+
+#mainwrap.registration .content_tab_edit .form-group input{
+	height: 40px;
+	border: solid 1px #dadada;
+	background-color: #ffffff;
 }
