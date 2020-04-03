@@ -194,6 +194,7 @@ body .btn-primary {
 body .btn-default:hover,
 body .btn-primary:hover{
 	background-color: #00af00;
+	color: #fff;
 }
 
 .box_register .form-group {
@@ -248,9 +249,41 @@ body .btn-primary:hover{
 	padding: 0px 15% 100px 9%;
 }
 
-.webinars-footer{
+#wraplog #mainwrap .webinars-footer{
 	position: absolute;
 	bottom: 0px;
+	height: 50px;
+	background-color: #000;
+	color: #fff;
+}
+
+#wraplog #mainwrap .webinars-footer ul{
+	display: block;
+	float: none;
+	color: #fff;
+	padding: 0px 15px;
+	text-align: center;
+	border: 0px;
+}
+
+#wraplog #mainwrap .webinars-footer ul li{
+	display: inline-block;
+	margin: 0px;
+	float: none;
+}
+
+#wraplog #mainwrap .webinars-footer ul li a{
+	color: #fff;
+	font-family: Proxima Nova Semibold;
+	font-size: 14px;
+	border-right: solid 1px #fff;
+	padding: 0px 15px;
+	line-height: 14px;
+	margin-top: 15px;
+}
+
+#wraplog #mainwrap .webinars-footer ul li:last-child a{
+	border-right: 0px;
 }
 
 .login-actions {
