@@ -21,7 +21,6 @@ option{padding-right:10px;line-height:1;}
 #contact{text-align:left;font-size:11px;margin-top:10px;}
 #contact a{text-decoration:none;color:#3f3f3f;font-weight:normal;}
 #contact a:hover{text-decoration:underline;}
-#tamtamyLoginBox input, #openId{width:100%;border:1px solid #ccc;background:#fff url(../graphic/grad_01_rev.gif) 0px 1px repeat-x;padding:5px; color:#555;}
 #mainwrap #formwrap{width:100%;}
 #mainwrap ul{list-style:none;text-align:left;font-size:12px;color:#a83333;padding:10px;margin:0;}
 #mainwrap ul li span.errorMessage{color:#fff;border:none;}
@@ -78,66 +77,66 @@ body.networkLayout {background: url("../graphic/ttsi_background-2.jpg");}
 .btn-group a.btn{color: white;}
 
 @media (max-width:640px){
-	
+
 	#wraplog{width:100%;margin:0 auto;}
-	
+
 }
 
 @font-face{
-/*font-family:"Proxima Nova W07 Black";*/
-font-family:"Proxima Nova Black";
-src:url("../proxima/9e87ad7f-6820-4b24-82f0-00f80e23b088.eot?#iefix");
-src:url("../proxima/9e87ad7f-6820-4b24-82f0-00f80e23b088.eot?#iefix") format("eot"),url("../proxima/301904b9-fe52-494e-aeca-bb946a866993.woff2") format("woff2"),url("../proxima/ab408b66-5692-4473-b167-5819ca620b83.woff") format("woff"),url("../proxima/19260682-1047-465b-b29b-66c48ea2e00e.ttf") format("truetype"),url("../proxima/3943e845-1e8d-442c-b4fd-222b664b7e35.svg#3943e845-1e8d-442c-b4fd-222b664b7e35") format("svg");
+	/*font-family:"Proxima Nova W07 Black";*/
+	font-family:"Proxima Nova Black";
+	src:url("../proxima/9e87ad7f-6820-4b24-82f0-00f80e23b088.eot?#iefix");
+	src:url("../proxima/9e87ad7f-6820-4b24-82f0-00f80e23b088.eot?#iefix") format("eot"),url("../proxima/301904b9-fe52-494e-aeca-bb946a866993.woff2") format("woff2"),url("../proxima/ab408b66-5692-4473-b167-5819ca620b83.woff") format("woff"),url("../proxima/19260682-1047-465b-b29b-66c48ea2e00e.ttf") format("truetype"),url("../proxima/3943e845-1e8d-442c-b4fd-222b664b7e35.svg#3943e845-1e8d-442c-b4fd-222b664b7e35") format("svg");
 }
 @font-face{
-/*font-family:"Proxima Nova W07 Bold";*/
-font-family:"Proxima Nova Bold";
-src:url("../proxima/b9234758-e038-4622-b531-1e89eef11dc8.eot?#iefix");
-src:url("../proxima/b9234758-e038-4622-b531-1e89eef11dc8.eot?#iefix") format("eot"),url("../proxima/301b29be-a6b5-467a-ba10-926b40436a87.woff2") format("woff2"),url("../proxima/a01242ac-07ee-44eb-97b4-3f6df729e51a.woff") format("woff"),url("../proxima/713e8042-cdd9-4f87-b79b-59bb8e43daca.ttf") format("truetype"),url("../proxima/b39f961b-4c68-4114-8a71-76bfe004cf14.svg#b39f961b-4c68-4114-8a71-76bfe004cf14") format("svg");
+	/*font-family:"Proxima Nova W07 Bold";*/
+	font-family:"Proxima Nova Bold";
+	src:url("../proxima/b9234758-e038-4622-b531-1e89eef11dc8.eot?#iefix");
+	src:url("../proxima/b9234758-e038-4622-b531-1e89eef11dc8.eot?#iefix") format("eot"),url("../proxima/301b29be-a6b5-467a-ba10-926b40436a87.woff2") format("woff2"),url("../proxima/a01242ac-07ee-44eb-97b4-3f6df729e51a.woff") format("woff"),url("../proxima/713e8042-cdd9-4f87-b79b-59bb8e43daca.ttf") format("truetype"),url("../proxima/b39f961b-4c68-4114-8a71-76bfe004cf14.svg#b39f961b-4c68-4114-8a71-76bfe004cf14") format("svg");
 }
 @font-face{
-/*font-family:"Proxima Nova W07 Extrabold";*/
-font-family:"Proxima Nova Extra Bold";
-src:url("../proxima/98efc59a-892b-4055-a50c-3a62f5f46e88.eot?#iefix");
-src:url("../proxima/98efc59a-892b-4055-a50c-3a62f5f46e88.eot?#iefix") format("eot"),url("../proxima/fc89076c-e531-4a6c-a0a0-cb26387f4260.woff2") format("woff2"),url("../proxima/0333c78e-0245-4dd1-91f0-95e76486e4fe.woff") format("woff"),url("../proxima/075af3d9-ba60-4f41-8fa1-fc89feed423d.ttf") format("truetype"),url("../proxima/7eec8f01-73b9-4a88-a52d-6e36ef34ccec.svg#7eec8f01-73b9-4a88-a52d-6e36ef34ccec") format("svg");
+	/*font-family:"Proxima Nova W07 Extrabold";*/
+	font-family:"Proxima Nova Extra Bold";
+	src:url("../proxima/98efc59a-892b-4055-a50c-3a62f5f46e88.eot?#iefix");
+	src:url("../proxima/98efc59a-892b-4055-a50c-3a62f5f46e88.eot?#iefix") format("eot"),url("../proxima/fc89076c-e531-4a6c-a0a0-cb26387f4260.woff2") format("woff2"),url("../proxima/0333c78e-0245-4dd1-91f0-95e76486e4fe.woff") format("woff"),url("../proxima/075af3d9-ba60-4f41-8fa1-fc89feed423d.ttf") format("truetype"),url("../proxima/7eec8f01-73b9-4a88-a52d-6e36ef34ccec.svg#7eec8f01-73b9-4a88-a52d-6e36ef34ccec") format("svg");
 }
 @font-face{
-/*font-family:"Proxima Nova W07 Italic";*/
-font-family:"Proxima Nova Italic";
-src:url("../proxima/aee0de3d-ba67-42ed-a243-74d635a296d1.eot?#iefix");
-src:url("../proxima/aee0de3d-ba67-42ed-a243-74d635a296d1.eot?#iefix") format("eot"),url("../proxima/bd5d3098-6dfd-49d7-9805-257c1f9c6a45.woff2") format("woff2"),url("../proxima/e4322432-dab6-4aa4-9547-41939c3d234d.woff") format("woff"),url("../proxima/275b8c7d-2a25-4f4c-a2d4-f3c14c3f3d16.ttf") format("truetype"),url("../proxima/edd9165a-3902-4b98-b7d9-925853b65b82.svg#edd9165a-3902-4b98-b7d9-925853b65b82") format("svg");
+	/*font-family:"Proxima Nova W07 Italic";*/
+	font-family:"Proxima Nova Italic";
+	src:url("../proxima/aee0de3d-ba67-42ed-a243-74d635a296d1.eot?#iefix");
+	src:url("../proxima/aee0de3d-ba67-42ed-a243-74d635a296d1.eot?#iefix") format("eot"),url("../proxima/bd5d3098-6dfd-49d7-9805-257c1f9c6a45.woff2") format("woff2"),url("../proxima/e4322432-dab6-4aa4-9547-41939c3d234d.woff") format("woff"),url("../proxima/275b8c7d-2a25-4f4c-a2d4-f3c14c3f3d16.ttf") format("truetype"),url("../proxima/edd9165a-3902-4b98-b7d9-925853b65b82.svg#edd9165a-3902-4b98-b7d9-925853b65b82") format("svg");
 }
 @font-face{
-/*font-family:"Proxima Nova W07 Semibold";*/
-font-family:"Proxima Nova Semibold";
-src:url("../proxima/48de68cb-1e43-48a1-a302-a7383eccdbb4.eot?#iefix");
-src:url("../proxima/48de68cb-1e43-48a1-a302-a7383eccdbb4.eot?#iefix") format("eot"),url("../proxima/ef5b26a4-7dc7-4234-9b93-0c9c0fadd85d.woff2") format("woff2"),url("../proxima/11063ead-72ce-471f-9c94-697b0a2acedb.woff") format("woff"),url("../proxima/bfb11b96-6d58-46c7-9d38-6dafbceffd44.ttf") format("truetype"),url("../proxima/033a4cc6-8a9b-4bc2-9505-c92af71ba166.svg#033a4cc6-8a9b-4bc2-9505-c92af71ba166") format("svg");
+	/*font-family:"Proxima Nova W07 Semibold";*/
+	font-family:"Proxima Nova Semibold";
+	src:url("../proxima/48de68cb-1e43-48a1-a302-a7383eccdbb4.eot?#iefix");
+	src:url("../proxima/48de68cb-1e43-48a1-a302-a7383eccdbb4.eot?#iefix") format("eot"),url("../proxima/ef5b26a4-7dc7-4234-9b93-0c9c0fadd85d.woff2") format("woff2"),url("../proxima/11063ead-72ce-471f-9c94-697b0a2acedb.woff") format("woff"),url("../proxima/bfb11b96-6d58-46c7-9d38-6dafbceffd44.ttf") format("truetype"),url("../proxima/033a4cc6-8a9b-4bc2-9505-c92af71ba166.svg#033a4cc6-8a9b-4bc2-9505-c92af71ba166") format("svg");
 }
 @font-face{
-/*font-family:"Proxima Nova W07 Semibold It";*/
-font-family:"Proxima Nova Semibold Italic";
-src:url("../proxima/41c72b54-e1e2-42dc-b7ff-55e7a2ffe2d5.eot?#iefix");
-src:url("../proxima/41c72b54-e1e2-42dc-b7ff-55e7a2ffe2d5.eot?#iefix") format("eot"),url("../proxima/91008af8-151b-4838-8603-fda6eddd311e.woff2") format("woff2"),url("../proxima/6d58f459-8846-4b16-9d36-0e12d741d9d4.woff") format("woff"),url("../proxima/d3c52b77-4ae0-40fc-84b0-4f1f66a4ebe9.ttf") format("truetype"),url("../proxima/cc51d0ca-1e4b-43b8-9bab-12b3376c2f89.svg#cc51d0ca-1e4b-43b8-9bab-12b3376c2f89") format("svg");
+	/*font-family:"Proxima Nova W07 Semibold It";*/
+	font-family:"Proxima Nova Semibold Italic";
+	src:url("../proxima/41c72b54-e1e2-42dc-b7ff-55e7a2ffe2d5.eot?#iefix");
+	src:url("../proxima/41c72b54-e1e2-42dc-b7ff-55e7a2ffe2d5.eot?#iefix") format("eot"),url("../proxima/91008af8-151b-4838-8603-fda6eddd311e.woff2") format("woff2"),url("../proxima/6d58f459-8846-4b16-9d36-0e12d741d9d4.woff") format("woff"),url("../proxima/d3c52b77-4ae0-40fc-84b0-4f1f66a4ebe9.ttf") format("truetype"),url("../proxima/cc51d0ca-1e4b-43b8-9bab-12b3376c2f89.svg#cc51d0ca-1e4b-43b8-9bab-12b3376c2f89") format("svg");
 }
 @font-face{
-/*font-family:"Proxima N W01 Light";*/
-font-family:"Proxima Nova Light";
-src:url("../proxima/93cc6d34-798e-42c8-87d2-fd6391801b63.eot?#iefix");
-src:url("../proxima/93cc6d34-798e-42c8-87d2-fd6391801b63.eot?#iefix") format("eot"),url("../proxima/d9fe41ee-4904-4a11-ba11-b61cd3be767f.woff2") format("woff2"),url("../proxima/2fa30669-9bbd-4ced-912f-db94a367ed6c.woff") format("woff"),url("../proxima/c12b3ebb-3771-483f-a84a-ac63d615c28e.ttf") format("truetype"),url("../proxima/2a961063-ea56-4a4b-8cea-bdae32edb0e2.svg#2a961063-ea56-4a4b-8cea-bdae32edb0e2") format("svg");
+	/*font-family:"Proxima N W01 Light";*/
+	font-family:"Proxima Nova Light";
+	src:url("../proxima/93cc6d34-798e-42c8-87d2-fd6391801b63.eot?#iefix");
+	src:url("../proxima/93cc6d34-798e-42c8-87d2-fd6391801b63.eot?#iefix") format("eot"),url("../proxima/d9fe41ee-4904-4a11-ba11-b61cd3be767f.woff2") format("woff2"),url("../proxima/2fa30669-9bbd-4ced-912f-db94a367ed6c.woff") format("woff"),url("../proxima/c12b3ebb-3771-483f-a84a-ac63d615c28e.ttf") format("truetype"),url("../proxima/2a961063-ea56-4a4b-8cea-bdae32edb0e2.svg#2a961063-ea56-4a4b-8cea-bdae32edb0e2") format("svg");
 }
 @font-face{
-/*font-family:"Proxima Nova W08 Reg";*/
-font-family:"Proxima Nova Regular";
-src:url("../proxima/0020eb30-c98c-4a76-aaa5-c39374f14534.eot?#iefix");
-src:url("../proxima/0020eb30-c98c-4a76-aaa5-c39374f14534.eot?#iefix") format("eot"),url("../proxima/781c5453-0067-4e64-9386-7c0726d63d57.woff2") format("woff2"),url("../proxima/510df0e5-5b9f-4a1c-b46a-bcf1739bda43.woff") format("woff"),url("../proxima/47e08118-5050-469b-a40c-dc3b2307e87e.ttf") format("truetype"),url("../proxima/d93bd409-7380-4bb8-9d9f-d8035b5e0387.svg#d93bd409-7380-4bb8-9d9f-d8035b5e0387") format("svg");
+	/*font-family:"Proxima Nova W08 Reg";*/
+	font-family:"Proxima Nova Regular";
+	src:url("../proxima/0020eb30-c98c-4a76-aaa5-c39374f14534.eot?#iefix");
+	src:url("../proxima/0020eb30-c98c-4a76-aaa5-c39374f14534.eot?#iefix") format("eot"),url("../proxima/781c5453-0067-4e64-9386-7c0726d63d57.woff2") format("woff2"),url("../proxima/510df0e5-5b9f-4a1c-b46a-bcf1739bda43.woff") format("woff"),url("../proxima/47e08118-5050-469b-a40c-dc3b2307e87e.ttf") format("truetype"),url("../proxima/d93bd409-7380-4bb8-9d9f-d8035b5e0387.svg#d93bd409-7380-4bb8-9d9f-d8035b5e0387") format("svg");
 }
 
 
 * {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-tap-highlight-color: transparent;
-  -webkit-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-text-size-adjust: 100%;
 }
 
 
@@ -152,7 +151,7 @@ html {
 	-ms-text-size-adjust: 100%;
 	/* 3 */
 	-webkit-text-size-adjust: 100%;
-	/* 3 */ 
+	/* 3 */
 }
 html body {
 	font-family: "Proxima Nova Regular", 'Helvetica Neue', Arial, Helvetica, sans-serif;
@@ -177,38 +176,30 @@ body #wraplog [data-network-logo] {
 	background-color: #000;
 	margin-left: 30px;
 }
-body #wraplog h2 {
-	text-align: center;
-	font-weight: 600;
-	text-transform: uppercase;
-	font-size: 19px;
-	padding-bottom: 0;
-	border: none;
-}
 
 body .btn-default,
 body .btn-primary {
-	background-color: #15b138;
 	display: block;
 	width: 100%;
 	border-radius: 0;
 	color: #fff;
-	text-transform: uppercase;
-	padding: 15px;
 	border: none;
+	line-height: 50px;
+	background-color: #00af00;
+	padding: 0px;
+	font-size: 20px;
+	font-family: Proxima Nova Regular;
 }
+
+body .btn-default:hover,
+body .btn-primary:hover{
+	background-color: #00af00;
+}
+
 .box_register .form-group {
 	position: relative;
 	width: 100%;
 	float: left;
-}
-.box_register .form-group .form-control,
-#wraplog #tamtamyLoginBox input, #wraplog #openId {
-	box-shadow: none;
-	background: transparent;
-	padding: 15px;
-	height: auto;
-	border-radius: 0;
 }
 .box_register .form-group select.form-control {
 	-webkit-appearance: none;
@@ -222,10 +213,42 @@ body .btn-primary {
 	margin-top: 15px;
 }
 #wraplog #mainwrap {
-	position: relative;
-	box-shadow: 0 0 35px 5px rgba(0,0,0,0.1);
-	max-width: 1440px;
+	overflow: hidden;
+	min-height: calc(100vh - 60px);
+	padding-top: 60px;
+	text-align: left;
 }
+
+#wraplog #mainwrap .login-title{
+	text-align: left;
+	font-size: 30px;
+	font-family: Proxima Nova Semibold;
+	color: #3d3d3d;
+	line-height: 20px;
+	margin-bottom: 25px;
+	padding: 0px;
+	border: 0px;
+}
+
+#wraplog #mainwrap label{
+	font-family: Proxima Nova Regular;
+	font-size: 16px;
+	line-height: 20px;
+	color: #3d3d3d;
+}
+
+
+
+#wraplog #mainwrap .col_login{
+	padding: 0px 9% 100px 15%;
+	border-right: solid 1px #3d3d3d;
+
+}
+
+#wraplog #mainwrap .col_register{
+	padding: 0px 15% 100px 9%;
+}
+
 .login-actions {
 	position: absolute;
 	bottom: -30px;
@@ -235,13 +258,7 @@ body .btn-primary {
 	font-size: 14px;
 	font-weight: 400;
 }
-body {
-	padding-bottom: 50px;
-	font-weight: 400;
-}
-#wraplog .panel-body {
-	padding: 0;
-}
+
 input.generic_button {
 	width: 100%;
 	margin-left: 0;
@@ -252,20 +269,40 @@ input.generic_button {
 	-moz-appearance: none;
 	appearance: none;
 }
+
+#wraplog #mainwrap label.checkboxLabel{
+	margin: 10px 0px 15px 0px;
+	font-family: Proxima Nova Regular;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+#wraplog #mainwrap .login-password-forgotten{
+	font-family: Proxima Nova Semibold;
+	font-size: 16px;
+	line-height: 20px;
+	color: #3d3d3d;
+	margin-bottom: 35px;
+	display: inline-block;
+}
+
+#wraplog #mainwrap input[type="text"],
+#wraplog #mainwrap input[type="password"]{
+	height: 40px;
+	border: solid 1px #dadada;
+	background-color: #ffffff !important;
+	border-radius: 0px;
+}
+
 #wraplog .buttons_wrapper {
 	border: none;
 	padding: 0;
 }
-#wraplog label {
-	/*color: #252527;*/
-	font-family:"Proxima Nova Light", 'Helvetica Neue', Arial, Helvetica, sans-serif;
-	font-size: 16px;
-	padding-bottom: 0;
-}
+
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
-    color: #204d74;
-    background-color: #EEE;
-    border-color: #204d74;
+	color: #204d74;
+	background-color: #EEE;
+	border-color: #204d74;
 }
 
 .user_consent_check_container label {margin-right:15px;}
