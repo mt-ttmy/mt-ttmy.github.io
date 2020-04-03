@@ -348,7 +348,7 @@ input.generic_button {
 
 /* Per la pagina di registrazione */
 #mainwrap.registration{
-	padding: 50px 6% 0px 6%;
+	padding: 50px 6% 140px 6%;
 }
 
 #mainwrap.registration .panel-body{
@@ -387,6 +387,7 @@ input.generic_button {
 #mainwrap.registration .privay-policy-box a{
 	color: #00af4f;
 	text-decoration: underline;
+	font-family: Proxima Nova Bold;
 }
 
 #mainwrap.registration .content_tab_edit .form-group{
@@ -396,15 +397,66 @@ input.generic_button {
 	padding-top: 20px;
 }
 
+#mainwrap.registration .content_tab_edit .form-group:nth-last-child(2),
+#mainwrap.registration .content_tab_edit .form-group:nth-last-child(5){
+	width: 100%;
+	margin: 0px;
+}
+
+#mainwrap.registration .content_tab_edit .form-group:nth-last-child(5) input{
+	width: 26%;
+	height: 40px;
+	border: solid 1px #dadada;
+	background-color: #ffffff !important;
+	border-radius: 0px;
+}
+
+#mainwrap.registration .content_tab_edit .form-group:nth-last-child(5){
+	padding-bottom: 20px;
+	border-bottom: solid 1px #3d3d3d;
+}
+
+#mainwrap.registration .content_tab_edit .form-group:nth-last-child(5) label{
+	font-family: Proxima Nova Semibold;
+	font-size: 16px;
+	color: #3d3d3d;
+	line-height: 20px;
+	margin: 15px 0px 5px 0px;
+	font-weight: bold;
+}
+
+#mainwrap.registration .content_tab_edit .form-group:nth-last-child(2) label{
+	font-family: Proxima Nova Regular;
+	font-size: 14px;
+	line-height: 20px;
+	color: #3d3d3d;
+}
+
+#mainwrap.registration .content_tab_edit .form-group:nth-last-child(2) label a{
+	color: #00af4f;
+	font-family: Proxima Nova Extra Bold;
+}
+
 #mainwrap.registration .content_tab_edit .form-group label{
 	font-size: 16px;
 	line-height: 20px;
 	color: #3d3d3d;
 	font-family: Proxima Nova Regular;
+	font-weight: normal;
 }
 
 #mainwrap.registration .content_tab_edit .form-group input{
 	height: 40px;
 	border: solid 1px #dadada;
 	background-color: #ffffff;
+}
+
+#mainwrap.registration .content_tab_edit .buttons_wrapper#{
+	width: 100%;
+	overflow: hidden;
+	padding-top: 40px;
+}
+
+mainwrap.registration .content_tab_edit .buttons_wrapper button{
+	width: 330px;
 }
