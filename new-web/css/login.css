@@ -3,11 +3,21 @@
 body{font-family: Helvetica Neue, Helvetica, Arial, sans-serif;font-size:12px;color:#777;background: url(../graphic/background_stripes.gif);text-align:center;}
 select {border:1px solid #ccc;background:#fff;padding:5px;}
 option{padding-right:10px;line-height:1;}
-#wraplog{width:400px;margin:80px auto 0;text-align:left;background:#fff url(../graphic/header.png) repeat-x left -35px;border-radius:4px 4px 0 0;}
+#wraplog{
+	width: auto;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+#wraplog .header{
+	margin: 0 auto;
+	background: #000;
+	border-radius: 0px;
+	text-align: left;
+}
 #wraplog h1{margin:0;width:100%;height:70px;background: #f5f8fa url(../graphic/logo_tt_svg.svg) no-repeat center center;text-indent:-9999px;border:1px solid #ddd;background-size:auto 60%;}
 #wraplog h1 span{display:none;}
 #wraplog h2{font: 18px Arial, Helvetica, sans-serif;color:#3f3f3f;margin:0 0 10px 0;border-bottom:1px dashed #ddd;padding:0 0 2px 0;}
-#wraplog #mainwrap{padding:20px;text-align:left;background:none;border:1px solid #ddd;border-top:none;}
+/*#wraplog #mainwrap{padding:20px;text-align:left;background:none;border:1px solid #ddd;border-top:none;}*/
 #contact{text-align:left;font-size:11px;margin-top:10px;}
 #contact a{text-decoration:none;color:#3f3f3f;font-weight:normal;}
 #contact a:hover{text-decoration:underline;}
@@ -156,15 +166,16 @@ body #wraplog h1, body #wraplog .h1, body #wraplog h2, body #wraplog .h2, body #
 }
 
 body #wraplog [data-network-logo] {
-	background-image: url('../images/reply-webinars-logo.png');
-	background-color: #292a2c;
-	background-size: auto auto;
+	background-image: url(../images/reply-webinars-logo.png);
+	background-size: auto 40px;
 	margin: 0 auto;
-	width: 100%;
 	height: auto;
-	padding: 20px 0;
-	border-top: 7px solid #15b138;
-	/*font-weight: 400;*/
+	padding: 11px 0;
+	border: 0px;
+	width: 330px;
+	display: inline-block;
+	background-color: #000;
+	margin-left: 30px;
 }
 body #wraplog h2 {
 	text-align: center;
@@ -212,8 +223,8 @@ body .btn-primary {
 }
 #wraplog #mainwrap {
 	position: relative;
-	/*padding: 20px 10px 10px;*/
 	box-shadow: 0 0 35px 5px rgba(0,0,0,0.1);
+	max-width: 1440px;
 }
 .login-actions {
 	position: absolute;
