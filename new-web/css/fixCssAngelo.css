@@ -895,7 +895,7 @@
 
 /* Inizio Modali */
 
-.modal-dialog .modal-content{
+#event-cancel-modal .modal-dialog .modal-content{
     border-radius: 4px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     border: solid 1px #d2d2d2;
@@ -904,13 +904,14 @@
     margin: 0 auto;
 }
 
-.modal-dialog .modal-content .modal-header{
+#event-cancel-modal .modal-dialog .modal-content .modal-header{
     background-color: #fff;
     border-bottom: solid 1px #e9e9e9;
     padding: 0px;
 }
 
-.modal-dialog .modal-content .modal-header button.close{
+#event-cancel-modal .modal-dialog .modal-content .modal-header button.close,
+#event-enrollment-modal .modal-dialog .modal-content .modal-header button.close{
     color: #3d3d3d;
     position: absolute;
     top: 15px;
@@ -919,13 +920,14 @@
     font-size: 40px;
 }
 
-.modal-dialog .modal-content .modal-header button.close span{
+#event-cancel-modal .modal-dialog .modal-content .modal-header button.close span,
+#event-enrollment-modal .modal-dialog .modal-content .modal-header button.close span{
     line-height: 37px;
     height: 32px;
     display: block;
 }
 
-.modal-dialog .modal-content .modal-header .modal-title{
+#event-cancel-modal .modal-dialog .modal-content .modal-header .modal-title{
     font-family: Proxima Nova Semibold;
     font-size: 24px;
     line-height: 24px;
@@ -933,20 +935,20 @@
     color: #3d3d3d;
 }
 
-.modal-dialog .modal-content .modal-body{
+#event-cancel-modal .modal-dialog .modal-content .modal-body{
     font-family: Proxima Nova Regular;
     font-size: 16px;
     line-height: 21px;
     padding: 15px 15px 15px 25px;
 }
 
-.modal-dialog .modal-content .modal-footer{
+#event-cancel-modal .modal-dialog .modal-content .modal-footer{
     padding-bottom: 45px;
     text-align: center;
     border: 0px;
 }
 
-.modal-dialog .modal-content .modal-footer .btn{
+#event-cancel-modal .modal-dialog .modal-content .modal-footer .btn{
     width: 130px;
     font-family: Proxima Nova Regular;
     font-size: 20px;
@@ -954,21 +956,65 @@
     border-radius: 0px;
 }
 
-.modal-dialog .modal-content .modal-footer .btn:hover{
+#event-cancel-modal .modal-dialog .modal-content .modal-footer .btn:hover{
     background-color: initial;
 }
 
-.modal-dialog .modal-content .modal-footer .btn.btn-default{
+#event-cancel-modal .modal-dialog .modal-content .modal-footer .btn.btn-default{
     border: solid 1px #3d3d3d;
     color: #3d3d3d;
     margin-right: 20px;
 }
 
-.modal-dialog .modal-content .modal-footer .btn.btn-primary{
+#event-cancel-modal .modal-dialog .modal-content .modal-footer .btn.btn-primary{
     color: #fff;
     border: 0px;
     background-color: #00b32d;
 }
+
+/* modale registrazione evento */
+
+#event-enrollment-modal .modal-dialog .modal-content{
+    border-radius: 4px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    border: solid 1px #d2d2d2;
+    background-color: #ffffff;
+    max-width: 520px;
+    margin: 0 auto;
+    padding: 35px 35px 60px 35px;
+}
+
+#event-enrollment-modal .modal-dialog .modal-content .modal-header{
+    border-bottom: 0px;
+    padding: 0px;
+    min-height: 0px;
+    background-color: transparent;
+}
+
+#event-enrollment-modal .modal-dialog .modal-content .modal-body{
+    text-align: center;
+    padding: 0px;
+}
+
+#event-enrollment-modal .modal-dialog .modal-content .modal-body i.fa{
+    color: #00b32d;
+    font-size: 48px;
+}
+
+#event-enrollment-modal .modal-dialog .modal-content .modal-body .modal-title{
+    padding: 45px 0px 15px 0px;
+    font-family: Proxima Nova Semibold;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+#event-enrollment-modal .modal-dialog .modal-content .modal-body .modal-description{
+    font-family: Proxima Nova Regular;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/* Fine modale registrzione evento */
 
 /* Fine Modali */
 
