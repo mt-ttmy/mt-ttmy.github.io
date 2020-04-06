@@ -225,9 +225,6 @@ body .btn-primary:hover{
 	text-align: center;
 }
 
-#wraplog #mainwrap .login-title{
-	text-align: left;
-}
 #wraplog #mainwrap h2.panel-title,
 #wraplog #mainwrap h2,
 #wraplog #mainwrap .login-title{
@@ -238,6 +235,15 @@ body .btn-primary:hover{
 	margin-bottom: 25px;
 	padding: 0px;
 	border: 0px;
+}
+
+#wraplog #mainwrap .login-title,
+#wraplog #mainwrap h2.panel-title{
+	text-align: left;
+}
+
+#wraplog #mainwrap h2.panel-title{
+	margin-bottom: 0px;
 }
 
 #wraplog #mainwrap label{
