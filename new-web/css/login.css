@@ -481,6 +481,7 @@ input.generic_button {
 	font-size: 14px;
 	line-height: 20px;
 	color: #3d3d3d;
+	position: initial;
 }
 
 #mainwrap.registration .content_tab_edit .form-group:nth-last-child(2) label a{
@@ -496,6 +497,10 @@ input.generic_button {
 	padding-top: 15px;
 }
 
+#mainwrap.registration .content_tab_edit .form-group:nth-last-child(2) .user_consent_check_container ul{
+	margin-right: 15px;
+}
+
 #mainwrap.registration .content_tab_edit .form-group:nth-last-child(2) .user_consent_check_container label{
 	font-family: Proxima Nova Semibold !important;
 	font-size: 14px !important;
@@ -504,6 +509,8 @@ input.generic_button {
 	cursor: pointer;
 	position: relative;
 	margin: 0px 20px 0px 15px;
+	left: auto;
+	bottom: auto;
 }
 #mainwrap.registration .content_tab_edit .form-group:nth-last-child(2) .user_consent_check_container input[type="radio"]{
 	display: none;
