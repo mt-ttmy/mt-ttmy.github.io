@@ -419,6 +419,7 @@ input.generic_button {
 	color: #000;
 	font-size: 16px;
 	line-height: 20px;
+	margin-bottom: 0px;
 }
 
 #mainwrap.registration .privay-policy-box a{
@@ -432,7 +433,7 @@ input.generic_button {
 	margin-right: 12%;
 	float: left;
 	padding-top: 20px;
-	min-height: 120px;
+	min-height: 130px;
 	margin-bottom: 0px;
 	position: relative;
 }
