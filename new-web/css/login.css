@@ -221,6 +221,7 @@ body .btn-primary:hover{
 	position: relative;
 }
 
+#wraplog #mainwrap h2,
 #wraplog #mainwrap .login-title{
 	text-align: left;
 	font-size: 30px;
@@ -243,6 +244,7 @@ body .btn-primary:hover{
 	margin-bottom: 30px;
 	font-family: Proxima Nova Semibold;
 	font-size: 20px;
+	text-align: center;
 }
 
 #wraplog #mainwrap .col_login{
@@ -519,4 +521,32 @@ input.generic_button {
 
 #mainwrap.registration .content_tab_edit .buttons_wrapper button.btn-default{
 	width: 330px;
+}
+
+/* pagina reset password */
+#wraplog #mainwrap #resetPassword{
+	width: 400px;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+
+#wraplog #mainwrap h2{
+	text-align: center;
+}
+
+#wraplog #mainwrap #resetPassword p{
+	font-family: Proxima Nova Regular;
+	color: #000;
+	font-size: 16px;
+	line-height: 20px;
+	margin-bottom: 30px;
+}
+
+#wraplog #mainwrap #resetPassword .wwgrp input{
+	height: 40px;
+	border: solid 1px #dadada;
+	background-color: #ffffff !important;
+	border-radius: 0px;
+	margin: 0px;
+	width: 100%;
 }
