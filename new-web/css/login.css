@@ -607,6 +607,10 @@ input.generic_button {
 	width: 100%;
 }
 
+#wraplog #mainwrap #resetPassword .wwgrp input{
+	position: initial;
+}
+
 #wraplog #mainwrap #password-change-submit .info{
 	font-family: Proxima Nova Regular;
 	color: #000;
