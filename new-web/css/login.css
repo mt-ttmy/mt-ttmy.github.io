@@ -266,6 +266,11 @@ body .btn-primary:hover{
 	margin-bottom: 100px;
 }
 
+#wraplog #mainwrap .col_login input[type="text"],
+#wraplog #mainwrap .col_login input[type="password"]{
+	position: initial;
+}
+
 #wraplog #mainwrap .col_register{
 	padding: 0px 15% 100px 9%;
 }
