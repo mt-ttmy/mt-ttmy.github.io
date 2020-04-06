@@ -618,6 +618,10 @@ input.generic_button {
 	line-height: 24px;
 }
 
+#wraplog #mainwrap #password-change-submit input[type="password"]{
+	position: initial;
+}
+
 #wraplog #mainwrap #password-change-submit .info ul{
 	font-size: 18px;
 	line-height: 25px;
@@ -627,4 +631,9 @@ input.generic_button {
 
 #wraplog #mainwrap #password-change-submit label{
 	margin-top: 20px;
+}
+
+#wraplog #mainwrap.registrationOk h2.panel-title{
+	text-align: center;
+	padding-bottom: 20px;
 }
