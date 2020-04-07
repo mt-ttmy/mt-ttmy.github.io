@@ -883,6 +883,9 @@
 
 #webinar-date-filters .webinar-date-filters-container{
     width: 220px;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
 }
 
 #webinar-date-filters .webinar-date-filters-container .dateFilter{
@@ -898,6 +901,7 @@
     border: solid 1px #979797;
     background-color: #ffffff;
     margin-right: 7px;
+    position: relative;
 }
 
 #webinar-date-filters .webinar-date-filters-container .fa-square{
@@ -906,8 +910,11 @@
 }
 
 #webinar-date-filters .webinar-date-filters-container .fa-square::before{
-    font-size: 14px;
+    font-size: 13px;
     color: #3d3d3d;
+    position: absolute;
+    right: 4px;
+    top: 3px;
 }
 
 .all-webinars{
@@ -938,6 +945,7 @@
     line-height: unset;
     padding: 0px;
     height: 30px;
+    background-color: transparent;
 }
 
 .all-webinars .go-to-calendar .fa-calendar{
@@ -1093,10 +1101,36 @@
 
 /* Fine Modali */
 
+/* Cookies */
+.cc-cookies{
+    margin: 0 auto;
+    padding: 45px 27% 60px 5%;
+    font-family: Proxima Nova Regular;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: rgba(0,0,0,0.83);
+    left: auto;
+}
+
+.cc-cookies a.cc-cookie-accept{
+    background-color: transparent;
+    height: 42px;
+    line-height: 42px;
+    width: 75px;
+    font-family: Proxima Nova Regular;
+    font-size: 20px;
+    font-weight: normal;
+    border: solid 1px #fff;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 0px;
+    position: absolute;
+    right: 10%;
+    top: 60px;
+}
+
 @media (max-width: 1199px) {
-    .wrapwidg.events-card-list .contents_wrapper .content-list-element{
-        min-height: ;
-    }
 
     .wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text{
         padding: 20px 20px;
@@ -1106,9 +1140,23 @@
     .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .esquire-message{
         width: 650px;
     }
+
+    /*[class^="wrapwidg hero"],
+    [class^="wrapwidg hero"] .flexslider,
+    [class^="wrapwidg hero"] .contents_wrapper,
+    [class^="wrapwidg hero"] .contents_wrapper > div,
+    [class^="wrapwidg hero"] .contents_wrapper > div .slider-hero,
+    [class^="wrapwidg hero"] .contents_wrapper > div .slider-hero .hero-message,
+    [class^="wrapwidg hero"] .contents_wrapper > div .slider-hero .hero-message-container,
+    [class^="wrapwidg hero"] .contents_wrapper > div .hero-image-container,
+    [class^="wrapwidg hero"] .contents_wrapper > div .hero-video-container, .slides{
+        max-height: 355px;
+        height: 355px;
+        min-height: initial !important;
+    }*/
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 1024px) {
 
     [class^="wrapwidg hero"],
     [class^="wrapwidg hero"] .flexslider,
@@ -1121,7 +1169,7 @@
     [class^="wrapwidg hero"] .contents_wrapper > div .hero-video-container,
     .slides {
         height: 100% !important;
-        min-height: 307px !important;
+        min-height: 350px !important;
         width: 100% !important;
     }
 
@@ -1140,7 +1188,7 @@
     }
 
     .wrapwidg.events-card-list .contents_wrapper .content-list-element section{
-        height: 745px;
+        height: 780px;
     }
 
     .wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text{
@@ -1148,8 +1196,44 @@
         height: 620px;
     }
 
-    .wrapwidg.events-card-list .contents_wrapper {
-        margin: 60px auto 0px;
+    .slider-hero .hero-message-container{
+        padding: 0px 5%;
+    }
+
+    .discover-calendar h3{
+        font-size: 32px;
+    }
+
+    .wrapwidg.events-card-list .contents_wrapper .content-list-element section .fx-xs-display{
+        flex-wrap: wrap;
+    }
+
+    .wrapwidg.events-card-list .contents_wrapper .content-list-element section .fx-xs-display .event-type{
+        margin-bottom: 7px;
+    }
+}
+
+@media (max-width: 992px){
+    [class^="wrapwidg hero"],
+    [class^="wrapwidg hero"] .flexslider,
+    [class^="wrapwidg hero"] .contents_wrapper,
+    [class^="wrapwidg hero"] .contents_wrapper > div,
+    [class^="wrapwidg hero"] .contents_wrapper > div .slider-hero,
+    [class^="wrapwidg hero"] .contents_wrapper > div .slider-hero .hero-message,
+    [class^="wrapwidg hero"] .contents_wrapper > div .slider-hero .hero-message-container,
+    [class^="wrapwidg hero"] .contents_wrapper > div .hero-image-container,
+    [class^="wrapwidg hero"] .contents_wrapper > div .hero-video-container,
+    .slides, .flexslider, div.contents_wrapper > div.flex-active-slide,
+    div.contents_wrapper > div .slider-hero,
+    div.contents_wrapper > div .slider-hero .hero-message{
+        min-height: 360px !important;
+        max-height: 360px !important;
+        height: 360px !important;
+    }
+
+    .fa-square-o::before {
+        border: 0px;
+        color: #fff;
     }
 }
 
@@ -1160,9 +1244,11 @@
         min-height: 39px;
     }
 
-    #mainwrap #header [data-network-logo]{
-        height: 39px;
-        width: auto;
+    #mainwrap #header h1.logo{
+        height: 30px;
+        width: 215px;
+        margin-left: 15px;
+        margin-top: 5px;
     }
 
     .dropdown.user_menu{
@@ -1199,13 +1285,14 @@
     [class^="wrapwidg hero"] .contents_wrapper > div .hero-video-container,
     div.contents_wrapper > div.flex-active-slide.template-heroPlain,
     .slides {
-        height: 465px !important;
-        min-height: 465px !important;
+        height: 325px !important;
+        min-height: 325px !important;
+        max-height: 325px !important;
     }
 
     [class^="wrapwidg hero"] .contents_wrapper > div .slider-hero .hero-message h2{
         margin-top: 0px !important;
-        font-size: 44px !important;
+        font-size: 35px !important;
         line-height: 40px;
     }
 
@@ -1214,15 +1301,50 @@
     }
 
     [class^="wrapwidg hero"] .contents_wrapper > div .slider-hero .hero-message h3{
-        margin-top: 15px;
+        margin-top: 0px;
+    }
+
+    [class^=template-hero] .slider-hero a.btn.read-more {
+        margin: 20px 0px 0px 0px;
+    }
+
+    .template-heroPlain .slider-hero .hero-message h3{
+        font-size: 17px;
+        line-height: 22px;
+        padding: 0px;
     }
 
     .discover-calendar h3{
-        font-size: 32px;
+        font-size: 24px;
         line-height: 30px;
-        margin: 0px 0px 25px 0px;
-        padding: 30px 0px 20px;
+        margin: 0px;
+        padding: 30px 0px 60px;
         text-align: center;
+    }
+
+    .discover-calendar .go-to-calendar {
+        position: absolute;
+        top: auto;
+        width: 100%;
+        left: 0px;
+        bottom: 0px;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row-reverse;
+        font-size: 12px;
+    }
+
+    .discover-calendar .go-to-calendar .fa-calendar{
+        margin-right: 10px;
+    }
+
+    .wrapwidg.events-card-list .contents_wrapper .content-list-element section .event-cover{
+        height: 105px;
     }
 
     .wrapwidg.events-card-list .contents_wrapper{
