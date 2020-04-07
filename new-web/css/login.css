@@ -221,6 +221,11 @@ body .btn-primary:hover{
 	position: relative;
 }
 
+#wraplog #mainwrap.tiles-input-message h2.panel-title{
+	text-align: center;
+	padding-bottom: 20px;
+}
+
 #wraplog #mainwrap.tiles-input-message div{
 	font-family: Proxima Nova Regular;
 	font-size: 20px;
@@ -613,6 +618,10 @@ input.generic_button {
 	border-radius: 0px;
 	margin: 0px;
 	width: 100%;
+	font-family: Proxima Nova Regular;
+	font-size: 18px;
+	color: #3d3d3d;
+	padding-left: 10px;
 }
 
 #wraplog #mainwrap #resetPassword .wwgrp input{
