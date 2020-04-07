@@ -272,6 +272,7 @@ body .btn-primary:hover{
 	font-size: 20px;
 	text-align: center;
 	margin: 60px 0px 0px 0px;
+	list-style: none;
 }
 
 #wraplog #mainwrap .col_login{
