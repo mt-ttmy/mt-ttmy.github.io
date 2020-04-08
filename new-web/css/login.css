@@ -372,6 +372,7 @@ input.generic_button {
 	color: #3d3d3d;
 	margin-bottom: 35px;
 	display: inline-block;
+	text-decoration: underline;
 }
 
 #wraplog #mainwrap input[type="text"],
@@ -659,4 +660,141 @@ input.generic_button {
 #wraplog #mainwrap.registrationOk h2.panel-title{
 	text-align: center;
 	padding-bottom: 20px;
+}
+
+@media (max-width: 1024px) {
+
+	#wraplog #mainwrap .col_login{
+		padding: 0px 40px 70px 40px;
+	}
+
+	#wraplog #mainwrap .col_register{
+		padding: 0px 40px 100px 40px;
+	}
+
+	#mainwrap.registration{
+		padding: 50px 40px 140px 40px;
+	}
+
+	#mainwrap.registration .content_tab_edit .form-group{
+		width: 38%;
+	}
+}
+
+@media (max-width: 767px) {
+
+	#wraplog .header{
+		height: 39px;
+	}
+
+	body #wraplog [data-network-logo]{
+		background-size: auto 30px;
+		background-position: 18px 0;
+		height: 30px;
+		padding: 0px;
+		margin: 5px auto auto 0px;
+		width: 100%;
+	}
+
+	#wraplog #mainwrap .webinars-footer{
+		height: 30px;
+		width: 100%;
+		padding: 0px;
+	}
+
+	#wraplog #mainwrap .webinars-footer ul{
+		padding: 0px;
+	}
+
+	#wraplog #mainwrap .webinars-footer ul li a{
+		line-height: 14px;
+		margin-top: 8px;
+		font-size: 12px;
+	}
+
+	#wraplog #mainwrap{
+		min-height: calc(100vh - 39px);
+		padding-top: 25px;
+	}
+
+	#wraplog #mainwrap .col_login{
+		padding: 0px 0px 38px 0px;
+		border-right: 0px;
+		border-bottom: solid 1px #3d3d3d;
+		margin-left: 18px;
+		margin-right: 18px;
+		margin-bottom: 20px;
+	}
+
+	#wraplog #mainwrap h2.panel-title,
+	#wraplog #mainwrap h2,
+	#wraplog #mainwrap .login-title{
+		font-size: 24px;
+		margin-bottom: 20px;
+	}
+
+	#wraplog #mainwrap input[type="text"],
+	#wraplog #mainwrap input[type="password"],
+	#wraplog #mainwrap #resetPassword .wwgrp input,
+	#wraplog #mainwrap #password-change-submit .wwgrp input{
+		height: 50px;
+		position: initial;
+		width: 100%;
+	}
+
+	#wraplog #mainwrap .col_register {
+		padding: 0px 18px 80px 18px;
+	}
+
+	#wraplog #mainwrap #resetPassword,
+	#wraplog #mainwrap #password-change-submit{
+		width: 100%;
+		padding: 20px 18px 0px;
+	}
+
+	#mainwrap.registration{
+		padding: 25px 15px 40px 15px;
+	}
+
+	#mainwrap.registration h2.panel-title{
+		margin-bottom: 10px;
+	}
+
+	#mainwrap.registration .already-registered{
+		margin: 0px 0px 20px 0px;
+	}
+
+	#mainwrap.registration .content_tab_edit .form-group{
+		width: 100%;
+		margin: 0px;
+		height: auto;
+		min-height: 100px;
+		padding-top: 25px;
+	}
+
+	#mainwrap.registration .content_tab_edit .form-group .alert{
+		margin-bottom: 10px;
+	}
+
+	#mainwrap.registration .content_tab_edit .form-group label{
+		position: initial;
+	}
+
+	#mainwrap.registration .content_tab_edit .form-group:nth-last-child(5){
+		margin-bottom: 0px;
+		min-height: initial;
+		padding-bottom: 25px;
+	}
+
+	#mainwrap.registration .content_tab_edit .form-group:nth-last-child(2) .user_consent_check_container{
+		-webkit-flex-wrap:wrap;
+		-ms-flex-wrap:wrap;
+		flex-wrap:wrap;
+	}
+
+	body .btn-default,
+	body .btn-primary{
+		line-height: 45px;
+	}
+
 }
