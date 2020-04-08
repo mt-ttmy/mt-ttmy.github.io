@@ -1208,12 +1208,12 @@ body{
     }
 
     .wrapwidg.events-card-list .contents_wrapper .content-list-element section{
-        height: 780px;
+        height: 660px;
     }
 
     .wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text{
         padding: 15px;
-        height: 620px;
+        height: 550px;
     }
 
     .slider-hero .hero-message-container{
@@ -1517,7 +1517,47 @@ body{
         line-height: 10px;
     }
 
-    .all-webinars{
+    .all-webinars {
+         margin: 20px 15px;
+        -webkit-flex-wrap:wrap;
+        -ms-flex-wrap:wrap;
+        flex-wrap:wrap;
+        flex-direction: column-reverse;
+    }
 
+    .all-webinars h3.title{
+        width: 100%;
+        text-align: left;
+        font-size: 24px;
+        line-height: 24px;
+        padding-bottom: 15px;
+    }
+
+    .all-webinars .go-to-calendar{
+        width: 100%;
+        text-align: center;
+    }
+
+    #mainwrap .lastPBColumn .wrapwidg{
+        padding: 10px 0px;
+        margin: 0px;
+    }
+
+    #webinar-date-filters{
+        margin: 0px;
+        padding: 15px 10px;
+        justify-content: space-between;
+    }
+
+    #webinar-date-filters .webinar-date-filters-container{
+        width: auto;
+    }
+
+    #allWebinars.wrapwidg.events-card-list .contents_wrapper .content-list-element{
+        padding: 0px 15px;
+    }
+
+    .more a.pager-more{
+        width: 100%;
     }
 }
