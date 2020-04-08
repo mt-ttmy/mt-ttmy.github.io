@@ -1165,7 +1165,7 @@ body{
 
     .wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text{
         padding: 20px 20px;
-        height: 450px;
+        height: 420px;
     }
 
     .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .esquire-message{
@@ -1219,12 +1219,12 @@ body{
     }
 
     .wrapwidg.events-card-list .contents_wrapper .content-list-element section{
-        height: 660px;
+        height: 680px;
     }
 
     .wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text{
         padding: 15px;
-        height: 550px;
+        height: 560px;
     }
 
     .slider-hero .hero-message-container{
@@ -1392,7 +1392,7 @@ body{
     }
 
     .wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text{
-        padding: 20px 22px 30px 22px;
+        padding: 20px 22px 60px 22px;
         height: auto;
     }
 
