@@ -16,6 +16,7 @@ body{
 
 #mainwrap .lastPBColumn .wrapwidg{
     background-color: transparent;
+    padding: 0px;
 }
 
 .flexslider .contents_wrapper>div[class^="template-"]{
@@ -728,7 +729,7 @@ body{
 }
 
 .clearfix.content_details.content_details_editorial{
-    padding-right: 0px;
+    padding: 0px;
     margin: 0px !important;
 }
 
@@ -1387,7 +1388,7 @@ body{
 
     .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire,
     .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire-image-container{
-        height: 475px;
+        height: 475px !important;
     }
 
     .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container{
@@ -1408,11 +1409,26 @@ body{
     .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until .days-until{
         line-height: 28px;
         margin-right: -30px;
-        width: 100px;
+    }
+
+    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until .days-until.live-now::before{
+        top: 8px;
     }
 
     .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until .days-until::after{
         border: solid 14px #fff;
+        border: solid 14px #fff;
+        height: 28px;
+        border-left: solid 5px transparent;
+        border-right: 0px;
+    }
+
+    .container.container-event-detail{
+        margin-top: -1px;
+    }
+
+    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .event-actions-container button{
+        width: 100%;
     }
 
     .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .type-language{
