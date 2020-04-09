@@ -397,6 +397,7 @@ body{
     padding-top: 10px;
     font-weight: bold;
     line-height: 22px;
+    overflow-wrap: break-word;
 }
 
 .wrapwidg.events-card-list .contents_wrapper .content-list-element article event-datetime{
@@ -787,10 +788,15 @@ body{
 }
 
 /* Inizio pagina di calendario */
+
+.fc-view, .fc-view>table{
+    padding-bottom: 80px;
+}
+
 .wrapwidg.plugin_contentFullCalendar{
     border: 0px;
     margin: 0px;
-    padding: 55px 20px 80px 20px;
+    padding: 55px 20px 80px 20px !important;
 }
 
 .wrapwidg.plugin_contentFullCalendar .widget_title{
