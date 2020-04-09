@@ -248,20 +248,37 @@ body{
     width: 100%;
     display: block;
     margin: 0px auto 0px;
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row nowrap;
+    -webkit-flex-flow: row nowrap;
+    align-items: stretch;
+    -webkit-align-items: stretch;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .wrapwidg.events-card-list .contents_wrapper .content-list-element{
-    min-height: 435px;
     margin-top: 15px;
     margin-bottom: 15px;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    /* width: 33.3%; */
+    padding: 10px;
+    float: none;
 }
 
 .wrapwidg.events-card-list .contents_wrapper .content-list-element section{
-    height: 550px;
     border: solid 1px #e3e3e3;
     background-color: #fff;
     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.07);
     border: solid 1px #e3e3e3;
+    height: 100%;
+    position: relative;
+    padding-bottom: 60px;
 }
 
 .wrapwidg.events-card-list .contents_wrapper .content-list-element section article #event-sessions-area{
@@ -334,9 +351,7 @@ body{
 }
 
 .wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text{
-    height: 420px;
     padding: 20px 30px;
-    position: relative;
 }
 
 .wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text .share{
@@ -1187,7 +1202,6 @@ body{
 
     .wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text{
         padding: 20px 20px;
-        height: 420px;
     }
 
     .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .esquire-message{
@@ -1240,13 +1254,8 @@ body{
         margin-top: 30px;
     }
 
-    .wrapwidg.events-card-list .contents_wrapper .content-list-element section{
-        height: 680px;
-    }
-
     .wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text{
         padding: 15px;
-        height: 560px;
     }
 
     .slider-hero .hero-message-container{
