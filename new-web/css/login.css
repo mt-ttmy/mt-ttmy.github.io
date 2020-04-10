@@ -463,6 +463,17 @@ input.generic_button {
 	position: relative;
 }
 
+#mainwrap.registration .content_tab_edit .form-group .consent-header-input{
+	width: 100%;
+	height: auto;
+	min-height: auto;
+	position: initial;
+}
+
+#mainwrap.registration .content_tab_edit .form-group .consent-header-input label{
+	position: initial;
+}
+
 #mainwrap.registration .content_tab_edit .form-group:nth-last-child(2),
 #mainwrap.registration .content_tab_edit .form-group:nth-last-child(5){
 	width: 100%;
