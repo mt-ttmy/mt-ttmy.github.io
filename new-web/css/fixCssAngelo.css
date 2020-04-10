@@ -948,6 +948,7 @@ body{
     display: -webkit-flex;
     display: flex;
     padding: 28px;
+    background-color: #fff;
 }
 
 #webinar-date-filters .webinar-date-filters-container{
@@ -1617,5 +1618,79 @@ body{
 
     .more a.pager-more{
         width: 100%;
+    }
+
+    .wrapwidg.plugin_contentFullCalendar{
+        padding: 20px 15px 40px 15px !important;
+    }
+
+    .wrapwidg.plugin_contentFullCalendar h2.widget_title{
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .wrapwidg.plugin_contentFullCalendar .widget_padding .fc-toolbar{
+        height: 20px;
+        padding: 0px;
+        margin: 16px 0px 24px 0px !important;
+    }
+
+    .wrapwidg.plugin_contentFullCalendar .widget_padding .fc-toolbar .fc-left{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        float: none;
+    }
+
+    .wrapwidg.plugin_contentFullCalendar .widget_padding .fc-toolbar .fc-left h2{
+        font-size: 16px;
+    }
+
+    .wrapwidg.plugin_contentFullCalendar .widget_padding .fc-toolbar .fc-left .fc-button-group .fc-icon:after{
+        display: block;
+        height: 16px;
+        width: 16px;
+        margin: 0px;
+    }
+
+    .wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-row.fc-widget-header tr{
+        height: 45px;
+    }
+
+    .wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-row.fc-widget-header tr th{
+        padding: 0px;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-row.fc-week.fc-widget-content .fc-content-skeleton .fc-day-number{
+        padding-top: 7px;
+        padding-right: 0px;
+        padding-bottom: 7px;
+    }
+
+    .wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-row.fc-week.fc-widget-content .fc-content-skeleton .fc-day-number span{
+        text-align: center;
+        float: none;
+    }
+
+    .fc-row .fc-content-skeleton table tbody{
+        display: none;
+    }
+
+    .wrapwidg.plugin_contentFullCalendar .fc-basic-view .fc-body .fc-row{
+        min-height: 40px;
+    }
+
+    .wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-row.fc-week.fc-widget-content .fc-content-skeleton .fc-day-number.fc-today span{
+        margin: 0 auto;
+    }
+
+    body.section_calendar #main{
+        min-height: auto;
+    }
+
+    .fc-view, .fc-view>table{
+        padding-bottom: 40px;
     }
 }
