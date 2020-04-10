@@ -678,6 +678,36 @@ input.generic_button {
 	padding-bottom: 20px;
 }
 
+.cc-cookies{
+	margin: 0 auto;
+	padding: 45px 27% 60px 5% !important;
+	font-family: Proxima Nova Regular;
+	font-size: 14px !important;
+	line-height: 20px;
+	background-color: rgba(0,0,0,0.83) !important;
+	left: auto !important;
+	bottom: 0px;
+	top: auto !important;
+}
+
+.cc-cookies a.cc-cookie-accept{
+	background-color: transparent !important;
+	height: 42px;
+	line-height: 42px;
+	width: 75px;
+	font-family: Proxima Nova Regular;
+	font-size: 20px;
+	font-weight: normal;
+	border: solid 1px #fff;
+	display: block !important;
+	padding: 0px !important;
+	margin: 0px;
+	border-radius: 0px !important;
+	position: absolute;
+	right: 10%;
+	top: 60px;
+}
+
 @media (max-width: 1024px) {
 
 	#wraplog #mainwrap .col_login{
