@@ -67,7 +67,6 @@ body.sessionsmanagement .event-sessions-container {
 	color: white;
 }
 
-#fullSignUp .consent-header,
-.consent-header-input {
-	display: none;
+#fullSignUp .consent-header-input {
+	display: none !important;
 }
