@@ -581,6 +581,10 @@ input.generic_button {
 	visibility: visible;
 }
 
+#mainwrap.registration .content_tab_edit .buttons_wrapper button{
+	width: 330px;
+}
+
 #mainwrap.registration .content_tab_edit .form-group label{
 	font-size: 16px;
 	line-height: 20px;
@@ -807,6 +811,10 @@ input.generic_button {
 	body .btn-default,
 	body .btn-primary{
 		line-height: 45px;
+	}
+
+	#mainwrap.registration .content_tab_edit .buttons_wrapper button{
+		width: 100%;
 	}
 
 }
