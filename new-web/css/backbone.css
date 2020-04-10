@@ -59,3 +59,7 @@ body.sessionsmanagement .esquire .editing,
 body.sessionsmanagement .event-sessions-container {
 	display: none;
 }
+
+/* Generic fix */
+.container-event-detail  [data-content-edit-menu] button {background-color: transparent; color: white;}
+.consent-header-input{display:none;}
