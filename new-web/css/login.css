@@ -472,6 +472,7 @@ input.generic_button {
 
 #mainwrap.registration .content_tab_edit .form-group.consent-header-input label{
 	position: initial;
+	color: #000 !important;
 }
 
 #mainwrap.registration .content_tab_edit .form-group:nth-last-child(2),
