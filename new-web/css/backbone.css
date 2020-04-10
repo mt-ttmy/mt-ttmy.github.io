@@ -61,5 +61,8 @@ body.sessionsmanagement .event-sessions-container {
 }
 
 /* Generic fix */
-.container-event-detail  [data-content-edit-menu] button {background-color: transparent; color: white;}
-.consent-header-input{display:none;}
+
+.container-event-detail  [data-content-edit-menu] button {
+	background-color: transparent;
+	color: white;
+}

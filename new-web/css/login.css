@@ -818,3 +818,7 @@ input.generic_button {
 	}
 
 }
+
+#fullSignUp .consent-header-input {
+	display: none;
+}
