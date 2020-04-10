@@ -688,6 +688,8 @@ input.generic_button {
 	left: auto !important;
 	bottom: 0px;
 	top: auto !important;
+	position: fixed !important;
+	float: none !important;
 }
 
 .cc-cookies a.cc-cookie-accept{
@@ -845,6 +847,17 @@ input.generic_button {
 
 	#mainwrap.registration .content_tab_edit .buttons_wrapper button{
 		width: 100%;
+	}
+
+	.cc-cookies{
+		padding: 20px 20px 80px 20px !important;
+	}
+
+	.cc-cookies a.cc-cookie-accept{
+		bottom: 0px;
+		right: auto;
+		top: auto;
+		width: calc(100% - 40px);
 	}
 
 }

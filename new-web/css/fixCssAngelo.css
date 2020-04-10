@@ -1764,4 +1764,15 @@ body{
     .fc-view, .fc-view>table{
         padding-bottom: 40px;
     }
+
+    .cc-cookies{
+        padding: 20px 20px 80px 20px !important;
+    }
+
+    .cc-cookies a.cc-cookie-accept{
+        bottom: 0px;
+        right: auto;
+        top: auto;
+        width: calc(100% - 40px);
+    }
 }
