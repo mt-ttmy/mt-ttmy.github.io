@@ -1271,6 +1271,38 @@ body{
     border: 0px;
 }
 
+/* not found */
+
+body.notFound .wrapcontent_padding #main{
+    min-height: calc(100vh - 109px);
+}
+
+body.notFound .wrapcontent_padding #main .wrapwidg{
+    border: 0px;
+}
+
+body.notFound .wrapcontent_padding #main .wrapwidg .courtesy-square{
+    padding-top: 50px;
+    font-family: Proxima Nova Regular;
+    font-size: 20px;
+    text-align: center;
+    color: #3d3d3d;
+}
+
+body.notFound .wrapcontent_padding #main .wrapwidg .courtesy-square h2{
+    font-family: Proxima Nova Semibold;
+    font-size: 40px;
+}
+
+body.notFound .wrapcontent_padding #main .wrapwidg .courtesy-square .button{
+    float: none;
+    color: #3d3d3d !important;
+}
+
+body.notFound .wrapcontent_padding #main .wrapwidg .courtesy-square .button:hover{
+    text-decoration: underline !important;
+}
+
 @media (max-width: 1199px) {
 
     .wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text{
