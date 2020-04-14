@@ -315,6 +315,7 @@ body{
 }
 
 .wrapwidg.events-card-list .contents_wrapper .content-list-element section .event-cover{
+    display: block;
     height: 130px;
     background-size: cover;
     background-position: center;
