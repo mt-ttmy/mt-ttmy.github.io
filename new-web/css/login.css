@@ -294,6 +294,10 @@ body .btn-primary:hover{
 	padding: 0px 15% 100px 9%;
 }
 
+#footer{
+	height: 50px;
+}
+
 #wraplog #mainwrap .webinars-footer{
 	position: absolute;
 	bottom: 0px;
@@ -711,6 +715,14 @@ input.generic_button {
 	top: 60px;
 }
 
+.grecaptcha-badge{
+	position: unset !important;
+	right: auto !important;
+	width: auto !important;
+	margin-bottom: 35px !important;
+	box-shadow: none !important;
+}
+
 @media (max-width: 1024px) {
 
 	#wraplog #mainwrap .col_login{
@@ -743,6 +755,10 @@ input.generic_button {
 		padding: 0px;
 		margin: 5px auto auto 0px;
 		width: 100%;
+	}
+
+	#footer{
+		height: 30px;
 	}
 
 	#wraplog #mainwrap .webinars-footer{
