@@ -493,6 +493,8 @@ body{
     width: 100%;
     padding-left: 9.5%;
     max-height: inherit;
+    position: relative;
+    background-color: transparent;
 }
 
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until{
@@ -643,6 +645,9 @@ body{
     background-position: center;
     background-size: cover;
     max-height: initial;
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 
 .past-event .content-rich-metas .row.row-flexWrap{
