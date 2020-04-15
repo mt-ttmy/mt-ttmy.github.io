@@ -121,8 +121,8 @@ body{
 }
 
 .flexslider .slider-hero{
-    max-height: 355px;
-    height: 355px;
+    max-height: 325px;
+    height: 325px;
     min-height: auto;
     background: transparent !important;
 }
@@ -138,7 +138,7 @@ body{
 }
 
 .flexslider .contents_wrapper>div{
- height: 355px;
+ height: 325px;
 }
 
 .slider-hero .hero-message-container{
@@ -159,7 +159,7 @@ body{
 }
 
 .template-heroPlain .slider-hero .hero-message h3{
-    margin-top: 38px;
+    margin-top: 20px;
     font-family: Proxima Nova Semibold;
     font-size: 24px;
     font-weight: 600;
@@ -1356,7 +1356,7 @@ body.notFound .wrapcontent_padding #main .wrapwidg .courtesy-square .button:hove
     [class^="wrapwidg hero"] .contents_wrapper > div .hero-video-container,
     .slides {
         height: 100% !important;
-        min-height: 350px !important;
+        min-height: 325px !important;
         width: 100% !important;
     }
 
@@ -1382,8 +1382,16 @@ body.notFound .wrapcontent_padding #main .wrapwidg .courtesy-square .button:hove
         padding: 0px 5%;
     }
 
+    .discover-calendar{
+        padding: 0px;
+    }
+
     .discover-calendar h3{
         font-size: 32px;
+    }
+
+    .wrapwidg.events-card-list .contents_wrapper{
+        padding: 0px;
     }
 
     .wrapwidg.events-card-list .contents_wrapper .content-list-element section .fx-xs-display{
@@ -1543,7 +1551,7 @@ body.notFound .wrapcontent_padding #main .wrapwidg .courtesy-square .button:hove
     }
 
     .wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text{
-        padding: 20px 22px 60px 22px;
+        padding: 20px 22px 15px 22px;
         height: auto;
     }
 
