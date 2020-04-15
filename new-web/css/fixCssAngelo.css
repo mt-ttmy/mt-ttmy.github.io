@@ -252,7 +252,7 @@ body{
 }
 
 .discover-calendar .go-to-calendar .fa-calendar{
-    padding-right: 0px !important;
+    padding: 0px 15px 0px 0px !important;
     font-size: 25px;
 }
 
@@ -329,7 +329,7 @@ body{
 
 .wrapwidg.events-card-list .contents_wrapper .content-list-element section .event-cover{
     display: block;
-    height: 130px;
+    height: 120px;
     background-size: cover;
     background-position: center;
     border-bottom: solid 1px #e3e3e3;
@@ -372,7 +372,7 @@ body{
 }
 
 .wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text{
-    padding: 20px 30px;
+    padding: 25px 25px 10px 25px;
 }
 
 .wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text .share{
@@ -407,6 +407,7 @@ body{
 
 .wrapwidg.events-card-list .contents_wrapper .content-list-element section .fx-xs-display.event-datetime{
     display: block;
+    font-size: 17px;
 }
 
 .wrapwidg.events-card-list .contents_wrapper .content-list-element section .fx-xs-display.event-datetime .event-date,
@@ -432,7 +433,7 @@ body{
     text-transform: uppercase;
     padding-top: 10px;
     font-weight: bold;
-    line-height: 22px;
+    line-height: 26px;
     overflow-wrap: break-word;
 }
 
@@ -448,7 +449,7 @@ body{
     font-size: 16px;
     color: #030303;
     font-weight: normal;
-    padding-top: 25px;
+    padding-top: 5px;
 }
 
 /* Pagina di dettaglio */
