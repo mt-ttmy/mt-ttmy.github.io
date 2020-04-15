@@ -883,6 +883,10 @@ body{
     min-height: auto !important;
 }
 
+.wrapwidg.plugin_contentFullCalendar .fc-view-container thead.fc-head tr{
+    min-height: auto !important;
+}
+
 .wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-row.fc-widget-header tr th{
     vertical-align: middle;
     height: 63px;
