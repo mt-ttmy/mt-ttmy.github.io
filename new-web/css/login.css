@@ -532,7 +532,6 @@ input.generic_button {
 	line-height: 20px;
 	display: flex;
 	align-items: center;
-	padding-top: 15px;
 }
 
 #mainwrap.registration .content_tab_edit .form-group:nth-last-child(2) .user_consent_check_container ul{
@@ -549,6 +548,7 @@ input.generic_button {
 	margin: 0px 20px 0px 15px;
 	left: auto;
 	bottom: auto;
+	padding: 0px 0px 0px 10px;
 }
 #mainwrap.registration .content_tab_edit .form-group:nth-last-child(2) .user_consent_check_container input[type="radio"]{
 	display: none;
