@@ -912,6 +912,10 @@ body{
     min-height: 180px;
 }
 
+.wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-row.fc-week.fc-widget-content .fc-content-skeleton table thead tr{
+    min-height: 54px !important;
+}
+
 .wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-row.fc-week.fc-widget-content .fc-content-skeleton .fc-day-number{
     padding-top: 7px;
     padding-right: 12px;
@@ -1330,6 +1334,10 @@ body.notFound .wrapcontent_padding #main .wrapwidg .courtesy-square .button{
 
 body.notFound .wrapcontent_padding #main .wrapwidg .courtesy-square .button:hover{
     text-decoration: underline !important;
+}
+
+body.calendar #mainwrap .lastPBColumn{
+    background: #fff;
 }
 
 @media (max-width: 1199px) {
