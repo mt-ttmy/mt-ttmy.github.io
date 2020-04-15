@@ -287,7 +287,7 @@ body .btn-primary:hover{
 
 #wraplog #mainwrap .col_login input[type="text"],
 #wraplog #mainwrap .col_login input[type="password"]{
-	position: initial;
+	position: relative;
 }
 
 #wraplog #mainwrap .col_register{
@@ -518,7 +518,8 @@ input.generic_button {
 	font-size: 14px;
 	line-height: 20px;
 	color: #3d3d3d;
-	position: initial;
+	position: relative;
+	padding-top: 30px;
 }
 
 #mainwrap.registration .content_tab_edit .form-group:nth-last-child(2) label a{
