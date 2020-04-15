@@ -695,7 +695,7 @@ input.generic_button {
 .cc-cookies a.cc-cookie-accept{
 	background-color: transparent !important;
 	height: 42px;
-	line-height: 42px;
+	line-height: 40px;
 	width: 75px;
 	font-family: Proxima Nova Regular;
 	font-size: 20px;

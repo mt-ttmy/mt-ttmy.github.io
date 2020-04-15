@@ -263,7 +263,7 @@ body{
     justify-content: flex-start;
     -webkit-justify-content: flex-start;
     flex-wrap: wrap;
-    padding: 0px 7px;
+    padding: 0px 5.5%;
 }
 
 .wrapwidg.events-card-list .contents_wrapper .content-list-element{
@@ -304,6 +304,7 @@ body{
     cursor: pointer;
     border: none;
     padding-left: 0px;
+    padding-right: 0px;
 }
 
 .wrapwidg.events-card-list .contents_wrapper .content-list-element section article #event-sessions-area .button-container button.btn span{
@@ -1192,7 +1193,7 @@ body{
 .cc-cookies a.cc-cookie-accept{
     background-color: transparent !important;
     height: 42px;
-    line-height: 42px;
+    line-height: 40px;
     width: 75px;
     font-family: Proxima Nova Regular;
     font-size: 20px;
