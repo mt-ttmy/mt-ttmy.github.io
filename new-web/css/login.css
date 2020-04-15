@@ -661,7 +661,7 @@ input.generic_button {
 }
 
 #wraplog #mainwrap #resetPassword .wwgrp input{
-	position: initial;
+	position: relative;
 }
 
 #wraplog #mainwrap #password-change-submit .info{
@@ -814,7 +814,7 @@ input.generic_button {
 	#wraplog #mainwrap #resetPassword .wwgrp input,
 	#wraplog #mainwrap #password-change-submit .wwgrp input{
 		height: 50px;
-		position: initial;
+		position: relative;
 		width: 100%;
 	}
 
