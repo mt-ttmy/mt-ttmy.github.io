@@ -633,6 +633,10 @@ input.generic_button {
 	padding-top: 20px;
 }
 
+#wraplog #mainwrap #password-change-submit input[type="submit"]{
+	margin-top: 20px;
+}
+
 #wraplog #mainwrap h2{
 	text-align: center;
 }
@@ -672,7 +676,7 @@ input.generic_button {
 }
 
 #wraplog #mainwrap #password-change-submit input[type="password"]{
-	position: initial;
+	position: relative;
 }
 
 #wraplog #mainwrap #password-change-submit .info ul{

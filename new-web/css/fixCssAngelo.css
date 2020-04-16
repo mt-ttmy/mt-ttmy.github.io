@@ -78,6 +78,11 @@ body{
     margin-top: 6px;
 }
 
+#footer{
+    height: 50px;
+    min-height: 50px !important;
+}
+
 #footer .webinars-footer{
     height: 50px;
     background-color: #000;
@@ -784,6 +789,10 @@ body{
     line-height: 22px;
     color: #3d3d3d;
     padding: 30px 0px 25px 0px;
+}
+
+.content-rich-metas .row.when-and-where .event-datetime .event-date{
+    padding-right: 10px;
 }
 
 .content-rich-metas .row.when-and-where .rich-description{
@@ -1719,6 +1728,11 @@ body.calendar #mainwrap .lastPBColumn{
     .past-event .content-rich-metas .row .col-sm-6.video-container{
         padding: 35px 15px 0px 15px;
         width: 100%;
+    }
+
+    #footer{
+        height: 30px;
+        min-height: 30px !important;
     }
 
     #footer .webinars-footer{
