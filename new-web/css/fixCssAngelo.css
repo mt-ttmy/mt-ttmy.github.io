@@ -210,6 +210,7 @@ body{
     color: #3d3d3d !important;
     font-size: 20px;
     text-transform: inherit;
+    display: none !important;
 }
 
 [class^=template-hero] .slider-hero a.btn.read-more .fa-arrow-right{
