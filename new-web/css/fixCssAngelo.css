@@ -547,7 +547,7 @@ body{
 }
 
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until .days-until{
-    width: auto;
+    min-width: 125px;
     line-height: 36px;
     text-align: center;
     color: #3d3d3d;
@@ -555,11 +555,12 @@ body{
     font-size: 18px;
     background-color: #fff;
     position: relative;
-    padding: 0px 15px 0px 10px;
+    padding: 0px;
 }
 
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until .days-until.live-now{
     padding: 0px 30px 0px 10px;
+    min-width: 135px;
 }
 
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until .days-until.live-now::before{
@@ -568,7 +569,7 @@ body{
     width: 12px;
     height: 12px;
     top: 10px;
-    right: 10px;
+    right: 15px;
     background-color: #ff0000;
     border-radius: 100%;
 }
