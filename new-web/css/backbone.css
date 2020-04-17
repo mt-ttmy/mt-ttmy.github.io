@@ -64,5 +64,5 @@ body.sessionsmanagement .event-sessions-container {
 
 .container-event-detail  [data-content-edit-menu] button {
 	background-color: transparent;
-	color: white;
+	color: inherit;
 }
