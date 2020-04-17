@@ -790,6 +790,7 @@ input.generic_button {
 		line-height: 14px;
 		margin-top: 8px;
 		font-size: 12px;
+		padding: 0px 2px;
 	}
 
 	#wraplog #mainwrap{
