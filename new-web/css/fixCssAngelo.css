@@ -30,7 +30,7 @@ body{
 }
 #mainwrap #header [data-network-logo]{
     width: 237px;
-    background-position: center;
+    background-position: 50% 61%;
     background-size: 100% auto;
     margin-left: 28px;
     background-image: url("../images/newLogo.png");

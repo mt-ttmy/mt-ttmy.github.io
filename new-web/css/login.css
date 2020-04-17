@@ -165,16 +165,14 @@ body #wraplog h1, body #wraplog .h1, body #wraplog h2, body #wraplog .h2, body #
 }
 
 body #wraplog [data-network-logo] {
-	background-image: url(../images/reply-webinars-logo.png);
-	background-size: auto 40px;
-	margin: 0 auto;
-	height: auto;
-	padding: 11px 0;
+	width: 237px;
+	background-position: 50% 61%;
+	background-size: 100% auto;
+	margin-left: 28px;
+	background-image: url("../images/newLogo.png");
+	background-color: transparent;
 	border: 0px;
-	width: 330px;
-	display: inline-block;
-	background-color: #000;
-	margin-left: 30px;
+	height: 60px;
 }
 
 body .btn-default,
@@ -766,10 +764,10 @@ input.generic_button {
 
 	body #wraplog [data-network-logo]{
 		background-size: auto 30px;
-		background-position: 18px 0;
-		height: 30px;
+		background-position: 18px 50%;
+		height: 39px;
 		padding: 0px;
-		margin: 5px auto auto 0px;
+		margin: 0px auto auto 0px;
 		width: 100%;
 	}
 
@@ -778,20 +776,27 @@ input.generic_button {
 	}
 
 	#wraplog #mainwrap .webinars-footer{
-		height: 30px;
+		height: auto;
 		width: 100%;
-		padding: 0px;
+		padding: 20px 18px;
 	}
 
 	#wraplog #mainwrap .webinars-footer ul{
 		padding: 0px;
 	}
 
+	#wraplog #mainwrap .webinars-footer ul li{
+		display: block;
+	}
+
 	#wraplog #mainwrap .webinars-footer ul li a{
 		line-height: 14px;
-		margin-top: 8px;
+		margin: 8px 0px;
 		font-size: 12px;
-		padding: 0px 2px;
+		padding: 4px 0px;
+		border: 0px;
+		text-align: left;
+		display: block;
 	}
 
 	#wraplog #mainwrap{
@@ -825,7 +830,7 @@ input.generic_button {
 	}
 
 	#wraplog #mainwrap .col_register {
-		padding: 0px 18px 80px 18px;
+		padding: 0px 18px 200px 18px;
 	}
 
 	#wraplog #mainwrap #resetPassword,
