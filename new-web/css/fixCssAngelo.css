@@ -555,12 +555,12 @@ body{
     font-size: 18px;
     background-color: #fff;
     position: relative;
-    padding: 0px;
+    padding: 0px 30px 0px 0px;
 }
 
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until .days-until.live-now{
-    padding: 0px 30px 0px 10px;
-    min-width: 135px;
+    padding: 0px 30px 0px 0px;
+    min-width: 120px;
 }
 
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until .days-until.live-now::before{
