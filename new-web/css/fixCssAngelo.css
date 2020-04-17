@@ -73,10 +73,10 @@ body{
     border: 0px;
     padding: 0px;
     background-repeat: no-repeat;
-    height: 20px;
+    height: 23px;
     background-position: center;
-    width: 20px;
-    margin-top: 12px;
+    width: 23px;
+    margin-top: 6px;
 }
 
 #footer{
@@ -103,7 +103,7 @@ body{
 }
 
 #footer .webinars-footer .nav-tabs li{
-    font-family: Proxima Nova Semibold;
+    font-family: Proxima Nova Regular;
     font-size: 14px;
     color: #fff;
 }
@@ -362,12 +362,13 @@ body{
     right: 0px;
     height: 28px;
     background-color: #fff;
-    width: 90px;
+    width: 95px;
     padding-left: 0px;
     top: 30px;
     color: #3d3d3d;
-    font-family: Proxima Nova Bold;
+    font-family: Proxima Nova Extra Bold;
     line-height: 28px;
+    font-size: 16px;
 }
 
 .wrapwidg.events-card-list .contents_wrapper .content-list-element section .event-cover .live-now-badge:after{
@@ -665,6 +666,17 @@ body{
     font-family: Proxima Nova Regular;
     font-size: 20px;
     color: #3d3d3d;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .event-actions-container a.btn-default .text_button{
+    padding-left: 15px;
 }
 
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .cancel-registation{
@@ -1072,7 +1084,7 @@ body{
     height: 21px;
     border: solid 1px #979797;
     background-color: #ffffff;
-    margin-right: 7px;
+    margin-right: 5px;
     position: relative;
 }
 
@@ -1090,15 +1102,16 @@ body{
 }
 
 .all-webinars{
-    display: -ms-flexbox;
+    /*display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    padding: 16px 5% 30px;
     -webkit-align-items: center;
     -ms-flex-align: center;
-    align-items: center;
+    align-items: center;*/
+    padding: 10px 5%;
+    display: block;
     background-color: #fff;
     text-transform: uppercase;
 }
@@ -1108,10 +1121,11 @@ body{
     line-height: 68px;
     font-family: Proxima Nova Semibold;
     margin: 0px 0px 0px 15px;
+    color: #3d3d3d;
 }
 
 .all-webinars .go-to-calendar{
-    font-family: Proxima Nova Semibold;
+    /*font-family: Proxima Nova Semibold;
     font-size: 16px;
     font-weight: 600;
     border: 0px;
@@ -1120,7 +1134,8 @@ body{
     padding: 0px;
     height: 30px;
     background-color: transparent;
-    padding-right: 15px;
+    padding-right: 15px;*/
+    display: none !important;
 }
 
 .all-webinars .go-to-calendar .fa-calendar{
@@ -1825,24 +1840,32 @@ body.calendar .wrapwidg .webinair_backdetail a:before{
     }
 
     #footer{
-        height: 30px;
+        height: auto;
         min-height: 30px !important;
     }
 
     #footer .webinars-footer{
-        border-top: solid 1px #979797;
-        height: 30px;
+        padding: 20px 18px;
+        height: auto;
+    }
+
+    #footer .webinars-footer .nav-tabs{
+        display: block;
     }
 
     #footer .webinars-footer .nav-tabs li{
         font-size: 12px;
-        font-family: Proxima Nova Bold;
+        font-family: Proxima Nova Semibold;
+        display: block;
+        float: none;
+        margin: 8px 0px;
     }
 
     #footer .webinars-footer .nav-tabs li a{
-        margin-top: 8px;
-        line-height: 10px;
-        padding: 0px 2px;
+        margin: 8px 0px;
+        line-height: 14px;
+        padding: 5px 0px;
+        border-right: 0px;
     }
 
     #mainwrap .lastPBColumn .wrapwidg{
