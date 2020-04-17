@@ -1769,6 +1769,7 @@ body.calendar #mainwrap .lastPBColumn{
         font-size: 24px;
         line-height: 24px;
         padding-bottom: 15px;
+        margin-left: 0px;
     }
 
     .all-webinars .go-to-calendar{
