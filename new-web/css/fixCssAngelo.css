@@ -865,7 +865,7 @@ body{
 .wrapwidg.plugin_contentFullCalendar{
     border: 0px;
     margin: 0px;
-    padding: 55px 20px 80px 20px !important;
+    padding: 20px 0px 80px 0px !important;
 }
 
 .wrapwidg.plugin_contentFullCalendar .widget_title{
@@ -1029,6 +1029,12 @@ body{
 #webinar-date-filters .webinar-date-filters-container .dateFilter{
     font-family: Proxima Nova Regular;
     font-size: 16px;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 #webinar-date-filters .webinar-date-filters-container .fa-square,
@@ -1061,15 +1067,16 @@ body{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    padding: 60px 5% 30px;
+    padding: 16px 5% 30px;
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
     background-color: #fff;
+    text-transform: uppercase;
 }
 
 .all-webinars .title{
-    font-size: 40px;
+    font-size: 30px;
     line-height: 68px;
     font-family: Proxima Nova Semibold;
     margin: 0px 0px 0px 15px;
@@ -1376,6 +1383,43 @@ body.notFound .wrapcontent_padding #main .wrapwidg .courtesy-square .button:hove
 
 body.calendar #mainwrap .lastPBColumn{
     background: #fff;
+}
+
+body.calendar .wrapwidg {
+    background-color: transparent;
+    padding: 0px;
+    margin: 0px 15px !important;
+    border: 0px;
+}
+
+.calendar-loading, .ajaxLoading{
+    display: none;
+}
+
+
+body.webinarviewall .webinair_backdetail{
+    background-color: #fff;
+    padding-left: 35px;
+}
+
+body.webinarviewall .webinair_backdetail a,
+body.calendar .wrapwidg .webinair_backdetail a{
+    font-size: 14px;
+    font-family: Proxima Nova Regular;
+    text-transform: capitalize;
+    color: #3d3d3d;
+    margin-top: 23px;
+    display: inline-block;
+}
+
+body.webinarviewall .webinair_backdetail a:before,
+body.calendar .wrapwidg .webinair_backdetail a:before{
+    font-family: icomoon;
+    content: "\e903";
+    width: 10px;
+    height: 10px;
+    font-size: 10px;
+    margin-right: 5px;
 }
 
 @media (max-width: 1199px) {
