@@ -547,9 +547,9 @@ body{
 }
 
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until .days-until{
-    min-width: 125px;
+    min-width: 90px;
     line-height: 36px;
-    text-align: center;
+    text-align: left;
     color: #3d3d3d;
     font-family: Proxima Nova Extra Bold;
     font-size: 18px;
@@ -577,12 +577,12 @@ body{
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until .days-until::after{
     content: " ";
     position: absolute;
-    width: 5px;
+    width: 22px;
     height: 36px;
-    left: -5px;
+    left: -22px;
     top: 0px;
-    border: solid 16px #fff;
-    border-left: solid 5px transparent;
+    border: solid 16px #Fff;
+    border-left: solid 6px transparent;
 }
 
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .esquire-message{
