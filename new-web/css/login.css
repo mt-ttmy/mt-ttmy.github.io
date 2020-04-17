@@ -228,6 +228,18 @@ body .btn-primary {
 	padding: 0px;
 	font-size: 20px;
 	font-family: Proxima Nova Regular;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+body .btn-default .text_button,
+body .btn-primary .text_button{
+	padding-left: 15px;
 }
 
 body .btn-default:hover,
