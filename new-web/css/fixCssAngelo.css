@@ -507,6 +507,33 @@ body{
     max-height: initial;
 }
 
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire{
+    position: relative;
+}
+
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .webinair_backdetail{
+    position: absolute;
+    top: 25px;
+    left: 40px;
+    z-index: 1000;
+}
+
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .webinair_backdetail a{
+    color: #fff;
+    font-family: Proxima Nova Regular;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .webinair_backdetail a:before{
+    font-family: icomoon;
+    content: "\e903";
+    width: 10px;
+    height: 10px;
+    font-size: 10px;
+    margin-right: 5px;
+}
+
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container{
     color: #fff;
     min-height: auto;
@@ -1392,7 +1419,7 @@ body.calendar .wrapwidg {
     border: 0px;
 }
 
-.calendar-loading, .ajaxLoading{
+.calendar-loading, .ajaxLoading, .calendar-loading-img{
     display: none;
 }
 
