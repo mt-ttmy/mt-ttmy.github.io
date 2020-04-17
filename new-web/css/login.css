@@ -327,7 +327,7 @@ body .btn-primary:hover{
 	font-family: Proxima Nova Semibold;
 	font-size: 14px;
 	border-right: solid 1px #fff;
-	padding: 0px 15px;
+	padding: 0px 8px;
 	line-height: 14px;
 	margin-top: 15px;
 	background-color: transparent !important;
@@ -335,6 +335,7 @@ body .btn-primary:hover{
 	border-radius: 0px;
 	border-bottom: 0px;
 	border-left: 0px;
+	margin-right: 0px;
 }
 
 #wraplog #mainwrap .webinars-footer ul li:last-child a{
