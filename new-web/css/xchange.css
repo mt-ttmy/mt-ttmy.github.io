@@ -493,12 +493,10 @@ body #home-wrapcontent, body #wrapcontent, body .toolbarPanel {
 }
 .icon-group-3:before {
   content: "\e901";
-  color: #fff;
 }
 .icon-icon-view-all-2:before {
   content: "\e902";
 }
 .icon-shape:before {
   content: "\e903";
-  color: #fff;
 }

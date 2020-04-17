@@ -33,6 +33,7 @@ body{
     background-position: center;
     background-size: 100% auto;
     margin-left: 28px;
+    background-image: url("../images/newLogo.png");
 }
 
 #header #navbar-xchange-first-level .nav-tabs [role="presentation"] > a{
