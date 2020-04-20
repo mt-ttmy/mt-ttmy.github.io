@@ -2034,7 +2034,11 @@ body.calendar .wrapwidg .webinair_backdetail a:before{
     .wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-row.fc-week.fc-widget-content .fc-content-skeleton .fc-day-number{
         padding-top: 7px;
         padding-right: 0px;
-        padding-bottom: 7px;
+        padding-bottom: 3px;
+    }
+
+    .wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-event-container a.fc-day-grid-event{
+        display: none;
     }
 
     .wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-row.fc-week.fc-widget-content .fc-content-skeleton .fc-day-number span{
@@ -2048,8 +2052,8 @@ body.calendar .wrapwidg .webinair_backdetail a:before{
 
     .fc-row .fc-content-skeleton table tbody td.fc-event-container{
         content: "";
-        width: 10px;
-        height: 10px;
+        width: 4px;
+        height: 4px;
         background-color: green;
         display: block;
         border-radius: 100%;
