@@ -1072,6 +1072,10 @@ body{
     margin-top: 0px;
 }
 
+#webinar-date-filters > .dateFilter{
+    display: none;
+}
+
 #webinar-date-filters .webinar-date-filters-container{
     width: 205px;
     display: -ms-flexbox;
