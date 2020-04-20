@@ -1623,7 +1623,7 @@ body.calendar .wrapwidg .webinair_backdetail a:before{
     }
 
     .wrapwidg .widget_padding .pull-right .pull-left{
-        border-left: solid 1px #fff;
+        border-left: solid 1px #727272;
         padding-left: 4px;
     }
 
@@ -2033,5 +2033,20 @@ body.calendar .wrapwidg .webinair_backdetail a:before{
         right: auto;
         top: auto;
         width: calc(100% - 40px);
+    }
+
+    .content-rich-metas .row .video-container{
+        padding: 7px 25px 28px;
+    }
+
+    .content-rich-metas .row .video-container h3.section_title{
+        font-size: 20px;
+        line-height: 32px;
+        padding-bottom: 0px;
+    }
+
+    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .past-event .esquire_row .esquire,
+    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .past-event .esquire-image-container{
+        height: 360px !important;
     }
 }
