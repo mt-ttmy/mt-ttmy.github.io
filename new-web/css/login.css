@@ -274,7 +274,7 @@ body .btn-primary:hover{
 }
 #wraplog #mainwrap {
 	overflow: hidden;
-	min-height: calc(100vh - 61px);
+	min-height: calc(100vh - 60px);
 	padding-top: 60px;
 	text-align: left;
 	position: relative;
