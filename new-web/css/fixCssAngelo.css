@@ -2014,6 +2014,14 @@ body.calendar .wrapwidg .webinair_backdetail a:before{
         font-size: 16px;
     }
 
+    .wrapwidg.plugin_contentFullCalendar .widget_padding .fc-toolbar .fc-left .fc-button-group .fc-corner-right{
+        padding-right: 0px;
+    }
+
+    .wrapwidg.plugin_contentFullCalendar .widget_padding .fc-toolbar .fc-left .fc-button-group .fc-corner-right .fc-icon-right-single-arrow{
+        margin-right: 0px;
+    }
+
     .wrapwidg.plugin_contentFullCalendar .widget_padding .fc-toolbar .fc-left .fc-button-group .fc-icon:after{
         display: block;
         height: 16px;
@@ -2062,6 +2070,14 @@ body.calendar .wrapwidg .webinair_backdetail a:before{
 
     .wrapwidg.plugin_contentFullCalendar .fc-basic-view .fc-body .fc-row{
         min-height: 40px;
+    }
+
+    .wrapwidg.plugin_contentFullCalendar .fc-basic-view .fc-body .fc-row .fc-content-skeleton table tbody tr td.fc-event-container{
+        display: none;
+    }
+
+    .wrapwidg.plugin_contentFullCalendar .fc-basic-view .fc-body .fc-row .fc-content-skeleton table tbody tr:nth-child(1) td.fc-event-container{
+        display: block;
     }
 
     .wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-row.fc-week.fc-widget-content .fc-content-skeleton .fc-day-number.fc-today span{
