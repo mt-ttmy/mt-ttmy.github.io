@@ -60,6 +60,10 @@ body{
     font-family: Proxima Nova Extra Bold;
 }
 
+.wrapwidg.plugin_contentDetailWidget .row.esquire_row{
+    margin: 0px;
+}
+
 .dropdown.user_menu{
     height: 39px;
     margin: 10px 10px 10px 0px;
