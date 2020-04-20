@@ -868,6 +868,7 @@ input.generic_button {
 	#wraplog #mainwrap{
 		min-height: calc(100vh - 39px);
 		padding-top: 25px;
+		padding-bottom: 190px;
 	}
 
 	#wraplog #mainwrap .col_login{
@@ -896,7 +897,7 @@ input.generic_button {
 	}
 
 	#wraplog #mainwrap .col_register {
-		padding: 0px 18px 200px 18px;
+		padding: 0px 18px 0px 18px;
 	}
 
 	#wraplog #mainwrap #resetPassword,
