@@ -1302,6 +1302,10 @@ body{
     line-height: 20px;
 }
 
+.content-rich-metas .row{
+    margin: 0px;
+}
+
 .content-rich-metas .row .video-container{
     padding: 30px 0px 50px;
 }
