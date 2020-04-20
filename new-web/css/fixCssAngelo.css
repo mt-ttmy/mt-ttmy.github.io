@@ -260,6 +260,13 @@ body{
     align-items: baseline;
 }
 
+.discover-calendar .go-to-viewall span.icon-moon,
+.discover-calendar .go-to-calendar span.icon-moon{
+    font-size: 22px;
+    color: #3d3d3d;
+    margin-right: 10px;
+}
+
 .discover-calendar .go-to-calendar .fa-calendar{
     padding: 0px 15px 0px 0px !important;
     font-size: 25px;
@@ -1659,37 +1666,48 @@ body.calendar .wrapwidg .webinair_backdetail a:before{
     }
 
     .discover-calendar {
-        display: block;
-        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        width: 100%;
+        padding: 30px 15px 0px 15px;
     }
 
     .discover-calendar h3{
         font-size: 24px;
         line-height: 30px;
         margin: 0px;
-        padding: 30px 0px 60px;
+        padding: 0px 0px 25px;
         text-align: center;
+        width: 100%;
     }
 
-    .discover-calendar .go-to-calendar {
-        position: absolute;
-        top: auto;
+    .discover-calendar .discover-buttons-home{
         width: 100%;
-        left: 0px;
-        bottom: 0px;
+    }
+
+    .discover-calendar .go-to-viewall,
+    .discover-calendar .go-to-calendar {
+        width: 50%;
         display: -ms-flexbox;
         display: -webkit-flex;
         display: flex;
-        -webkit-align-items: center;
-        -ms-flex-align: center;
-        align-items: center;
-        justify-content: center;
+        -webkit-align-items: baseline;
+        -ms-flex-align: baseline;
+        align-items: baseline;
+        justify-content: flex-end;
         flex-direction: row-reverse;
         font-size: 12px;
+        padding: 5px 0px;
     }
 
-    .discover-calendar .go-to-calendar .fa-calendar{
-        margin-right: 10px;
+    .discover-calendar .go-to-viewall{
+        justify-content: flex-start;
+    }
+
+    .discover-calendar .go-to-viewall span.icon-moon,
+    .discover-calendar .go-to-calendar span.icon-moon{
+        font-size: 18px;
     }
 
     .wrapwidg.events-card-list .contents_wrapper .content-list-element section .event-cover{
