@@ -27,13 +27,13 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.icon-noun-calendar-684825:before {
+.icon-grid:before {
 	content: "\e900";
 }
 .icon-group-3:before {
 	content: "\e901";
 }
-.icon-icon-view-all-2:before {
+.icon-noun-calendar-684825:before {
 	content: "\e902";
 }
 .icon-shape:before {
