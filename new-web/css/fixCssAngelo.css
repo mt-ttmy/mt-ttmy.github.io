@@ -1905,7 +1905,7 @@ body.calendar .wrapwidg .webinair_backdetail a:before{
 
     .all-webinars {
          margin: 0px;
-        padding: 20px 15px 30px 15px;
+        padding: 20px 15px 20px 15px;
         -webkit-flex-wrap:wrap;
         -ms-flex-wrap:wrap;
         flex-wrap:wrap;
@@ -1917,7 +1917,7 @@ body.calendar .wrapwidg .webinair_backdetail a:before{
         text-align: left;
         font-size: 24px;
         line-height: 24px;
-        padding-bottom: 15px;
+        padding-bottom: 0px;
         margin-left: 0px;
     }
 
@@ -1951,7 +1951,7 @@ body.calendar .wrapwidg .webinair_backdetail a:before{
     }
 
     .wrapwidg.plugin_contentFullCalendar{
-        padding: 20px 15px 40px 15px !important;
+        padding: 15px 15px 40px 15px !important;
     }
 
     .wrapwidg.plugin_contentFullCalendar h2.widget_title{
@@ -2048,5 +2048,18 @@ body.calendar .wrapwidg .webinair_backdetail a:before{
     .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .past-event .esquire_row .esquire,
     .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .past-event .esquire-image-container{
         height: 360px !important;
+    }
+
+    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .webinair_backdetail{
+        top: 20px;
+        left: 25px;
+    }
+
+    body.calendar .wrapwidg .webinair_backdetail a{
+        margin-left: 15px;
+    }
+
+    body.webinarviewall .webinair_backdetail{
+        padding-left: 15px;
     }
 }
