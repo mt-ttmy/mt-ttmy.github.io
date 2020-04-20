@@ -17,6 +17,7 @@ body{
 #mainwrap .lastPBColumn .wrapwidg{
     background-color: transparent;
     padding: 0px;
+    margin: 0px;
 }
 
 .flexslider .contents_wrapper>div[class^="template-"]{
@@ -1449,8 +1450,11 @@ body.calendar #mainwrap .lastPBColumn{
 body.calendar .wrapwidg {
     background-color: transparent;
     padding: 0px;
-    margin: 0px 15px !important;
     border: 0px;
+}
+
+body.calendar .wrapwidg .wrapcontent_padding{
+    padding: 0px 15px;
 }
 
 .calendar-loading, .ajaxLoading, .calendar-loading-img{
