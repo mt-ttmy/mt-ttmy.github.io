@@ -237,6 +237,11 @@ body .btn-primary {
 	justify-content: center;
 }
 
+body input.btn-primary{
+	background-image: url("../images/arrow_right.png");
+	background-repeat: no-repeat;
+}
+
 body .btn-default .text_button,
 body .btn-primary .text_button{
 	padding-left: 15px;
