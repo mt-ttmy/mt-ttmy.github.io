@@ -627,7 +627,7 @@ body{
     position: absolute;
     width: 22px;
     height: 36px;
-    left: -24px;
+    left: -23px;
     top: 0px;
     border: solid 18px #Fff;
     border-left: solid 6px transparent;
@@ -1840,7 +1840,11 @@ body.calendar .wrapwidg .webinair_backdetail a:before{
     }
 
     .clearfix.content_details.content_details_editorial .content-rich-metas .row{
-        margin: 0x;
+        margin: 0px;
+    }
+
+    .clearfix.content_details.content_details_editorial .content-rich-metas .row .when-where{
+        padding: 0px;
     }
 
     .content-rich-metas .row .about,

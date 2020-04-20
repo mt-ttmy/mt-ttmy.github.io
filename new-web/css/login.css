@@ -241,8 +241,8 @@ body input.btn-primary{
 	background-image: url("../images/arrow_right.png");
 	background-repeat: no-repeat;
 	background-size: 24px auto;
-	background-position: 115px 50%;
-	padding-left: 35px;
+	background-position: 105px 50%;
+	padding-left: 40px;
 }
 
 body .btn-default .text_button,
