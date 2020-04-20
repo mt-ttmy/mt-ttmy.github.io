@@ -829,8 +829,8 @@ input.generic_button {
 	}
 
 	body #wraplog [data-network-logo]{
-		background-size: auto 30px;
-		background-position: 18px 50%;
+		background-size: auto 25px;
+		background-position: 18px 55%;
 		height: 39px;
 		padding: 0px;
 		margin: 0px auto auto 0px;

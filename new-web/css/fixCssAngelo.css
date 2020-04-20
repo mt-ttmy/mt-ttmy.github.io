@@ -1600,10 +1600,12 @@ body.calendar .wrapwidg .webinair_backdetail a:before{
     }
 
     #mainwrap #header h1.logo{
-        height: 30px;
-        width: 215px;
+        height: 39px;
+        width: 200px;
         margin-left: 15px;
-        margin-top: 5px;
+        margin-top: 0px;
+        background-size: auto 25px;
+        background-position: 0px 55%;
     }
 
     .dropdown.user_menu{
