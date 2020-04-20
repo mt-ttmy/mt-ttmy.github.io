@@ -1839,6 +1839,10 @@ body.calendar .wrapwidg .webinair_backdetail a:before{
         padding: 0px;
     }
 
+    .clearfix.content_details.content_details_editorial .content-rich-metas .row{
+        margin: 0x;
+    }
+
     .content-rich-metas .row .about,
     .content-rich-metas .row .learn{
         padding: 35px 30px 30px 30px;
@@ -1868,7 +1872,8 @@ body.calendar .wrapwidg .webinair_backdetail a:before{
     }
 
     .content-rich-metas .row.when-and-where{
-        padding: 35px 15px 50px 15px;
+        padding: 35px 30px 50px 30px;
+        margin: 0px;
     }
 
     .content-rich-metas .row.when-and-where .section_title{
