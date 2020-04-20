@@ -2050,7 +2050,7 @@ body.calendar .wrapwidg .webinair_backdetail a:before{
         display: none;
     }
 
-    .fc-row .fc-content-skeleton table tbody td.fc-event-container{
+    .fc-row .fc-content-skeleton table tbody td.fc-event-container:before{
         content: "";
         width: 4px;
         height: 4px;
