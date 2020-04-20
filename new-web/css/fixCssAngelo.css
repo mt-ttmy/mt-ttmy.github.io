@@ -2070,4 +2070,8 @@ body.calendar .wrapwidg .webinair_backdetail a:before{
     body.webinarviewall .webinair_backdetail{
         padding-left: 15px;
     }
+
+    body.calendar .wrapcontent_padding{
+        padding: 0px;
+    }
 }
