@@ -2042,8 +2042,18 @@ body.calendar .wrapwidg .webinair_backdetail a:before{
         float: none;
     }
 
-    .fc-row .fc-content-skeleton table tbody{
+    .fc-row .fc-content-skeleton table tbody td.fc-event-container a{
         display: none;
+    }
+
+    .fc-row .fc-content-skeleton table tbody td.fc-event-container{
+        content: "";
+        width: 10px;
+        height: 10px;
+        background-color: green;
+        display: block;
+        border-radius: 100%;
+        margin: 0 auto;
     }
 
     .wrapwidg.plugin_contentFullCalendar .fc-basic-view .fc-body .fc-row{

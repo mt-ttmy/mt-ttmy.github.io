@@ -946,6 +946,13 @@ input.generic_button {
 		flex-wrap:wrap;
 	}
 
+	#mainwrap.registration .content_tab_edit .form-group:nth-last-child(2) .user_consent_check_container ul.alert-warning{
+		display: block;
+		width: 100%;
+		margin-right: 0px;
+		margin-bottom: 15px;
+	}
+
 	body .btn-default,
 	body .btn-primary{
 		line-height: 45px;
