@@ -2178,4 +2178,8 @@ body.calendar .wrapwidg .webinair_backdetail a:before{
         margin: 0px 15px !important;
     }
 
+    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .esquire-message{
+        width: auto;
+    }
+
 }
