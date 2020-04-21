@@ -1513,6 +1513,10 @@ body.calendar .wrapwidg.events-card-list .contents_wrapper{
     display: none;
 }
 
+body.calendar .events-card-list .no_content_message{
+    display: none;
+}
+
 @media (max-width: 1199px) {
 
     .wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text{
@@ -2201,9 +2205,5 @@ body.calendar .wrapwidg.events-card-list .contents_wrapper{
 
     body.calendar .wrapwidg.events-card-list .contents_wrapper{
         display: block;
-    }
-
-    body.calendar .events-card-list .no_content_message{
-        display: none;
     }
 }
