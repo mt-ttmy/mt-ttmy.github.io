@@ -2153,6 +2153,9 @@ body.calendar .wrapwidg .webinair_backdetail a:before{
         font-size: 14px;
         font-family: Proxima Nova Regular;
         font-weight: 100;
+        padding: 0px;
+        margin: 0px;
+        line-height: 16px;
     }
 
     body.calendar .wrapwidg.events-card-list .contents_wrapper .content-list-element section .event-title{
