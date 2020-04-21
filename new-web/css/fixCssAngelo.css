@@ -1507,6 +1507,10 @@ body.calendar .wrapwidg .webinair_backdetail a:before{
     margin-right: 5px;
 }
 
+body.calendar .wrapwidg.events-card-list .contents_wrapper{
+    display: none;
+}
+
 @media (max-width: 1199px) {
 
     .wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text{
@@ -2095,7 +2099,7 @@ body.calendar .wrapwidg .webinair_backdetail a:before{
     }
 
     .wrapwidg.plugin_contentFullCalendar .fc-basic-view .fc-body .fc-row .fc-content-skeleton table tbody tr:nth-child(1) td.fc-event-container{
-        display: block;
+        display: table-cell;
     }
 
     .wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-row.fc-week.fc-widget-content .fc-content-skeleton .fc-day-number.fc-today span{
@@ -2191,6 +2195,10 @@ body.calendar .wrapwidg .webinair_backdetail a:before{
 
     body.calendar .events-card-list{
         min-height: 110px;
+    }
+
+    body.calendar .wrapwidg.events-card-list .contents_wrapper{
+        display: block;
     }
 
     body.calendar .events-card-list .no_content_message{
