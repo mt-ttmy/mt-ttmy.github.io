@@ -1766,7 +1766,7 @@ body.calendar .wrapwidg .webinair_backdetail a:before{
     }
 
     .wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text{
-        padding: 12px 20px;
+        padding: 12px 20px 60px;
         height: auto;
     }
 
@@ -1980,8 +1980,8 @@ body.calendar .wrapwidg .webinair_backdetail a:before{
     }
 
     #webinar-date-filters{
-        margin: 0px;
-        padding: 15px 10px;
+        margin: 0px 0px 20px 0px;
+        padding: 15px;
         justify-content: space-between;
     }
 
@@ -2159,7 +2159,8 @@ body.calendar .wrapwidg .webinair_backdetail a:before{
     }
 
     body.calendar .wrapwidg.events-card-list .contents_wrapper .content-list-element section .event-title{
-        padding: 0px;
+        padding: 3px 0px 0px 0px;
+        line-height: 14px;
     }
 
     body.calendar .wrapwidg.events-card-list .contents_wrapper .content-list-element section .event-title a{
