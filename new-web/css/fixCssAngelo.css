@@ -2170,6 +2170,10 @@ body.calendar .wrapwidg .webinair_backdetail a:before{
         padding: 0px;
     }
 
+    body.calendar .wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text{
+        padding: 12px 20px;
+    }
+
     body.homepage #mainwrap .lastPBColumn .wrapwidg{
         margin: 0px 15px;
     }
