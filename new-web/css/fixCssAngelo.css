@@ -156,6 +156,7 @@ body{
     min-height: 325px !important;
     margin: 0 !important;
     padding: 0px 15%;
+    width: 100%;
 }
 
 .slider-hero .hero-message{
@@ -536,7 +537,7 @@ body{
     position: absolute;
     top: 25px;
     left: 40px;
-    z-index: 1000;
+    z-index: 998;
 }
 
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .webinair_backdetail a{
