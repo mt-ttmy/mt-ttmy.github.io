@@ -1751,16 +1751,21 @@ body.calendar .wrapwidg .webinair_backdetail a:before{
     }
 
     .wrapwidg.events-card-list .contents_wrapper .content-list-element{
-        padding: 0px 15px;
-        min-height: initial;
+        padding: 0px;
+        min-height: auto;
+        margin: 0px 0px 30px 0px;
     }
 
     .wrapwidg.events-card-list .contents_wrapper .content-list-element section{
         height: auto;
+        padding-bottom: 0px;
+        border: solid 1px #dadada;
+        border-left: 0px;
+        border-right: 0px;
     }
 
     .wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text{
-        padding: 20px 22px 15px 22px;
+        padding: 12px 20px;
         height: auto;
     }
 
@@ -1993,7 +1998,7 @@ body.calendar .wrapwidg .webinair_backdetail a:before{
     }
 
     .wrapwidg.plugin_contentFullCalendar{
-        padding: 15px 15px 40px 15px !important;
+        padding: 15px 20px 40px 20px !important;
     }
 
     .wrapwidg.plugin_contentFullCalendar h2.widget_title{
@@ -2093,7 +2098,7 @@ body.calendar .wrapwidg .webinair_backdetail a:before{
     }
 
     .fc-view, .fc-view>table{
-        padding-bottom: 40px;
+        padding-bottom: 10px;
     }
 
     .cc-cookies{
@@ -2128,7 +2133,7 @@ body.calendar .wrapwidg .webinair_backdetail a:before{
     }
 
     body.calendar .wrapwidg .webinair_backdetail a{
-        margin-left: 15px;
+        margin-left: 20px;
     }
 
     body.webinarviewall .webinair_backdetail{
@@ -2138,4 +2143,5 @@ body.calendar .wrapwidg .webinair_backdetail a:before{
     body.calendar .wrapcontent_padding{
         padding: 0px;
     }
+
 }
