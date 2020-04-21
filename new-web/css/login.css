@@ -803,6 +803,29 @@ input.generic_button {
 	box-shadow: none !important;
 }
 
+/* Pagina di registrazione OTP */
+#mainwrap.registration .registration_with_otp .content_tab_edit .form-group:nth-last-child(5){
+	width: 26%;
+	padding-top: 20px;
+	min-height: 130px;
+	border-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+#mainwrap.registration .registration_with_otp .content_tab_edit .form-group:nth-last-child(5) input{
+	width: 100%;
+}
+
+#mainwrap.registration .registration_with_otp .content_tab_edit .form-group:nth-last-child(5) label{
+	bottom: 40px;
+	font-weight: 100;
+}
+
+#mainwrap.registration .registration_with_otp .content_tab_edit .form-group:nth-last-child(2){
+	margin-top: 20px;
+	border-top: solid 1px #3d3d3d;
+}
+
 @media (max-width: 1024px) {
 
 	#wraplog #mainwrap .col_login{
@@ -971,6 +994,10 @@ input.generic_button {
 		right: auto;
 		top: auto;
 		width: calc(100% - 40px);
+	}
+
+	#mainwrap.registration .registration_with_otp .content_tab_edit .form-group:nth-last-child(5){
+		width: 100%;
 	}
 
 }
