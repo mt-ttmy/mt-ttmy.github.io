@@ -2010,6 +2010,10 @@ body.calendar .wrapwidg .webinair_backdetail a:before{
         line-height: 28px;
     }
 
+    .wrapwidg.plugin_contentFullCalendar .widget_padding .fc-view-container .fc-basic-view>table{
+        border: solid 1px #adadad;
+    }
+
     .wrapwidg.plugin_contentFullCalendar .widget_padding .fc-toolbar{
         height: 20px;
         padding: 0px;
@@ -2050,6 +2054,7 @@ body.calendar .wrapwidg .webinair_backdetail a:before{
         padding: 0px;
         text-align: center;
         font-size: 14px;
+        height: 50px;
     }
 
     .wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-row.fc-week.fc-widget-content .fc-content-skeleton .fc-day-number{
@@ -2184,4 +2189,11 @@ body.calendar .wrapwidg .webinair_backdetail a:before{
         width: auto;
     }
 
+    body.calendar .events-card-list{
+        min-height: 110px;
+    }
+
+    body.calendar .events-card-list .no_content_message{
+        display: none;
+    }
 }
