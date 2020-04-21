@@ -992,6 +992,7 @@ body{
     padding-left: 20px;
     font-family: Proxima Nova Bold;
     font-size: 16px;
+    color: #3d3d3d;
 }
 
 .wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-row.fc-week.fc-widget-content .fc-bg .fc-past{
@@ -1026,6 +1027,7 @@ body{
     float: right;
     font-size: 16px;
     font-family: Proxima Nova Regular;
+    font-weight: 600;
 }
 
 .wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-row.fc-week.fc-widget-content .fc-content-skeleton .fc-day-number.fc-today span {
