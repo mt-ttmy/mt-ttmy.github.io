@@ -1648,8 +1648,8 @@ body.calendar .events-card-list .no_content_message{
         width: 200px;
         margin-left: 15px;
         margin-top: 0px;
-        background-size: auto 25px;
-        background-position: 0px 55%;
+        background-size: auto 21px;
+        background-position: 0px 50%;
     }
 
     .dropdown.user_menu{
