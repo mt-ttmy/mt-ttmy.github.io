@@ -207,7 +207,7 @@ body #wraplog h1, body #wraplog .h1, body #wraplog h2, body #wraplog .h2, body #
 
 body #wraplog [data-network-logo] {
 	width: 237px;
-	background-position: 50% 61%;
+	background-position: 0% 50%;
 	background-size: 100% auto;
 	margin-left: 28px;
 	background-image: url("../images/newLogo.png");
