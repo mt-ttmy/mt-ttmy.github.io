@@ -1315,6 +1315,10 @@ body{
     background-color: #dcdbdb;
 }
 
+.content-rich-metas .row .video-container iframe{
+    border: 0px !important;
+}
+
 .content-rich-metas .row .video-container h3.section_title{
     font-family: Proxima Nova Semibold;
     font-size: 30px;
