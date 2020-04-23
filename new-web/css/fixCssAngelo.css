@@ -1478,10 +1478,19 @@ body.calendar .events-card-list .no_content_message{
 .content_details_editorial section .col-sm-8 section.fx-md-display h3{
     width: 100%;
     color: #3d3d3d;
+    padding: 15px 0px;
+    margin: 0px;
+    font-size: 24px;
 }
 
 .content_details_editorial section .col-sm-8 section.fx-md-display .pull-right{
     display: none;
+}
+
+.content_details_editorial section .col-sm-8 section h4{
+    color: #3d3d3d;
+    font-size: 20px;
+    margin: 0px 0px 10px 0px;
 }
 
 @media (max-width: 1199px) {
