@@ -1499,12 +1499,24 @@ body.calendar .events-card-list .no_content_message{
     border-bottom: solid 1px #D3E0E9;
 }
 
+.content_details_editorial section .col-sm-8 section.mt-1 ul{
+    border-bottom: 0px;
+}
+
 .content_details_editorial section .col-sm-8 section ul li{
     padding: 10px 0px;
 }
 
+.content_details_editorial section .col-sm-8 section ul li.list-group-item-warning{
+    padding: 10px;
+    font-family: Proxima Nova Regular;
+    font-size: 16px;
+    font-weight: bold;
+}
+
 .content_details_editorial section .col-sm-8 section ul li h4{
-    font-size: 18px;
+    font-family: Proxima Nova Bold;
+    font-size: 20px;
     margin-bottom: 5px;
 }
 
@@ -1520,7 +1532,7 @@ body.calendar .events-card-list .no_content_message{
 
 .content_details_editorial section .col-sm-8 section ul li .list-group-item-text{
     font-family: Proxima Nova Regular;
-    font-size: 16px;
+    font-size: 14px;
     color: #3d3d3d;
 }
 
