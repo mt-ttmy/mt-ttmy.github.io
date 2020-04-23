@@ -1493,6 +1493,20 @@ body.calendar .events-card-list .no_content_message{
     margin: 0px 0px 10px 0px;
 }
 
+.content_details_editorial section .col-sm-8 section ul.list-unstyled li{
+    padding: 10px 0px;
+}
+
+.content_details_editorial section .col-sm-8 section ul.list-unstyled li button{
+    height: 50px;
+    line-height: 50px;
+    padding: 0px 20px;
+    background-color: #00af00;
+    border: 0px;
+    font-family: Proxima Nova Regular;
+    font-size: 20px;
+}
+
 @media (max-width: 1199px) {
 
     .wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text{
