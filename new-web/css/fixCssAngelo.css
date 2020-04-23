@@ -1374,72 +1374,6 @@ body{
     text-align: center;
 }
 
-/*
-.strappato-white-01 .bg-white.w-100{
-    border: 0px;
-}
-
-.strappato-white-01 .bg-white.w-100 section.fx-xs-display>div{
-    width: 100%;
-    padding: 0px;
-}
-
-.strappato-white-01 .bg-white.w-100 section.fx-xs-display .col-sm-4 label{
-    border: 0px;
-}
-
-.strappato-white-01 .bg-white.w-100 section.fx-xs-display .col-sm-4 label .list-group-item-heading{
-    text-align: center;
-    font-family: Proxima Nova Extra Bold;
-    font-size: 30px;
-    margin: 0;
-    color: #3d3d3d;
-}
-
-.strappato-white-01 .bg-white.w-100 section.fx-xs-display .col-sm-8 section{
-    padding-bottom: 30px;
-    flex-wrap: wrap;
-    text-align: center;
-}
-
-.strappato-white-01 .bg-white.w-100 section.fx-xs-display .col-sm-8 section>div,
-.strappato-white-01 .bg-white.w-100 section.fx-xs-display .col-sm-8 section>ul,
-.strappato-white-01 .bg-white.w-100 section.fx-xs-display .col-sm-8 section h3,
-.strappato-white-01 .bg-white.w-100 section.fx-xs-display .col-sm-8 section h4{
-    width: 100%;
-    margin: 10px 0px;
-    color: #3d3d3d;
-}
-
-.strappato-white-01 .bg-white.w-100 section.fx-xs-display .col-sm-8 section ul #user_admin{
-    flex-wrap: wrap;
-}
-
-.strappato-white-01 .bg-white.w-100 section.fx-xs-display .col-sm-8 section ul #user_admin .fx-xs-display .ml-1{
-    margin: 0 auto 20px auto;
-}
-
-.strappato-white-01 .bg-white.w-100 section.fx-xs-display .col-sm-8 section ul #user_admin > div{
-    width: 100%;
-    text-align: center;
-}
-
-.strappato-white-01 .bg-white.w-100 section.fx-xs-display .col-sm-8 section ul #user_admin > button{
-    width: 330px;
-    margin: 0 auto;
-}
-
-.strappato-white-01 .bg-white.w-100 section.fx-xs-display .col-sm-8 section button {
-    background-color: #00af00;
-    width: 330px;
-    height: 45px;
-    color: #fff;
-    font-family: Proxima Nova Regular;
-    padding: 0px;
-    font-size: 20px;
-    border: 0px;
-}
-*/
 /* not found */
 
 body.notFound .wrapcontent_padding #main{
@@ -1521,6 +1455,32 @@ body.calendar .wrapwidg.events-card-list .contents_wrapper{
 }
 
 body.calendar .events-card-list .no_content_message{
+    display: none;
+}
+
+.content_details_editorial section .list-group label{
+    border: 0px;
+    padding: 15px 0px;
+    border-bottom: solid 1px #D3E0E9;
+    margin-bottom: 1px;
+}
+
+.content_details_editorial section .list-group label h4.list-group-item-heading{
+    margin: 0px;
+    color: #3d3d3d;
+    font-size: 24px;
+}
+
+.content_details_editorial section .col-sm-8{
+    border-left: solid 1px #D3E0E9;
+}
+
+.content_details_editorial section .col-sm-8 section.fx-md-display h3{
+    width: 100%;
+    color: #3d3d3d;
+}
+
+.content_details_editorial section .col-sm-8 section.fx-md-display .pull-right{
     display: none;
 }
 
