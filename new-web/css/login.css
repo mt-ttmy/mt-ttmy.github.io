@@ -732,6 +732,15 @@ input.generic_button {
 	width: 330px;
 }
 
+/* Inizio pagina di accept terms post login */
+
+.login-template #accept-agreement-submit{
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+/* Fine pagina accept terms post login */
+
 /* pagina reset password */
 #wraplog #mainwrap #resetPassword,
 #wraplog #mainwrap #password-change-submit{
