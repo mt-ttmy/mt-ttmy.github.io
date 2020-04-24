@@ -675,6 +675,43 @@ input.generic_button {
 	background-color: #ffffff;
 }
 
+#mainwrap.registration .content_tab_edit .form-group.agreement-registration-section{
+	width: 100%;
+	margin: 0px;
+	min-height: auto;
+	padding: 20px 0px;
+	border-bottom: solid 1px #3d3d3d;
+}
+
+#mainwrap.registration .content_tab_edit .form-group.agreement-registration-section .user_agree_check{
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+#mainwrap.registration .content_tab_edit .form-group.agreement-registration-section label{
+	position: unset;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+
+#mainwrap.registration .content_tab_edit .form-group.agreement-registration-section a{
+	font-family: Proxima Nova Regular;
+	font-size: 16px;
+	line-height: 20px;
+	color: #3d3d3d !important;
+	margin-left: 10px;
+	text-decoration: underline;
+
+}
+
+#mainwrap.registration .content_tab_edit .form-group.agreement-registration-section input[type="checkbox"]{
+	margin-right: 5px;
+}
+
 #mainwrap.registration .content_tab_edit .buttons_wrapper{
 	width: 100%;
 	overflow: hidden;
