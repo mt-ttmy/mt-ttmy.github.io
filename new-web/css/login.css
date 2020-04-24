@@ -692,6 +692,10 @@ input.generic_button {
 	align-items: center;
 }
 
+#mainwrap.registration .content_tab_edit .form-group.agreement-registration-section .user_agree_check label{
+	cursor: pointer;
+}
+
 #mainwrap.registration .content_tab_edit .form-group.agreement-registration-section label{
 	position: unset;
 	font-weight: bold;
