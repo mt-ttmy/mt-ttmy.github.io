@@ -580,7 +580,7 @@ body{
 
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .title-color-dark .esquire_row .esquire .esquire-message-container .share-until .days-until::after{
     border: solid 18px #3d3d3d;
-    border-left: solid 6px #fff;
+    border-left: solid 6px transparent;
 }
 
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until{
