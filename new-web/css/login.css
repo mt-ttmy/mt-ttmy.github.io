@@ -732,11 +732,19 @@ input.generic_button {
 	width: 330px;
 }
 
+
 /* Inizio pagina di accept terms post login */
 
 .login-template #accept-agreement-submit{
 	max-width: 400px;
 	margin: 0 auto;
+}
+
+.login-template #accept-agreement-submit .user_agree_check a{
+	font-family: Proxima Nova Regular;
+	font-size: 16px;
+	text-decoration: underline !important;
+	color: #3d3d3d;
 }
 
 /* Fine pagina accept terms post login */
