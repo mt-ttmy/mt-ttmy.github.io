@@ -583,6 +583,10 @@ body{
     border-left: solid 6px transparent;
 }
 
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .title-color-dark .esquire_row .esquire .esquire-message-container .cancel-registation button{
+    background: #3d3d3d;
+}
+
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until{
     display: -ms-flexbox;
     display: -webkit-flex;
