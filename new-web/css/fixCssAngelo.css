@@ -1,32 +1,32 @@
-body{
-    background-color: #fff;
+body {
+    background-color: #FCFCFC;
 }
 
-#mainwrap{
+#mainwrap {
     max-width: 1440px;
 }
 
-#mainwrap .flexslider{
+#mainwrap .flexslider {
     margin-bottom: 0px !important;
 }
 
-#mainwrap .lastPBColumn{
-    background-image: linear-gradient(56deg, #fcfcfc 6%, #f8f8f8 96%);
+#mainwrap .lastPBColumn {
+    background-color: #F5F5F5;
 }
 
-#mainwrap .lastPBColumn .wrapwidg{
+#mainwrap .lastPBColumn .wrapwidg {
     background-color: transparent;
     padding: 0px;
     margin: 0px;
 }
 
 * {
-  -webkit-border-radius: 0 !important;
-     -moz-border-radius: 0 !important;
-          border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
 }
 
-.flexslider .contents_wrapper>div[class^="template-"]{
+.flexslider .contents_wrapper>div[class^="template-"] {
     background-color: transparent !important;
 }
 
@@ -35,7 +35,8 @@ body{
     left: auto;
     max-width: 1440px;
 }
-#mainwrap #header [data-network-logo]{
+
+#mainwrap #header [data-network-logo] {
     width: 237px;
     background-position: 0% 50%;
     background-size: 100% auto;
@@ -43,7 +44,7 @@ body{
     background-image: url("../images/newLogo.png");
 }
 
-#header #navbar-xchange-first-level .nav-tabs [role="presentation"] > a{
+#header #navbar-xchange-first-level .nav-tabs [role="presentation"]>a {
     font-family: Proxima Nova Regular;
     font-size: 15px;
     text-transform: inherit;
@@ -56,21 +57,21 @@ body{
     transition: all 0.3s ease-out;
 }
 
-#header #navbar-xchange-first-level .nav-tabs [role="presentation"] > a:hover{
+#header #navbar-xchange-first-level .nav-tabs [role="presentation"]>a:hover {
     background-color: initial;
     opacity: 0.5;
     color: #fff;
 }
 
-#header #navbar-xchange-first-level .nav-tabs [role="presentation"] > a.active{
+#header #navbar-xchange-first-level .nav-tabs [role="presentation"]>a.active {
     font-family: Proxima Nova Extra Bold;
 }
 
-.wrapwidg.plugin_contentDetailWidget .row.esquire_row{
+.wrapwidg.plugin_contentDetailWidget .row.esquire_row {
     margin: 0px;
 }
 
-.dropdown.user_menu{
+.dropdown.user_menu {
     height: 39px;
     margin: 10px 10px 10px 0px;
     padding: 0px 0px 0px 10px;
@@ -78,7 +79,7 @@ body{
     border-left: solid 1px #727272;
 }
 
-.dropdown.user_menu .dropdown-toggle{
+.dropdown.user_menu .dropdown-toggle {
     background-color: #000;
     border-radius: 0;
     border: 0px;
@@ -90,19 +91,19 @@ body{
     margin-top: 6px;
 }
 
-#footer{
+#footer {
     height: 50px;
     min-height: 50px !important;
 }
 
-#footer .webinars-footer{
+#footer .webinars-footer {
     height: 50px;
-    background-color: #000;
+    background-color: #313131;
     max-width: 1440px;
     margin: 0 auto;
 }
 
-#footer .webinars-footer .nav-tabs{
+#footer .webinars-footer .nav-tabs {
     border: 0px;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -113,81 +114,90 @@ body{
     justify-content: center;
 }
 
-#footer .webinars-footer .nav-tabs li{
+#footer .webinars-footer .nav-tabs li {
     font-family: Proxima Nova Regular;
     font-size: 14px;
     color: #fff;
 }
 
-#footer .webinars-footer .nav-tabs li:last-child a{
+#footer .webinars-footer .nav-tabs li::after {
+    content: '-';
+}
+
+#footer .webinars-footer .nav-tabs li:last-child::after {
+    content: none;
+}
+
+#footer .webinars-footer .nav-tabs li:last-child a {
     border-right: 0px;
 }
 
-#footer .webinars-footer .nav-tabs li a{
+#footer .webinars-footer .nav-tabs li a {
     color: #fff;
     padding: 0px 8px;
     border: 0px;
-    border-right: solid 1px #fff;
     margin-top: 20px;
     border-radius: 0px;
     line-height: 10px;
-   	background-color: transparent;
+    background-color: transparent;
+    margin-left: 2px;
+    display: inline-block;
 }
 
-#footer .webinars-footer .nav-tabs li a:hover{
+#footer .webinars-footer .nav-tabs li a:hover {
     background-color: transparent;
 }
 
 .form-control:focus {
     border-color: #00b04e;
     outline: 0;
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(0, 176, 78, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(0, 176, 78, 0.6);
 }
 
-#mainwrap .bootstrap-select button:focus{
-	outline-color: #00b04e!important;
+#mainwrap .bootstrap-select button:focus {
+    outline-color: #00b04e!important;
 }
 
-.flexslider .slider-hero{
+.flexslider .slider-hero {
     max-height: 325px;
     height: 325px;
     min-height: auto;
     background: transparent !important;
 }
 
-.flexslider .contents_wrapper>div{
+.flexslider .contents_wrapper>div {
     background: transparent !important;
 }
 
-.slider-hero .hero-image-container{
+.slider-hero .hero-image-container {
     background-size: cover !important;
     background-position: center 85% !important;
     background-repeat: no-repeat !important;
 }
 
-.flexslider .contents_wrapper>div{
- height: 325px;
+.flexslider .contents_wrapper>div {
+    height: 325px;
 }
 
-.slider-hero .hero-message-container{
+.slider-hero .hero-message-container {
     min-height: 325px !important;
     margin: 0 !important;
     padding: 0px 15%;
     width: 100%;
 }
 
-.slider-hero .hero-message{
+.slider-hero .hero-message {
     padding: 0px !important;
 }
 
-.template-heroPlain .slider-hero .hero-message h2{
+.template-heroPlain .slider-hero .hero-message h2 {
     font-family: Proxima Nova Black;
     font-size: 60px;
     font-weight: bold;
     line-height: 48px;
 }
 
-.template-heroPlain .slider-hero .hero-message h3{
+.template-heroPlain .slider-hero .hero-message h3 {
     margin-top: 20px;
     font-family: Proxima Nova Semibold;
     font-size: 24px;
@@ -199,7 +209,7 @@ h3.home-claim span {
     display: block;
 }
 
-.template-heroPlain .slider-hero .hero-message .hero-link-url{
+.template-heroPlain .slider-hero .hero-message .hero-link-url {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
@@ -210,7 +220,7 @@ h3.home-claim span {
     margin-top: 50px;
 }
 
-.template-heroPlain .slider-hero .hero-message .hero-link-url .btn.btn-default{
+.template-heroPlain .slider-hero .hero-message .hero-link-url .btn.btn-default {
     margin-left: 10px;
     line-height: 40px;
     padding: 0px;
@@ -218,7 +228,7 @@ h3.home-claim span {
     display: block;
 }
 
-.template-heroPlain .slider-hero .hero-message .hero-link-url .btn.btn-default .fa-calendar{
+.template-heroPlain .slider-hero .hero-message .hero-link-url .btn.btn-default .fa-calendar {
     color: #3d3d3d;
     font-size: 20px;
     line-height: 40px;
@@ -226,7 +236,7 @@ h3.home-claim span {
     display: block;
 }
 
-[class^=template-hero] .slider-hero a.btn.read-more{
+[class^=template-hero] .slider-hero a.btn.read-more {
     margin: 35px 0px 0px 0px;
     width: 230px;
     line-height: 40px;
@@ -240,14 +250,15 @@ h3.home-claim span {
     text-transform: inherit;
 }
 
-[class^=template-hero] .slider-hero a.btn.read-more .fa-arrow-right{
+[class^=template-hero] .slider-hero a.btn.read-more .fa-arrow-right {
     color: #3d3d3d !important;
     display: inline;
 }
 
-.discover-calendar{
+.discover-calendar {
     justify-content: space-between;
     padding: 0px 5%;
+    padding-bottom: 10px;
     flex-direction: row-reverse;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -257,7 +268,7 @@ h3.home-claim span {
     align-items: baseline;
 }
 
-.discover-calendar h3{
+.discover-calendar h3 {
     font-family: Proxima Nova Semibold;
     font-size: 30px;
     font-weight: 600;
@@ -269,7 +280,7 @@ h3.home-claim span {
 }
 
 .discover-calendar .go-to-viewall,
-.discover-calendar .go-to-calendar{
+.discover-calendar .go-to-calendar {
     font-family: Proxima Nova Semibold;
     font-size: 14px;
     font-weight: 600;
@@ -287,30 +298,30 @@ h3.home-claim span {
 }
 
 .discover-calendar .go-to-viewall span.icon-moon,
-.discover-calendar .go-to-calendar span.icon-moon{
+.discover-calendar .go-to-calendar span.icon-moon {
     font-size: 22px;
     color: #3d3d3d;
     margin-right: 10px;
 }
 
-.discover-calendar .go-to-calendar .fa-calendar{
+.discover-calendar .go-to-calendar .fa-calendar {
     padding: 0px 15px 0px 0px !important;
     font-size: 25px;
 }
 
-.discover-calendar .discover-buttons-home{
+.discover-calendar .discover-buttons-home {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
 }
 
-.wrapwidg.events-card-list{
+.wrapwidg.events-card-list {
     margin: 0px;
     border: 0px;
     padding: 0px;
 }
 
-.wrapwidg.events-card-list .contents_wrapper{
+.wrapwidg.events-card-list .contents_wrapper {
     width: 100%;
     display: block;
     margin: 0px auto 0px;
@@ -326,7 +337,7 @@ h3.home-claim span {
     padding: 10px 5% 0px;
 }
 
-.wrapwidg.events-card-list .contents_wrapper .content-list-element{
+.wrapwidg.events-card-list .contents_wrapper .content-list-element {
     margin-top: 15px;
     margin-bottom: 15px;
     display: flex;
@@ -338,7 +349,7 @@ h3.home-claim span {
     width: 33.3%;
 }
 
-.wrapwidg.events-card-list .contents_wrapper .content-list-element section{
+.wrapwidg.events-card-list .contents_wrapper .content-list-element section {
     border: solid 1px #e3e3e3;
     background-color: #fff;
     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.07);
@@ -348,7 +359,7 @@ h3.home-claim span {
     padding-bottom: 60px;
 }
 
-.wrapwidg.events-card-list .contents_wrapper .content-list-element section article #event-sessions-area{
+.wrapwidg.events-card-list .contents_wrapper .content-list-element section article #event-sessions-area {
     position: absolute;
     bottom: 20px;
     left: 25px;
@@ -359,7 +370,7 @@ h3.home-claim span {
 
 .wrapwidg.events-card-list .contents_wrapper .content-list-element section article #event-sessions-area .button-container.event-actions-container a.btn,
 .wrapwidg.events-card-list .contents_wrapper .content-list-element section article #event-sessions-area .button-container button.btn,
-.wrapwidg.events-card-list .contents_wrapper .content-list-element section article #event-sessions-area .link-container button{
+.wrapwidg.events-card-list .contents_wrapper .content-list-element section article #event-sessions-area .link-container button {
     text-decoration: none;
     color: #3d3d3d;
     cursor: pointer;
@@ -371,25 +382,25 @@ h3.home-claim span {
     background-color: transparent !important;
 }
 
-.wrapwidg.events-card-list .contents_wrapper .content-list-element section article #event-sessions-area .button-container.event-actions-container a.btn .fa-arrow-right{
+.wrapwidg.events-card-list .contents_wrapper .content-list-element section article #event-sessions-area .button-container.event-actions-container a.btn .fa-arrow-right {
     display: none;
 }
 
-.wrapwidg.events-card-list .contents_wrapper .content-list-element section article #event-sessions-area .button-container.event-actions-container .status{
+.wrapwidg.events-card-list .contents_wrapper .content-list-element section article #event-sessions-area .button-container.event-actions-container .status {
     font-family: Proxima Nova Semibold;
     font-size: 16px;
     color: #3d3d3d;
 }
 
-.wrapwidg.events-card-list .contents_wrapper .content-list-element section article #event-sessions-area .button-container button.btn span{
+.wrapwidg.events-card-list .contents_wrapper .content-list-element section article #event-sessions-area .button-container button.btn span {
     display: none;
 }
 
-.wrapwidg.events-card-list .contents_wrapper .content-list-element section article #event-sessions-area .link-container .btn{
+.wrapwidg.events-card-list .contents_wrapper .content-list-element section article #event-sessions-area .link-container .btn {
     margin-top: 10px;
 }
 
-.wrapwidg.events-card-list .contents_wrapper .content-list-element section .event-cover{
+.wrapwidg.events-card-list .contents_wrapper .content-list-element section .event-cover {
     display: block;
     height: 120px;
     background-size: cover;
@@ -398,7 +409,7 @@ h3.home-claim span {
     position: relative;
 }
 
-.wrapwidg.events-card-list .contents_wrapper .content-list-element section .event-cover .live-now-badge{
+.wrapwidg.events-card-list .contents_wrapper .content-list-element section .event-cover .live-now-badge {
     position: absolute;
     right: 0px;
     height: 28px;
@@ -412,7 +423,7 @@ h3.home-claim span {
     font-size: 16px;
 }
 
-.wrapwidg.events-card-list .contents_wrapper .content-list-element section .event-cover .live-now-badge:after{
+.wrapwidg.events-card-list .contents_wrapper .content-list-element section .event-cover .live-now-badge:after {
     content: "";
     position: absolute;
     width: 12px;
@@ -423,7 +434,7 @@ h3.home-claim span {
     border-radius: 100%;
 }
 
-.wrapwidg.events-card-list .contents_wrapper .content-list-element section .event-cover .live-now-badge:before{
+.wrapwidg.events-card-list .contents_wrapper .content-list-element section .event-cover .live-now-badge:before {
     content: " ";
     position: absolute;
     width: 0px;
@@ -434,16 +445,16 @@ h3.home-claim span {
     border-left: solid 7px transparent;
 }
 
-.wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text{
+.wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text {
     padding: 30px 25px 10px 25px;
 }
 
-.wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text .share{
+.wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text .share {
     position: absolute;
     bottom: 20px;
 }
 
-.wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text .share button{
+.wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text .share button {
     padding: 0px;
     width: 20px;
     height: auto;
@@ -455,11 +466,11 @@ h3.home-claim span {
     font-size: 20px;
 }
 
-.wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text .event-title{
+.wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text .event-title {
     padding: 10px 0px 15px;
 }
 
-.wrapwidg.events-card-list .contents_wrapper .content-list-element section .fx-xs-display{
+.wrapwidg.events-card-list .contents_wrapper .content-list-element section .fx-xs-display {
     font-family: Proxima Nova Bold;
     font-size: 16px;
     font-weight: bold;
@@ -468,29 +479,29 @@ h3.home-claim span {
     line-height: 10px;
 }
 
-.wrapwidg.events-card-list .contents_wrapper .content-list-element section .fx-xs-display.event-datetime{
+.wrapwidg.events-card-list .contents_wrapper .content-list-element section .fx-xs-display.event-datetime {
     display: block;
     font-size: 17px;
     text-transform: none;
 }
 
 .wrapwidg.events-card-list .contents_wrapper .content-list-element section .fx-xs-display.event-datetime .event-date,
-.wrapwidg.events-card-list .contents_wrapper .content-list-element section .fx-xs-display.event-datetime .event-time{
+.wrapwidg.events-card-list .contents_wrapper .content-list-element section .fx-xs-display.event-datetime .event-time {
     font-size: 17px;
 }
 
-.wrapwidg.events-card-list .contents_wrapper .content-list-element section .fx-xs-display.event-datetime .event-time{
+.wrapwidg.events-card-list .contents_wrapper .content-list-element section .fx-xs-display.event-datetime .event-time {
     line-height: 25px;
     margin-top: 5px;
 }
 
-.wrapwidg.events-card-list .contents_wrapper .content-list-element section .fx-xs-display .event-type{
+.wrapwidg.events-card-list .contents_wrapper .content-list-element section .fx-xs-display .event-type {
     padding-right: 5px;
     border-right: solid 1px #3d3d3d;
     margin-right: 5px;
 }
 
-.wrapwidg.events-card-list .contents_wrapper .content-list-element section .event-title a{
+.wrapwidg.events-card-list .contents_wrapper .content-list-element section .event-title a {
     font-family: Proxima Nova Extra Bold;
     font-size: 24px;
     font-weight: normal;
@@ -502,14 +513,14 @@ h3.home-claim span {
     overflow-wrap: break-word;
 }
 
-.wrapwidg.events-card-list .contents_wrapper .content-list-element article event-datetime{
+.wrapwidg.events-card-list .contents_wrapper .content-list-element article event-datetime {
     font-family: Proxima Nova Black;
     font-size: 14px;
     font-weight: bold;
     color: #000000;
 }
 
-.wrapwidg.events-card-list .contents_wrapper .content-list-element section article .event-abstract{
+.wrapwidg.events-card-list .contents_wrapper .content-list-element section article .event-abstract {
     font-family: Proxima Nova Regular;
     font-size: 16px;
     color: #3d3d3d;
@@ -517,28 +528,30 @@ h3.home-claim span {
     padding-top: 5px;
 }
 
+
 /* Pagina di dettaglio */
-.container.container-event-detail{
+
+.container.container-event-detail {
     width: auto;
     /*max-width: 1440px;*/
     padding: 0px;
     margin: 0px;
 }
 
-.container.container-event-detail .wrapwidg.plugin_contentDetailWidget{
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget {
     margin: 0px;
 }
 
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .past-event .esquire_row .esquire,
-.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .past-event .esquire-image-container{
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .past-event .esquire-image-container {
     height: 480px;
 }
 
-.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .past-event .esquire_row .esquire .esquire-message-container .share-until{
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .past-event .esquire_row .esquire .esquire-message-container .share-until {
     display: none;
 }
 
-.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire{
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire {
     height: 640px;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -550,30 +563,29 @@ h3.home-claim span {
     max-height: initial;
 }
 
-.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire{
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire {
     position: relative;
 }
 
-.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .webinair_backdetail{
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .webinair_backdetail {
     position: absolute;
     top: 25px;
     left: 40px;
     z-index: 998;
 }
 
-.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .webinair_backdetail a{
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .webinair_backdetail a {
     color: #fff;
     font-family: Proxima Nova Regular;
     font-size: 14px;
     text-transform: capitalize;
 }
 
-.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .title-color-dark .esquire_row .esquire .webinair_backdetail a{
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .title-color-dark .esquire_row .esquire .webinair_backdetail a {
     color: #3d3d3d;
 }
 
-
-.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .webinair_backdetail a:before{
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .webinair_backdetail a:before {
     font-family: icomoon;
     content: "\e903";
     width: 10px;
@@ -582,7 +594,7 @@ h3.home-claim span {
     margin-right: 5px;
 }
 
-.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container{
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container {
     color: #fff;
     min-height: auto;
     display: block;
@@ -594,25 +606,25 @@ h3.home-claim span {
     background-color: transparent;
 }
 
-.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .title-color-dark .esquire_row .esquire .esquire-message-container{
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .title-color-dark .esquire_row .esquire .esquire-message-container {
     color: #3d3d3d;
 }
 
-.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .title-color-dark .esquire_row .esquire .esquire-message-container .share-until .days-until{
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .title-color-dark .esquire_row .esquire .esquire-message-container .share-until .days-until {
     color: #fff;
     background-color: #3d3d3d;
 }
 
-.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .title-color-dark .esquire_row .esquire .esquire-message-container .share-until .days-until::after{
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .title-color-dark .esquire_row .esquire .esquire-message-container .share-until .days-until::after {
     border: solid 18px #3d3d3d;
     border-left: solid 6px transparent;
 }
 
-.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .title-color-dark .esquire_row .esquire .esquire-message-container .cancel-registation button{
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .title-color-dark .esquire_row .esquire .esquire-message-container .cancel-registation button {
     background: #3d3d3d;
 }
 
-.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until{
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
@@ -626,7 +638,7 @@ h3.home-claim span {
     border: solid 1px #fff;
 }
 
-.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until .share button{
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until .share button {
     background-color: transparent;
     padding: 0px;
     width: 100%;
@@ -635,12 +647,12 @@ h3.home-claim span {
     border: 0px;
 }
 
-.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until .share button span{
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until .share button span {
     padding: 0px !important;
     font-size: 18px;
 }
 
-.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until .days-until{
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until .days-until {
     min-width: 90px;
     line-height: 36px;
     text-align: left;
@@ -652,11 +664,11 @@ h3.home-claim span {
     padding: 0px 30px 0px 0px;
 }
 
-.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until .days-until.live-now{
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until .days-until.live-now {
     padding: 0px 30px 0px 0px;
 }
 
-.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until .days-until.live-now::before{
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until .days-until.live-now::before {
     content: "";
     position: absolute;
     width: 12px;
@@ -667,7 +679,7 @@ h3.home-claim span {
     border-radius: 100%;
 }
 
-.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until .days-until::after{
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until .days-until::after {
     content: " ";
     position: absolute;
     width: 22px;
@@ -678,12 +690,12 @@ h3.home-claim span {
     border-left: solid 6px transparent;
 }
 
-.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .esquire-message{
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .esquire-message {
     text-align: left;
     width: 800px;
 }
 
-.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .esquire-message .text-uppercase h2:not(.section_title){
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .esquire-message .text-uppercase h2:not(.section_title) {
     font-family: Proxima Nova Extra Bold !important;
     font-size: 60px !important;
     line-height: 55px !important;
@@ -691,32 +703,32 @@ h3.home-claim span {
     color: inherit !important;
 }
 
-.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .type-language{
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .type-language {
     font-family: Proxima Nova Bold;
     font-size: 18px;
     line-height: 16px;
     padding-bottom: 25px;
 }
 
-.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .event-datetime{
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .event-datetime {
     font-family: Proxima Nova Bold;
     font-size: 30px;
     line-height: 30px;
     display: block;
 }
 
-.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .event-actions-container{
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .event-actions-container {
     padding-top: 25px;
 }
 
-.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .event-actions-container .status{
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .event-actions-container .status {
     padding-bottom: 15px;
     font-size: 20px;
     font-family: Proxima Nova Bold;
 }
 
-.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .event-actions-container button{
-	border-radius: 0;
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .event-actions-container button {
+    border-radius: 0;
     width: 255px;
     height: 45px;
     font-family: Proxima Nova Regular;
@@ -731,12 +743,12 @@ h3.home-claim span {
     justify-content: center;
 }
 
-.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .event-actions-container button .text_button{
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .event-actions-container button .text_button {
     padding-left: 10px;
 }
 
-.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .event-actions-container a.btn-default{
-	border-radius: 0;
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .event-actions-container a.btn-default {
+    border-radius: 0;
     width: 255px;
     height: 45px;
     font-family: Proxima Nova Regular;
@@ -751,15 +763,15 @@ h3.home-claim span {
     justify-content: center;
 }
 
-.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .event-actions-container a.btn-default .text_button{
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .event-actions-container a.btn-default .text_button {
     padding-left: 15px;
 }
 
-.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .cancel-registation{
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .cancel-registation {
     margin-top: 15px;
 }
 
-.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .cancel-registation button{
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .cancel-registation button {
     font-family: Proxima Nova Semibold;
     text-decoration: underline;
     font-size: 20px;
@@ -767,18 +779,18 @@ h3.home-claim span {
     cursor: pointer;
 }
 
-.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .fx-xs-display .pipe{
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .fx-xs-display .pipe {
     padding: 0px 8px;
 }
 
-.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container h2:not(.section_title){
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container h2:not(.section_title) {
     font-size: 60px !important;
     font-family: Proxima Nova Extra Bold !important;
     line-height: 65px !important;
     margin: 0px !important;
 }
 
-.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire-image-container{
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire-image-container {
     width: 100%;
     height: 640px;
     background-position: center;
@@ -789,56 +801,56 @@ h3.home-claim span {
     left: 0px;
 }
 
-.past-event .content-rich-metas .row.row-flexWrap{
+.past-event .content-rich-metas .row.row-flexWrap {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-    -webkit-flex-wrap:wrap;
-    -ms-flex-wrap:wrap;
-    flex-wrap:wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
 }
 
-.past-event .content-rich-metas .row .col-sm-6.video-container{
+.past-event .content-rich-metas .row .col-sm-6.video-container {
     padding: 55px 90px 50px 65px;
     min-height: 320px;
 }
 
-.past-event .content-rich-metas .row .col-sm-6.video-container>div{
+.past-event .content-rich-metas .row .col-sm-6.video-container>div {
     min-height: 320px;
 }
 
-.past-event .content-rich-metas .row .col-sm-6.about{
+.past-event .content-rich-metas .row .col-sm-6.about {
     padding: 55px 90px 50px 65px;
-    -webkit-flex-wrap:wrap;
-    -ms-flex-wrap:wrap;
-    flex-wrap:wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
-.past-event .content-rich-metas .row .col-sm-6.about .section_title{
+.past-event .content-rich-metas .row .col-sm-6.about .section_title {
     text-align: center;
     padding-bottom: 20px;
     width: 100%;
 }
 
-.past-event .content-rich-metas .row .col-sm-6.about div.rich-description{
+.past-event .content-rich-metas .row .col-sm-6.about div.rich-description {
     width: 100%;
 }
 
 .past-event .content-rich-metas .row .col-sm-6.about div,
-.past-event .content-rich-metas .row .col-sm-6.learn div{
+.past-event .content-rich-metas .row .col-sm-6.learn div {
     width: 100%;
 }
 
-#home-wrapcontent .wrapcontent_padding{
+#home-wrapcontent .wrapcontent_padding {
     padding-bottom: 0px;
 }
 
 .content-rich-metas .row .about,
-.content-rich-metas .row .learn{
+.content-rich-metas .row .learn {
     padding: 60px 11.5% 45px 14.5%;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -849,14 +861,17 @@ h3.home-claim span {
 }
 
 .content-rich-metas .row .learn {
-    background: #00304a; /* Old browsers */
-    background: -moz-linear-gradient(to left bottom, #096398, #02517d, #004063, #00304a, #002033); /* FF3.6-15 */
-    background: -webkit-linear-gradient(to left bottom, #096398, #02517d, #004063, #00304a, #002033); /* Chrome10-25,Safari5.1-6 */
+    background: #00304a;
+    /* Old browsers */
+    background: -moz-linear-gradient(to left bottom, #096398, #02517d, #004063, #00304a, #002033);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(to left bottom, #096398, #02517d, #004063, #00304a, #002033);
+    /* Chrome10-25,Safari5.1-6 */
     background-image: linear-gradient(to left bottom, #096398, #02517d, #004063, #00304a, #002033);
 }
 
 .content-rich-metas .row .about div,
-.content-rich-metas .row .learn div{
+.content-rich-metas .row .learn div {
     width: 47%;
 }
 
@@ -864,12 +879,12 @@ h3.home-claim span {
     color: #3d3d3d;
 }
 
-.content-rich-metas .row .learn{
+.content-rich-metas .row .learn {
     color: #fff;
 }
 
 .content-rich-metas .row .about .section_title,
-.content-rich-metas .row .learn .section_title{
+.content-rich-metas .row .learn .section_title {
     font-size: 40px;
     margin: 0px;
     line-height: 46px;
@@ -878,37 +893,37 @@ h3.home-claim span {
 }
 
 .content-rich-metas .row .about div.rich-description,
-.content-rich-metas .row .learn div.rich-description{
+.content-rich-metas .row .learn div.rich-description {
     font-family: Proxima Nova Regular;
     font-size: 18px;
     line-height: 28px;
 }
 
 .content-rich-metas .row .about div.rich-description ul,
-.content-rich-metas .row .learn div.rich-description ul{
+.content-rich-metas .row .learn div.rich-description ul {
     padding-left: 20px;
 }
 
-.content-rich-metas .row .about div.rich-description{
+.content-rich-metas .row .about div.rich-description {
     width: 53%;
     color: #3d3d3d;
 }
 
-.content-rich-metas .rich-description p{
+.content-rich-metas .rich-description p {
     margin-bottom: 20px;
     font-style: normal;
 }
 
-.content-rich-metas .rich-description p em{
+.content-rich-metas .rich-description p em {
     font-style: normal;
 }
 
-.content-rich-metas .row.when-and-where{
+.content-rich-metas .row.when-and-where {
     text-align: center;
     padding: 70px 6.5% 60px;
 }
 
-.content-rich-metas .row.when-and-where .section_title{
+.content-rich-metas .row.when-and-where .section_title {
     font-family: Proxima Nova Semibold;
     padding: 0px;
     margin: 0px;
@@ -917,7 +932,7 @@ h3.home-claim span {
     color: #3d3d3d;
 }
 
-.content-rich-metas .row.when-and-where .event-datetime{
+.content-rich-metas .row.when-and-where .event-datetime {
     font-family: Proxima Nova Bold;
     font-size: 18px;
     line-height: 22px;
@@ -925,31 +940,31 @@ h3.home-claim span {
     padding: 30px 0px 25px 0px;
 }
 
-.content-rich-metas .row.when-and-where .event-datetime .event-date{
+.content-rich-metas .row.when-and-where .event-datetime .event-date {
     padding-right: 10px;
 }
 
-.content-rich-metas .row.when-and-where .rich-description{
+.content-rich-metas .row.when-and-where .rich-description {
     font-family: Proxima Nova Regular;
     font-size: 18px;
     color: #3d3d3d;
     font-weight: normal;
 }
 
-.content-rich-metas .row.when-and-where .rich-description p{
+.content-rich-metas .row.when-and-where .rich-description p {
     margin-bottom: 10px;
 }
 
-.clearfix.content_details.content_details_editorial{
+.clearfix.content_details.content_details_editorial {
     padding: 0px;
     margin: 0px !important;
 }
 
-.more{
+.more {
     margin: 15px 0px 0px;
 }
 
-.more a.pager-more{
+.more a.pager-more {
     width: 264px;
     line-height: 45px;
     color: #fff;
@@ -968,23 +983,25 @@ h3.home-claim span {
     transition: all 0.3s ease-out;
 }
 
-.more a.pager-more .pager-icon{
+.more a.pager-more .pager-icon {
     display: none;
 }
 
+
 /* Inizio pagina di calendario */
 
-.fc-view, .fc-view>table{
+.fc-view,
+.fc-view>table {
     padding-bottom: 80px;
 }
 
-.wrapwidg.plugin_contentFullCalendar{
+.wrapwidg.plugin_contentFullCalendar {
     border: 0px;
     margin: 0px;
     padding: 20px 0px 80px 0px !important;
 }
 
-.wrapwidg.plugin_contentFullCalendar .widget_title{
+.wrapwidg.plugin_contentFullCalendar .widget_title {
     padding: 0px;
     font-size: 30px;
     line-height: 68px;
@@ -994,45 +1011,45 @@ h3.home-claim span {
     border-bottom: 0px;
 }
 
-.wrapwidg.plugin_contentFullCalendar .widget_padding .fc-toolbar{
+.wrapwidg.plugin_contentFullCalendar .widget_padding .fc-toolbar {
     padding-top: 16px;
     padding-bottom: 35px;
     margin: 0px !important;
 }
 
-.wrapwidg.plugin_contentFullCalendar .widget_padding .fc-toolbar .fc-left h2{
+.wrapwidg.plugin_contentFullCalendar .widget_padding .fc-toolbar .fc-left h2 {
     font-family: Proxima Nova Bold;
     font-size: 24px;
     color: #3d3d3d;
     text-transform: none;
 }
 
-.wrapwidg.plugin_contentFullCalendar .widget_padding .fc-toolbar .fc-left .fc-today-button{
+.wrapwidg.plugin_contentFullCalendar .widget_padding .fc-toolbar .fc-left .fc-today-button {
     display: none;
 }
 
-.wrapwidg.plugin_contentFullCalendar .fc-head>tr>td.fc-head-container.fc-widget-header{
+.wrapwidg.plugin_contentFullCalendar .fc-head>tr>td.fc-head-container.fc-widget-header {
     border: solid 1px #adadad;
     border-bottom: 0px;
 }
 
-.wrapwidg.plugin_contentFullCalendar .fc-body>tr>td.fc-widget-content{
+.wrapwidg.plugin_contentFullCalendar .fc-body>tr>td.fc-widget-content {
     border: solid 1px #adadad;
     border-top: 0px;
 }
 
-.wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-row.fc-widget-header tr{
+.wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-row.fc-widget-header tr {
     height: 63px;
     opacity: 0.9;
     background-color: #ebebeb;
     min-height: auto !important;
 }
 
-.wrapwidg.plugin_contentFullCalendar .fc-view-container thead.fc-head tr{
+.wrapwidg.plugin_contentFullCalendar .fc-view-container thead.fc-head tr {
     min-height: auto !important;
 }
 
-.wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-row.fc-widget-header tr th{
+.wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-row.fc-widget-header tr th {
     vertical-align: middle;
     height: 63px;
     text-align: left;
@@ -1042,33 +1059,33 @@ h3.home-claim span {
     color: #3d3d3d;
 }
 
-.wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-row.fc-week.fc-widget-content .fc-bg .fc-past{
+.wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-row.fc-week.fc-widget-content .fc-bg .fc-past {
     background-color: #f6f6f6;
 }
 
-.wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-row.fc-week.fc-widget-content .fc-bg .fc-day{
+.wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-row.fc-week.fc-widget-content .fc-bg .fc-day {
     border: solid 1px #dcdcdc;
 }
 
-.wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-row.fc-week.fc-widget-content .fc-bg .fc-today{
+.wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-row.fc-week.fc-widget-content .fc-bg .fc-today {
     background-color: #fff;
 }
 
-.wrapwidg.plugin_contentFullCalendar .fc-basic-view .fc-body .fc-row{
+.wrapwidg.plugin_contentFullCalendar .fc-basic-view .fc-body .fc-row {
     min-height: 180px;
 }
 
-.wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-row.fc-week.fc-widget-content .fc-content-skeleton table thead tr{
+.wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-row.fc-week.fc-widget-content .fc-content-skeleton table thead tr {
     min-height: 54px !important;
 }
 
-.wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-row.fc-week.fc-widget-content .fc-content-skeleton .fc-day-number{
+.wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-row.fc-week.fc-widget-content .fc-content-skeleton .fc-day-number {
     padding-top: 7px;
     padding-right: 12px;
     padding-bottom: 25px;
 }
 
-.wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-row.fc-week.fc-widget-content .fc-content-skeleton .fc-day-number span{
+.wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-row.fc-week.fc-widget-content .fc-content-skeleton .fc-day-number span {
     margin: 0px;
     display: block;
     float: right;
@@ -1088,7 +1105,7 @@ h3.home-claim span {
     font-weight: bold;
 }
 
-.wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-event-container a.fc-day-grid-event{
+.wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-event-container a.fc-day-grid-event {
     display: block;
     border: solid 1px #000000;
     background-color: #ffffff;
@@ -1097,29 +1114,32 @@ h3.home-claim span {
     margin-bottom: 10px;
 }
 
-.wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-event-container.fc-past a.fc-day-grid-event{
+.wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-event-container.fc-past a.fc-day-grid-event {
     border: 0px;
     background-color: #ebebeb;
 }
 
-.wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-event-container a.fc-day-grid-event .fc-content{
+.wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-event-container a.fc-day-grid-event .fc-content {
     font-size: 14px !important;
 }
 
-.wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-event-container a.fc-day-grid-event .fc-content .fc-time{
+.wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-event-container a.fc-day-grid-event .fc-content .fc-time {
     display: block;
     font-family: Proxima Nova Regular;
     font-weight: normal;
 }
 
-.wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-event-container a.fc-day-grid-event .fc-content .fc-title{
+.wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-event-container a.fc-day-grid-event .fc-content .fc-title {
     font-family: Proxima Nova Extra Bold;
     text-transform: uppercase;
 }
 
+
 /* Fine pagina di calendario */
 
+
 /* Fine pagina di dettaglio */
+
 #webinarFilters {
     border: 0px;
 }
@@ -1132,31 +1152,15 @@ h3.home-claim span {
     padding-left: 0;
 }
 
-#webinarFilters .search-box{
+#webinarFilters .search-box {
     max-width: 170px;
 }
 
-#webinar-date-filters{
-    border-top: solid 1px #d2d2d2;
-    margin: 15px 0px;
-    padding: 28px 5%;
-    background-color: #fff;
-    border-bottom: solid 1px #d2d2d2;
-    margin-top: 0px;
-}
-
-#webinar-date-filters.home-page-webinars {
-    margin-bottom: -22px;
-    border-top: none;
-    background-color: transparent;
-    border-bottom: none;
-}
-
-#webinar-date-filters > .dateFilter{
+#webinar-date-filters>.dateFilter {
     display: none;
 }
 
-#webinar-date-filters .webinar-date-filters-container{
+#webinar-date-filters .webinar-date-filters-container {
     width: 205px;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -1164,7 +1168,7 @@ h3.home-claim span {
     margin-left: 15px;
 }
 
-#webinar-date-filters .webinar-date-filters-container .dateFilter{
+#webinar-date-filters .webinar-date-filters-container .dateFilter {
     font-family: Proxima Nova Regular;
     font-size: 16px;
     display: -ms-flexbox;
@@ -1176,7 +1180,7 @@ h3.home-claim span {
 }
 
 #webinar-date-filters .webinar-date-filters-container .fa-square,
-#webinar-date-filters .webinar-date-filters-container .fa-square-o{
+#webinar-date-filters .webinar-date-filters-container .fa-square-o {
     padding: 0px !important;
     width: 21px;
     height: 21px;
@@ -1186,12 +1190,12 @@ h3.home-claim span {
     position: relative;
 }
 
-#webinar-date-filters .webinar-date-filters-container .fa-square{
+#webinar-date-filters .webinar-date-filters-container .fa-square {
     text-align: center;
     line-height: 14px;
 }
 
-#webinar-date-filters .webinar-date-filters-container .fa-square::before{
+#webinar-date-filters .webinar-date-filters-container .fa-square::before {
     font-size: 13px;
     color: #3d3d3d;
     position: absolute;
@@ -1199,7 +1203,7 @@ h3.home-claim span {
     top: 3px;
 }
 
-.all-webinars{
+.all-webinars {
     /*display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
@@ -1214,7 +1218,7 @@ h3.home-claim span {
     text-transform: uppercase;
 }
 
-.all-webinars .title{
+.all-webinars .title {
     font-size: 30px;
     line-height: 68px;
     font-family: Proxima Nova Semibold;
@@ -1222,7 +1226,7 @@ h3.home-claim span {
     color: #3d3d3d;
 }
 
-.all-webinars .go-to-calendar{
+.all-webinars .go-to-calendar {
     /*font-family: Proxima Nova Semibold;
     font-size: 16px;
     font-weight: 600;
@@ -1236,25 +1240,28 @@ h3.home-claim span {
     display: none !important;
 }
 
-.all-webinars .go-to-calendar .fa-calendar{
+.all-webinars .go-to-calendar .fa-calendar {
     padding-right: 0px !important;
     font-size: 25px;
     margin-left: 10px;
 }
 
+
 /* Iniizio pagina dei wallet */
+
 
 /* Fine pagina dei wallet  */
 
+
 /* Inizio Modali */
 
-.footer-login-modal iframe{
-	border:none;
-	width:100%;
-	height:560px;
+.footer-login-modal iframe {
+    border: none;
+    width: 100%;
+    height: 560px;
 }
 
-#event-cancel-modal .modal-dialog .modal-content{
+#event-cancel-modal .modal-dialog .modal-content {
     border-radius: 4px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     border: solid 1px #d2d2d2;
@@ -1264,7 +1271,7 @@ h3.home-claim span {
 }
 
 .footer-login-modal .modal-dialog .modal-content .modal-header,
-#event-cancel-modal .modal-dialog .modal-content .modal-header{
+#event-cancel-modal .modal-dialog .modal-content .modal-header {
     background-color: #fff;
     border-bottom: solid 1px #e9e9e9;
     padding: 0px;
@@ -1272,7 +1279,7 @@ h3.home-claim span {
 
 .footer-login-modal .modal-dialog .modal-content .modal-header button.close,
 #event-cancel-modal .modal-dialog .modal-content .modal-header button.close,
-#event-enrollment-modal .modal-dialog .modal-content .modal-header button.close{
+#event-enrollment-modal .modal-dialog .modal-content .modal-header button.close {
     color: #3d3d3d;
     position: absolute;
     top: 15px;
@@ -1283,14 +1290,14 @@ h3.home-claim span {
 
 .footer-login-modal .modal-dialog .modal-content .modal-header button.close span,
 #event-cancel-modal .modal-dialog .modal-content .modal-header button.close span,
-#event-enrollment-modal .modal-dialog .modal-content .modal-header button.close span{
+#event-enrollment-modal .modal-dialog .modal-content .modal-header button.close span {
     line-height: 37px;
     height: 32px;
     display: block;
 }
 
 .footer-login-modal .modal-dialog .modal-content .modal-header .modal-title,
-#event-cancel-modal .modal-dialog .modal-content .modal-header .modal-title{
+#event-cancel-modal .modal-dialog .modal-content .modal-header .modal-title {
     font-family: Proxima Nova Semibold;
     font-size: 24px;
     line-height: 24px;
@@ -1298,20 +1305,20 @@ h3.home-claim span {
     color: #3d3d3d;
 }
 
-#event-cancel-modal .modal-dialog .modal-content .modal-body{
+#event-cancel-modal .modal-dialog .modal-content .modal-body {
     font-family: Proxima Nova Regular;
     font-size: 16px;
     line-height: 21px;
     padding: 15px 15px 15px 25px;
 }
 
-#event-cancel-modal .modal-dialog .modal-content .modal-footer{
+#event-cancel-modal .modal-dialog .modal-content .modal-footer {
     padding-bottom: 45px;
     text-align: center;
     border: 0px;
 }
 
-#event-cancel-modal .modal-dialog .modal-content .modal-footer .btn{
+#event-cancel-modal .modal-dialog .modal-content .modal-footer .btn {
     width: 130px;
     font-family: Proxima Nova Regular;
     font-size: 20px;
@@ -1319,25 +1326,26 @@ h3.home-claim span {
     border-radius: 0px;
 }
 
-#event-cancel-modal .modal-dialog .modal-content .modal-footer .btn:hover{
+#event-cancel-modal .modal-dialog .modal-content .modal-footer .btn:hover {
     background-color: initial;
 }
 
-#event-cancel-modal .modal-dialog .modal-content .modal-footer .btn.btn-default{
+#event-cancel-modal .modal-dialog .modal-content .modal-footer .btn.btn-default {
     border: solid 1px #3d3d3d;
     color: #3d3d3d;
     margin-right: 20px;
 }
 
-#event-cancel-modal .modal-dialog .modal-content .modal-footer .btn.btn-primary{
+#event-cancel-modal .modal-dialog .modal-content .modal-footer .btn.btn-primary {
     color: #fff;
     border: 0px;
     background-color: #00b32d;
 }
 
+
 /* modale registrazione evento */
 
-#event-enrollment-modal .modal-dialog .modal-content{
+#event-enrollment-modal .modal-dialog .modal-content {
     border-radius: 4px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     border: solid 1px #d2d2d2;
@@ -1347,50 +1355,50 @@ h3.home-claim span {
     padding: 35px 35px 60px 35px;
 }
 
-#event-enrollment-modal .modal-dialog .modal-content .modal-header{
+#event-enrollment-modal .modal-dialog .modal-content .modal-header {
     border-bottom: 0px;
     padding: 0px;
     min-height: 0px;
     background-color: transparent;
 }
 
-#event-enrollment-modal .modal-dialog .modal-content .modal-body{
+#event-enrollment-modal .modal-dialog .modal-content .modal-body {
     text-align: center;
     padding: 0px;
 }
 
-#event-enrollment-modal .modal-dialog .modal-content .modal-body i.fa{
+#event-enrollment-modal .modal-dialog .modal-content .modal-body i.fa {
     color: #00b32d;
     font-size: 48px;
 }
 
-#event-enrollment-modal .modal-dialog .modal-content .modal-body .modal-title{
+#event-enrollment-modal .modal-dialog .modal-content .modal-body .modal-title {
     padding: 45px 0px 15px 0px;
     font-family: Proxima Nova Semibold;
     font-size: 24px;
     line-height: 24px;
 }
 
-#event-enrollment-modal .modal-dialog .modal-content .modal-body .modal-description{
+#event-enrollment-modal .modal-dialog .modal-content .modal-body .modal-description {
     font-family: Proxima Nova Regular;
     font-size: 15px;
     line-height: 20px;
 }
 
-.content-rich-metas .row{
+.content-rich-metas .row {
     margin: 0px;
 }
 
-.content-rich-metas .row .video-container{
+.content-rich-metas .row .video-container {
     padding: 30px 0px 50px;
     background-color: #dcdbdb;
 }
 
-.content-rich-metas .row .video-container iframe{
+.content-rich-metas .row .video-container iframe {
     border: 0px !important;
 }
 
-.content-rich-metas .row .video-container h3.section_title{
+.content-rich-metas .row .video-container h3.section_title {
     font-family: Proxima Nova Semibold;
     font-size: 40px;
     line-height: 30px;
@@ -1400,23 +1408,27 @@ h3.home-claim span {
     color: #3d3d3d;
 }
 
-.content-rich-metas .row .video-container>div{
+.content-rich-metas .row .video-container>div {
     margin: 0 auto;
     max-width: 720px !important;
 }
 
+
 /* Fine modale registrzione evento */
+
 
 /* Fine Modali */
 
+
 /* Cookies */
-.cc-cookies{
+
+.cc-cookies {
     margin: 0 auto;
     padding: 35px 15% 35px 5% !important;
     font-family: Proxima Nova Regular;
     font-size: 14px !important;
     line-height: 20px;
-    background-color: rgba(0,0,0,0.83) !important;
+    background-color: rgba(0, 0, 0, 0.83) !important;
     left: auto !important;
     bottom: 0px;
     top: auto !important;
@@ -1426,7 +1438,7 @@ h3.home-claim span {
     font-weight: normal !important;
 }
 
-.cc-cookies a.cc-cookie-accept{
+.cc-cookies a.cc-cookie-accept {
     background-color: transparent !important;
     height: 42px;
     line-height: 40px;
@@ -1445,17 +1457,18 @@ h3.home-claim span {
     text-align: center;
 }
 
+
 /* not found */
 
-body.notFound .wrapcontent_padding #main{
+body.notFound .wrapcontent_padding #main {
     min-height: calc(100vh - 109px);
 }
 
-body.notFound .wrapcontent_padding #main .wrapwidg{
+body.notFound .wrapcontent_padding #main .wrapwidg {
     border: 0px;
 }
 
-body.notFound .wrapcontent_padding #main .wrapwidg .courtesy-square{
+body.notFound .wrapcontent_padding #main .wrapwidg .courtesy-square {
     padding-top: 50px;
     font-family: Proxima Nova Regular;
     font-size: 20px;
@@ -1463,21 +1476,21 @@ body.notFound .wrapcontent_padding #main .wrapwidg .courtesy-square{
     color: #3d3d3d;
 }
 
-body.notFound .wrapcontent_padding #main .wrapwidg .courtesy-square h2{
+body.notFound .wrapcontent_padding #main .wrapwidg .courtesy-square h2 {
     font-family: Proxima Nova Semibold;
     font-size: 40px;
 }
 
-body.notFound .wrapcontent_padding #main .wrapwidg .courtesy-square .button{
+body.notFound .wrapcontent_padding #main .wrapwidg .courtesy-square .button {
     float: none;
     color: #3d3d3d !important;
 }
 
-body.notFound .wrapcontent_padding #main .wrapwidg .courtesy-square .button:hover{
+body.notFound .wrapcontent_padding #main .wrapwidg .courtesy-square .button:hover {
     text-decoration: underline !important;
 }
 
-body.calendar #mainwrap .lastPBColumn{
+body.calendar #mainwrap .lastPBColumn {
     background: #fff;
 }
 
@@ -1487,22 +1500,23 @@ body.calendar .wrapwidg {
     border: 0px;
 }
 
-body.calendar .wrapcontent_padding{
+body.calendar .wrapcontent_padding {
     padding: 0px 15px;
 }
 
-.calendar-loading, .ajaxLoading, .calendar-loading-img{
+.calendar-loading,
+.ajaxLoading,
+.calendar-loading-img {
     display: none;
 }
 
-
-body.pastWebinars .webinair_backdetail{
+body.pastWebinars .webinair_backdetail {
     background-color: #fff;
     padding-left: 35px;
 }
 
 body.pastWebinars .webinair_backdetail a,
-body.calendar .wrapwidg .webinair_backdetail a{
+body.calendar .wrapwidg .webinair_backdetail a {
     font-size: 14px;
     font-family: Proxima Nova Regular;
     text-transform: capitalize;
@@ -1512,7 +1526,7 @@ body.calendar .wrapwidg .webinair_backdetail a{
 }
 
 body.pastWebinars .webinair_backdetail a:before,
-body.calendar .wrapwidg .webinair_backdetail a:before{
+body.calendar .wrapwidg .webinair_backdetail a:before {
     font-family: icomoon;
     content: "\e903";
     width: 10px;
@@ -1521,32 +1535,32 @@ body.calendar .wrapwidg .webinair_backdetail a:before{
     margin-right: 5px;
 }
 
-body.calendar .wrapwidg.events-card-list .contents_wrapper{
+body.calendar .wrapwidg.events-card-list .contents_wrapper {
     display: none;
 }
 
-body.calendar .events-card-list .no_content_message{
+body.calendar .events-card-list .no_content_message {
     display: none;
 }
 
-.content_details_editorial section .list-group label{
+.content_details_editorial section .list-group label {
     border: 0px;
     padding: 15px 0px;
     border-bottom: solid 1px #D3E0E9;
     margin-bottom: 1px;
 }
 
-.content_details_editorial section .list-group label h4.list-group-item-heading{
+.content_details_editorial section .list-group label h4.list-group-item-heading {
     margin: 0px;
     color: #3d3d3d;
     font-size: 24px;
 }
 
-.content_details_editorial section .col-sm-8{
+.content_details_editorial section .col-sm-8 {
     border-left: solid 1px #D3E0E9;
 }
 
-.content_details_editorial section .col-sm-8 section.fx-md-display h3{
+.content_details_editorial section .col-sm-8 section.fx-md-display h3 {
     width: 100%;
     color: #3d3d3d;
     padding: 15px 0px 5px 0px;
@@ -1555,11 +1569,11 @@ body.calendar .events-card-list .no_content_message{
     border-bottom: solid 1px #D3E0E9;
 }
 
-.content_details_editorial section .col-sm-8 section.fx-md-display .pull-right{
+.content_details_editorial section .col-sm-8 section.fx-md-display .pull-right {
     display: none;
 }
 
-.content_details_editorial section .col-sm-8 section h4{
+.content_details_editorial section .col-sm-8 section h4 {
     color: #3d3d3d;
     font-size: 20px;
     margin: 0px 0px 10px 0px;
@@ -1570,28 +1584,28 @@ body.calendar .events-card-list .no_content_message{
     border-bottom: solid 1px #D3E0E9;
 }
 
-.content_details_editorial section .col-sm-8 section.mt-1 ul{
+.content_details_editorial section .col-sm-8 section.mt-1 ul {
     border-bottom: 0px;
 }
 
-.content_details_editorial section .col-sm-8 section ul li{
+.content_details_editorial section .col-sm-8 section ul li {
     padding: 10px 0px;
 }
 
-.content_details_editorial section .col-sm-8 section ul li.list-group-item-warning{
+.content_details_editorial section .col-sm-8 section ul li.list-group-item-warning {
     padding: 10px;
     font-family: Proxima Nova Regular;
     font-size: 16px;
     font-weight: bold;
 }
 
-.content_details_editorial section .col-sm-8 section ul li h4{
+.content_details_editorial section .col-sm-8 section ul li h4 {
     font-family: Proxima Nova Bold;
     font-size: 20px;
     margin-bottom: 5px;
 }
 
-.content_details_editorial section .col-sm-8 section ul li button{
+.content_details_editorial section .col-sm-8 section ul li button {
     height: 50px;
     line-height: 50px;
     padding: 0px 20px;
@@ -1601,26 +1615,23 @@ body.calendar .events-card-list .no_content_message{
     font-size: 20px;
 }
 
-.content_details_editorial section .col-sm-8 section ul li .list-group-item-text{
+.content_details_editorial section .col-sm-8 section ul li .list-group-item-text {
     font-family: Proxima Nova Regular;
     font-size: 14px;
     color: #3d3d3d;
 }
 
-.esquire-message-container .event-sessions-container{
-	padding-bottom: 25px;
+.esquire-message-container .event-sessions-container {
+    padding-bottom: 25px;
 }
 
 @media (max-width: 1199px) {
-
-    .wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text{
+    .wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text {
         padding: 20px 20px;
     }
-
-    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .esquire-message{
+    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .esquire-message {
         width: 650px;
     }
-
     /*[class^="wrapwidg hero"],
     [class^="wrapwidg hero"] .flexslider,
     [class^="wrapwidg hero"] .contents_wrapper,
@@ -1637,95 +1648,82 @@ body.calendar .events-card-list .no_content_message{
 }
 
 @media (max-width: 1024px) {
-
     [class^="wrapwidg hero"],
     [class^="wrapwidg hero"] .flexslider,
     [class^="wrapwidg hero"] .contents_wrapper,
-    [class^="wrapwidg hero"] .contents_wrapper > div,
-    [class^="wrapwidg hero"] .contents_wrapper > div .slider-hero,
-    [class^="wrapwidg hero"] .contents_wrapper > div .slider-hero .hero-message,
-    [class^="wrapwidg hero"] .contents_wrapper > div .slider-hero .hero-message-container,
-    [class^="wrapwidg hero"] .contents_wrapper > div .hero-image-container,
-    [class^="wrapwidg hero"] .contents_wrapper > div .hero-video-container,
+    [class^="wrapwidg hero"] .contents_wrapper>div,
+    [class^="wrapwidg hero"] .contents_wrapper>div .slider-hero,
+    [class^="wrapwidg hero"] .contents_wrapper>div .slider-hero .hero-message,
+    [class^="wrapwidg hero"] .contents_wrapper>div .slider-hero .hero-message-container,
+    [class^="wrapwidg hero"] .contents_wrapper>div .hero-image-container,
+    [class^="wrapwidg hero"] .contents_wrapper>div .hero-video-container,
     .slides {
         height: 100% !important;
         min-height: 325px !important;
         width: 100% !important;
     }
-
-    [class^="wrapwidg hero"] .contents_wrapper > div .slider-hero .hero-message h2{
+    [class^="wrapwidg hero"] .contents_wrapper>div .slider-hero .hero-message h2 {
         margin-top: 0px !important;
         font-size: 50px !important;
     }
-
-    [class^="wrapwidg hero"] .contents_wrapper > div .slider-hero .hero-message h3{
+    [class^="wrapwidg hero"] .contents_wrapper>div .slider-hero .hero-message h3 {
         display: block;
         margin-top: 20px;
     }
-
-    .template-heroPlain .slider-hero .hero-message .hero-link-url{
+    .template-heroPlain .slider-hero .hero-message .hero-link-url {
         margin-top: 30px;
     }
-
-    .wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text{
+    .wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text {
         padding: 15px;
     }
-
-    .slider-hero .hero-message-container{
+    .slider-hero .hero-message-container {
         padding: 0px 5%;
     }
-
-    .discover-calendar{
+    .discover-calendar {
         padding: 0px;
     }
-
-    .discover-calendar h3{
+    .discover-calendar h3 {
         font-size: 32px;
     }
-
-    .wrapwidg.events-card-list .contents_wrapper{
+    .wrapwidg.events-card-list .contents_wrapper {
         padding: 0px;
     }
-
-    .wrapwidg.events-card-list .contents_wrapper .content-list-element section .fx-xs-display{
+    .wrapwidg.events-card-list .contents_wrapper .content-list-element section .fx-xs-display {
         flex-wrap: wrap;
     }
-
-    .wrapwidg.events-card-list .contents_wrapper .content-list-element section .fx-xs-display .event-type{
+    .wrapwidg.events-card-list .contents_wrapper .content-list-element section .fx-xs-display .event-type {
         margin-bottom: 7px;
     }
-
-    .all-webinars{
+    .all-webinars {
         padding: 10px 0px;
     }
-
-    #webinar-date-filters{
+    #webinar-date-filters {
         padding: 28px 0px;
     }
-
-    body.pastWebinars .webinair_backdetail{
+    body.pastWebinars .webinair_backdetail {
         padding-left: 15px;
     }
 }
 
-@media (max-width: 992px){
+@media (max-width: 992px) {
     [class^="wrapwidg hero"],
     [class^="wrapwidg hero"] .flexslider,
     [class^="wrapwidg hero"] .contents_wrapper,
-    [class^="wrapwidg hero"] .contents_wrapper > div,
-    [class^="wrapwidg hero"] .contents_wrapper > div .slider-hero,
-    [class^="wrapwidg hero"] .contents_wrapper > div .slider-hero .hero-message,
-    [class^="wrapwidg hero"] .contents_wrapper > div .slider-hero .hero-message-container,
-    [class^="wrapwidg hero"] .contents_wrapper > div .hero-image-container,
-    [class^="wrapwidg hero"] .contents_wrapper > div .hero-video-container,
-    .slides, .flexslider, div.contents_wrapper > div.flex-active-slide,
-    div.contents_wrapper > div .slider-hero,
-    div.contents_wrapper > div .slider-hero .hero-message{
+    [class^="wrapwidg hero"] .contents_wrapper>div,
+    [class^="wrapwidg hero"] .contents_wrapper>div .slider-hero,
+    [class^="wrapwidg hero"] .contents_wrapper>div .slider-hero .hero-message,
+    [class^="wrapwidg hero"] .contents_wrapper>div .slider-hero .hero-message-container,
+    [class^="wrapwidg hero"] .contents_wrapper>div .hero-image-container,
+    [class^="wrapwidg hero"] .contents_wrapper>div .hero-video-container,
+    .slides,
+    .flexslider,
+    div.contents_wrapper>div.flex-active-slide,
+    div.contents_wrapper>div .slider-hero,
+    div.contents_wrapper>div .slider-hero .hero-message {
         min-height: 360px !important;
         max-height: 360px !important;
         height: 360px !important;
     }
-
     .fa-square-o::before {
         border: 0px;
         color: #fff;
@@ -1733,17 +1731,14 @@ body.calendar .events-card-list .no_content_message{
 }
 
 @media (max-width: 767px) {
-
-    #header{
+    #header {
         height: 39px;
         min-height: 39px;
     }
-
-    #header .wrapwidg#user{
+    #header .wrapwidg#user {
         margin-right: 5px;
     }
-
-    #mainwrap #header h1.logo{
+    #mainwrap #header h1.logo {
         height: 39px;
         width: 200px;
         margin-left: 15px;
@@ -1751,79 +1746,67 @@ body.calendar .events-card-list .no_content_message{
         background-size: auto 21px;
         background-position: 0px 50%;
     }
-
-    .dropdown.user_menu{
+    .dropdown.user_menu {
         height: 39px;
         padding: 4px 0px 0px 0px;
         border: 0px;
         margin: 0px;
         width: 39px;
     }
-
     .dropdown.user_menu .btn {
         height: 18px;
         width: 18px;
         margin-top: 6px;
     }
-
-    .wrapwidg .widget_padding .pull-right .pull-left{
+    .wrapwidg .widget_padding .pull-right .pull-left {
         border-left: solid 1px #727272;
         padding-left: 4px;
     }
-
     #mainwrap {
         padding: 39px 0 0 0;
     }
-
     [class^="wrapwidg hero"],
     [class^="wrapwidg hero"] .flexslider,
     [class^="wrapwidg hero"] .contents_wrapper,
-    [class^="wrapwidg hero"] .contents_wrapper > div,
-    [class^="wrapwidg hero"] .contents_wrapper > div .slider-hero,
-    [class^="wrapwidg hero"] .contents_wrapper > div .slider-hero .hero-message,
-    [class^="wrapwidg hero"] .contents_wrapper > div .slider-hero .hero-message-container,
-    [class^="wrapwidg hero"] .contents_wrapper > div .hero-image-container,
-    [class^="wrapwidg hero"] .contents_wrapper > div .hero-video-container,
-    div.contents_wrapper > div.flex-active-slide.template-heroPlain,
+    [class^="wrapwidg hero"] .contents_wrapper>div,
+    [class^="wrapwidg hero"] .contents_wrapper>div .slider-hero,
+    [class^="wrapwidg hero"] .contents_wrapper>div .slider-hero .hero-message,
+    [class^="wrapwidg hero"] .contents_wrapper>div .slider-hero .hero-message-container,
+    [class^="wrapwidg hero"] .contents_wrapper>div .hero-image-container,
+    [class^="wrapwidg hero"] .contents_wrapper>div .hero-video-container,
+    div.contents_wrapper>div.flex-active-slide.template-heroPlain,
     .slides {
         height: 325px !important;
         min-height: 325px !important;
         max-height: 325px !important;
     }
-
-    [class^="wrapwidg hero"] .contents_wrapper > div .slider-hero .hero-message h2{
+    [class^="wrapwidg hero"] .contents_wrapper>div .slider-hero .hero-message h2 {
         margin-top: 0px !important;
         font-size: 35px !important;
         line-height: 40px;
     }
-
-    [class^="wrapwidg hero"] .contents_wrapper > div .slider-hero .hero-message h2 span{
+    [class^="wrapwidg hero"] .contents_wrapper>div .slider-hero .hero-message h2 span {
         padding: 0px !important;
     }
-
-    [class^="wrapwidg hero"] .contents_wrapper > div .slider-hero .hero-message h3{
+    [class^="wrapwidg hero"] .contents_wrapper>div .slider-hero .hero-message h3 {
         margin-top: 0px;
     }
-
     [class^=template-hero] .slider-hero a.btn.read-more {
         margin: 20px 0px 0px 0px;
     }
-
-    .template-heroPlain .slider-hero .hero-message h3{
+    .template-heroPlain .slider-hero .hero-message h3 {
         font-size: 17px;
         line-height: 22px;
         padding: 0px;
     }
-
     .discover-calendar {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column-reverse;
         width: 100%;
-        padding: 30px 15px 0px 15px;
+        padding: 30px 15px 10px 15px;
     }
-
-    .discover-calendar h3{
+    .discover-calendar h3 {
         font-size: 24px;
         line-height: 30px;
         margin: 0px;
@@ -1831,11 +1814,9 @@ body.calendar .events-card-list .no_content_message{
         text-align: center;
         width: 100%;
     }
-
-    .discover-calendar .discover-buttons-home{
+    .discover-calendar .discover-buttons-home {
         width: 100%;
     }
-
     .discover-calendar .go-to-viewall,
     .discover-calendar .go-to-calendar {
         width: 50%;
@@ -1850,80 +1831,65 @@ body.calendar .events-card-list .no_content_message{
         font-size: 12px;
         padding: 5px 0px;
     }
-
-    .discover-calendar .go-to-viewall{
+    .discover-calendar .go-to-viewall {
         justify-content: flex-end;
     }
-
     .discover-calendar .go-to-viewall span.icon-moon,
-    .discover-calendar .go-to-calendar span.icon-moon{
+    .discover-calendar .go-to-calendar span.icon-moon {
         font-size: 18px;
     }
-
-    .wrapwidg.events-card-list .contents_wrapper .content-list-element section .event-cover{
+    .wrapwidg.events-card-list .contents_wrapper .content-list-element section .event-cover {
         height: 105px;
     }
-
-    .wrapwidg.events-card-list .contents_wrapper{
+    .wrapwidg.events-card-list .contents_wrapper {
         margin: 0px;
     }
-
-    .wrapwidg.events-card-list .contents_wrapper .content-list-element{
+    .wrapwidg.events-card-list .contents_wrapper .content-list-element {
         padding: 0px;
         min-height: auto;
         margin: 0px 0px 30px 0px;
         width: 100%;
     }
-
-    .wrapwidg.events-card-list .contents_wrapper .content-list-element section{
+    .wrapwidg.events-card-list .contents_wrapper .content-list-element section {
         height: auto;
         padding-bottom: 0px;
         border: solid 1px #dadada;
         border-left: 0px;
         border-right: 0px;
     }
-
-    .wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text{
+    .wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text {
         padding: 12px 20px 60px;
         height: auto;
     }
-
     .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire,
-    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire-image-container{
+    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire-image-container {
         height: 100% !important;
     }
-
-    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container{
+    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container {
         padding: 0px 30px;
         padding-top: 20px;
     }
-    
-    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .editing{
-    	padding-top: 30px;
+    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .editing {
+        padding-top: 30px;
     }
-
-    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until .share{
+    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until .share {
         margin-bottom: -25px;
         width: 25px;
         height: 25px;
     }
-
-    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until{
+    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until {
         padding-bottom: 45px;
         align-items: flex-end;
     }
-
-    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until .days-until{
+    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until .days-until {
         line-height: 28px;
         margin-right: -30px;
         padding-left: 3px;
     }
-
-    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until .days-until.live-now::before{
+    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until .days-until.live-now::before {
         top: 8px;
     }
-
-    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until .days-until::after{
+    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until .days-until::after {
         border: solid 14px #fff;
         height: 28px;
         border-left: solid 4px transparent;
@@ -1931,174 +1897,143 @@ body.calendar .events-card-list .no_content_message{
         width: 5px;
         left: -4px;
     }
-    
     .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .title-color-dark .esquire_row .esquire .esquire-message-container .share-until .days-until::after {
-	    border: solid 9px #3d3d3d;
-	    border-left: solid 4px transparent;
-	    z-index: -1;
-	}
-
-    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until .days-until.live-now{
+        border: solid 9px #3d3d3d;
+        border-left: solid 4px transparent;
+        z-index: -1;
+    }
+    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until .days-until.live-now {
         padding: 0px 35px 0px 5px;
     }
-
-    .container.container-event-detail{
+    .container.container-event-detail {
         margin-top: -1px;
     }
-
-	.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .title-color-dark .esquire_row .esquire .esquire-message-container .cancel-registation button,
-	.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .event-actions-container a.btn-default,
-    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .event-actions-container button{
+    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .title-color-dark .esquire_row .esquire .esquire-message-container .cancel-registation button,
+    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .event-actions-container a.btn-default,
+    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .event-actions-container button {
         width: 65%;
         font-size: 20px;
     }
-
-	.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .cancel-registation,    
+    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .cancel-registation,
     .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .event-actions-container {
-    	display: flex;
-    	align-items: left;
-    	justify-content: left;
-	}   
-
-    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .type-language{
+        display: flex;
+        align-items: left;
+        justify-content: left;
+    }
+    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .type-language {
         font-size: 14px;
         line-height: 16px;
         padding-bottom: 15px;
     }
-
-    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .esquire-message .text-uppercase h2:not(.section_title){
+    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .esquire-message .text-uppercase h2:not(.section_title) {
         font-size: 32px !important;
         line-height: 32px !important;
         padding: 0px 0px 15px 0px;
     }
-
-    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .event-datetime{
+    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .event-datetime {
         font-size: 20px;
         line-height: 23px;
     }
-
-    .wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text .share{
+    .wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text .share {
         position: relative;
         bottom: 0px;
         padding-top: 20px;
     }
-
-    .clearfix.content_details.content_details_editorial{
+    .clearfix.content_details.content_details_editorial {
         padding: 0px;
     }
-
-    .clearfix.content_details.content_details_editorial .content-rich-metas .row{
+    .clearfix.content_details.content_details_editorial .content-rich-metas .row {
         margin: 0px;
     }
-
-    .clearfix.content_details.content_details_editorial .content-rich-metas .row .when-where{
+    .clearfix.content_details.content_details_editorial .content-rich-metas .row .when-where {
         padding: 0px;
     }
-
     .content-rich-metas .row .about,
-    .content-rich-metas .row .learn{
+    .content-rich-metas .row .learn {
         padding: 35px 30px 30px 30px;
-        -webkit-flex-wrap:wrap;
-        -ms-flex-wrap:wrap;
-        flex-wrap:wrap;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     }
-
     .content-rich-metas .row .about div,
-    .content-rich-metas .row .learn div{
+    .content-rich-metas .row .learn div {
         width: 100%;
         padding-bottom: 20px;
     }
-
     .content-rich-metas .row .about div.rich-description,
-    .content-rich-metas .row .learn div.rich-description{
+    .content-rich-metas .row .learn div.rich-description {
         width: 100%;
         font-size: 16px;
         line-height: 21px;
         padding-bottom: 0px;
     }
-
     .content-rich-metas .row .about .section_title,
-    .content-rich-metas .row .learn .section_title{
+    .content-rich-metas .row .learn .section_title {
         font-size: 32px;
         line-height: 36px;
     }
-
-    .content-rich-metas .row.when-and-where{
+    .content-rich-metas .row.when-and-where {
         padding: 35px 30px 50px 30px;
         margin: 0px;
     }
-
-    .content-rich-metas .row.when-and-where .section_title{
+    .content-rich-metas .row.when-and-where .section_title {
         font-size: 32px;
         line-height: 26px;
     }
-
-    .content-rich-metas .row.when-and-where .event-datetime{
+    .content-rich-metas .row.when-and-where .event-datetime {
         padding: 20px 0px 15px 0px;
         font-size: 16px;
         display: block;
     }
-
-    .content-rich-metas .row.when-and-where .event-datetime>div{
+    .content-rich-metas .row.when-and-where .event-datetime>div {
         display: inline;
     }
-
-    .content-rich-metas .row.when-and-where .rich-description{
+    .content-rich-metas .row.when-and-where .rich-description {
         font-size: 14px;
     }
-
-    .past-event .content-rich-metas .row .col-sm-6.about{
+    .past-event .content-rich-metas .row .col-sm-6.about {
         padding: 35px 15px 50px 15px;
     }
-
-    .past-event .content-rich-metas .row .col-sm-6.video-container{
+    .past-event .content-rich-metas .row .col-sm-6.video-container {
         padding: 35px 15px 0px 15px;
         width: 100%;
     }
-
-    #footer{
+    #footer {
         height: auto;
         min-height: 30px !important;
     }
-
-    #footer .webinars-footer{
+    #footer .webinars-footer {
         padding: 20px 18px;
         height: auto;
     }
-
-    #footer .webinars-footer .nav-tabs{
+    #footer .webinars-footer .nav-tabs {
         display: block;
     }
-
-    #footer .webinars-footer .nav-tabs li{
+    #footer .webinars-footer .nav-tabs li {
         font-size: 12px;
         font-family: Proxima Nova Semibold;
         display: block;
         float: none;
         margin: 8px 0px;
     }
-
-    #footer .webinars-footer .nav-tabs li a{
+    #footer .webinars-footer .nav-tabs li a {
         margin: 8px 0px;
         line-height: 14px;
         padding: 5px 0px;
         border-right: 0px;
     }
-
-    #mainwrap .lastPBColumn .wrapwidg{
+    #mainwrap .lastPBColumn .wrapwidg {
         margin: 0px !important;
     }
-
     .all-webinars {
-         margin: 0px;
+        margin: 0px;
         padding: 20px 15px 20px 15px;
-        -webkit-flex-wrap:wrap;
-        -ms-flex-wrap:wrap;
-        flex-wrap:wrap;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
         flex-direction: column-reverse;
     }
-
-    .all-webinars h3.title{
+    .all-webinars h3.title {
         width: 100%;
         text-align: left;
         font-size: 24px;
@@ -2106,113 +2041,91 @@ body.calendar .events-card-list .no_content_message{
         padding-bottom: 0px;
         margin-left: 0px;
     }
-
-    .all-webinars .go-to-calendar{
+    .all-webinars .go-to-calendar {
         width: 100%;
         text-align: center;
     }
-
-    #allWebinars#mainwrap .lastPBColumn .wrapwidg{
+    #allWebinars#mainwrap .lastPBColumn .wrapwidg {
         padding: 10px 0px;
         margin: 0px;
     }
-
-    #webinar-date-filters{
+    #webinar-date-filters {
         margin: 0px 0px 20px 0px;
         padding: 15px;
         justify-content: space-between;
     }
-
-    #webinar-date-filters .webinar-date-filters-container{
+    #webinar-date-filters .webinar-date-filters-container {
         width: auto;
         margin-left: 0px;
     }
-
-    #allWebinars.wrapwidg.events-card-list .contents_wrapper .content-list-element{
+    #allWebinars.wrapwidg.events-card-list .contents_wrapper .content-list-element {
         padding: 0px 15px;
     }
-
-    .more a.pager-more{
+    .more a.pager-more {
         width: calc(100% - 50px);
         margin: 0px 25px 45px 25px;
     }
-
-    .wrapwidg.plugin_contentFullCalendar{
+    .wrapwidg.plugin_contentFullCalendar {
         padding: 15px 20px 40px 20px !important;
     }
-
-    .wrapwidg.plugin_contentFullCalendar h2.widget_title{
+    .wrapwidg.plugin_contentFullCalendar h2.widget_title {
         font-size: 24px;
         line-height: 28px;
     }
-
-    .wrapwidg.plugin_contentFullCalendar .widget_padding .fc-view-container .fc-basic-view>table{
+    .wrapwidg.plugin_contentFullCalendar .widget_padding .fc-view-container .fc-basic-view>table {
         border: solid 1px #adadad;
     }
-
-    .wrapwidg.plugin_contentFullCalendar .widget_padding .fc-toolbar{
+    .wrapwidg.plugin_contentFullCalendar .widget_padding .fc-toolbar {
         height: 20px;
         padding: 0px;
         margin: 16px 0px 24px 0px !important;
     }
-
-    .wrapwidg.plugin_contentFullCalendar .widget_padding .fc-toolbar .fc-left{
+    .wrapwidg.plugin_contentFullCalendar .widget_padding .fc-toolbar .fc-left {
         width: 100%;
         display: flex;
         justify-content: space-between;
         float: none;
     }
-
-    .wrapwidg.plugin_contentFullCalendar .widget_padding .fc-toolbar .fc-left h2{
+    .wrapwidg.plugin_contentFullCalendar .widget_padding .fc-toolbar .fc-left h2 {
         font-size: 16px;
     }
-
-    .wrapwidg.plugin_contentFullCalendar .widget_padding .fc-toolbar .fc-left .fc-button-group .fc-corner-right{
+    .wrapwidg.plugin_contentFullCalendar .widget_padding .fc-toolbar .fc-left .fc-button-group .fc-corner-right {
         padding-right: 0px;
     }
-
-    .wrapwidg.plugin_contentFullCalendar .widget_padding .fc-toolbar .fc-left .fc-button-group .fc-corner-right .fc-icon-right-single-arrow{
+    .wrapwidg.plugin_contentFullCalendar .widget_padding .fc-toolbar .fc-left .fc-button-group .fc-corner-right .fc-icon-right-single-arrow {
         margin-right: 0px;
     }
-
-    .wrapwidg.plugin_contentFullCalendar .widget_padding .fc-toolbar .fc-left .fc-button-group .fc-icon:after{
+    .wrapwidg.plugin_contentFullCalendar .widget_padding .fc-toolbar .fc-left .fc-button-group .fc-icon:after {
         display: block;
         height: 16px;
         width: 16px;
         margin: 0px;
     }
-
-    .wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-row.fc-widget-header tr{
+    .wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-row.fc-widget-header tr {
         height: 45px;
     }
-
-    .wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-row.fc-widget-header tr th{
+    .wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-row.fc-widget-header tr th {
         padding: 0px;
         text-align: center;
         font-size: 14px;
         height: 50px;
     }
-
-    .wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-row.fc-week.fc-widget-content .fc-content-skeleton .fc-day-number{
+    .wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-row.fc-week.fc-widget-content .fc-content-skeleton .fc-day-number {
         padding-top: 7px;
         padding-right: 0px;
         padding-bottom: 3px;
     }
-
-    .wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-event-container a.fc-day-grid-event{
+    .wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-event-container a.fc-day-grid-event {
         display: none;
     }
-
-    .wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-row.fc-week.fc-widget-content .fc-content-skeleton .fc-day-number span{
+    .wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-row.fc-week.fc-widget-content .fc-content-skeleton .fc-day-number span {
         text-align: center;
         float: none;
     }
-
-    .fc-row .fc-content-skeleton table tbody td.fc-event-container a{
+    .fc-row .fc-content-skeleton table tbody td.fc-event-container a {
         display: none;
     }
-
-    .fc-row .fc-content-skeleton table tbody td.fc-event-container:before{
+    .fc-row .fc-content-skeleton table tbody td.fc-event-container:before {
         content: "";
         width: 4px;
         height: 4px;
@@ -2221,80 +2134,64 @@ body.calendar .events-card-list .no_content_message{
         border-radius: 100%;
         margin: 0 auto;
     }
-
-    .wrapwidg.plugin_contentFullCalendar .fc-basic-view .fc-body .fc-row{
+    .wrapwidg.plugin_contentFullCalendar .fc-basic-view .fc-body .fc-row {
         min-height: 40px;
     }
-
-    .wrapwidg.plugin_contentFullCalendar .fc-basic-view .fc-body .fc-row .fc-content-skeleton table tbody tr td.fc-event-container{
+    .wrapwidg.plugin_contentFullCalendar .fc-basic-view .fc-body .fc-row .fc-content-skeleton table tbody tr td.fc-event-container {
         display: none;
     }
-
-    .wrapwidg.plugin_contentFullCalendar .fc-basic-view .fc-body .fc-row .fc-content-skeleton table tbody tr:nth-child(1) td.fc-event-container{
+    .wrapwidg.plugin_contentFullCalendar .fc-basic-view .fc-body .fc-row .fc-content-skeleton table tbody tr:nth-child(1) td.fc-event-container {
         display: table-cell;
     }
-
-    .wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-row.fc-week.fc-widget-content .fc-content-skeleton .fc-day-number.fc-today span{
+    .wrapwidg.plugin_contentFullCalendar .fc-view-container .fc-day-grid-container .fc-row.fc-week.fc-widget-content .fc-content-skeleton .fc-day-number.fc-today span {
         margin: 0 auto;
     }
-
-    body.section_calendar #main{
+    body.section_calendar #main {
         min-height: auto;
     }
-
-    .fc-view, .fc-view>table{
+    .fc-view,
+    .fc-view>table {
         padding-bottom: 10px;
     }
-
-    .cc-cookies{
+    .cc-cookies {
         padding: 20px 20px 80px 20px !important;
     }
-
-    .cc-cookies a.cc-cookie-accept{
+    .cc-cookies a.cc-cookie-accept {
         bottom: 0px;
         right: auto;
         top: auto;
         width: calc(100% - 40px);
     }
-
-    .content-rich-metas .row .video-container{
+    .content-rich-metas .row .video-container {
         padding: 7px 25px 28px;
     }
-
-    .content-rich-metas .row .video-container h3.section_title{
+    .content-rich-metas .row .video-container h3.section_title {
         font-size: 32px;
         line-height: 32px;
         padding-bottom: 10px;
         padding-top: 10px;
     }
-
     .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .past-event .esquire_row .esquire,
-    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .past-event .esquire-image-container{
+    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .past-event .esquire-image-container {
         height: 100% !important;
     }
-
-    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .webinair_backdetail{
+    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .webinair_backdetail {
         top: 20px;
         left: 25px;
     }
-
-    body.calendar .wrapwidg .webinair_backdetail a{
+    body.calendar .wrapwidg .webinair_backdetail a {
         margin-left: 20px;
     }
-
-    body.pastWebinars .webinair_backdetail{
+    body.pastWebinars .webinair_backdetail {
         padding-left: 15px;
     }
-
-    body.calendar .wrapcontent_padding{
+    body.calendar .wrapcontent_padding {
         padding: 0px;
     }
-
-    body.calendar .wrapwidg.events-card-list .contents_wrapper .content-list-element section .fx-xs-display.event-datetime .event-date{
+    body.calendar .wrapwidg.events-card-list .contents_wrapper .content-list-element section .fx-xs-display.event-datetime .event-date {
         display: none;
     }
-
-    body.calendar .wrapwidg.events-card-list .contents_wrapper .content-list-element section .fx-xs-display.event-datetime .event-time{
+    body.calendar .wrapwidg.events-card-list .contents_wrapper .content-list-element section .fx-xs-display.event-datetime .event-time {
         font-size: 14px;
         font-family: Proxima Nova Regular;
         font-weight: 100;
@@ -2302,44 +2199,37 @@ body.calendar .events-card-list .no_content_message{
         margin: 0px;
         line-height: 16px;
     }
-
-    body.calendar .wrapwidg.events-card-list .contents_wrapper .content-list-element section .event-title{
+    body.calendar .wrapwidg.events-card-list .contents_wrapper .content-list-element section .event-title {
         padding: 3px 0px 0px 0px;
         line-height: 14px;
     }
-
-    body.calendar .wrapwidg.events-card-list .contents_wrapper .content-list-element section .event-title a{
+    body.calendar .wrapwidg.events-card-list .contents_wrapper .content-list-element section .event-title a {
         font-size: 14px;
         line-height: 16px;
         padding: 0px;
     }
-
-    body.calendar .wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text{
+    body.calendar .wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text {
         padding: 12px 20px;
     }
-
-    body.homePage #mainwrap .events-card-list{
+    body.homePage #mainwrap .events-card-list {
         margin: 0px 15px !important;
     }
-
-    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .esquire-message{
+    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .esquire-message {
         width: auto;
     }
-
-    body.calendar .events-card-list{
+    body.calendar .events-card-list {
         min-height: 110px;
     }
-
-    body.calendar .wrapwidg.events-card-list .contents_wrapper{
+    body.calendar .wrapwidg.events-card-list .contents_wrapper {
         display: block;
     }
-    
-    #webinarFilters .search-box{
-	    max-width: 100%;
-	}
-    
+    #webinarFilters .search-box {
+        max-width: 100%;
+    }
     #webinarFilters .bootstrap-select {
-	    width: 100%;
-	}
-    
+        width: 100%;
+    }
+    #footer .webinars-footer .nav-tabs li::after {
+        content: none;
+    }
 }
