@@ -199,10 +199,10 @@ body {
 
 .template-heroPlain .slider-hero .hero-message h3 {
     margin-top: 20px;
-    font-family: Proxima Nova Semibold;
+    font-family: Proxima Nova Light;
     font-size: 24px;
-    font-weight: 600;
-    line-height: 31px;
+    font-weight: 200;
+    line-height: 24.2px;
 }
 
 h3.home-claim span {
@@ -1156,6 +1156,14 @@ h3.home-claim span {
     max-width: 170px;
 }
 
+#webinar-date-filters {
+    border-top: solid 1px #d2d2d2;
+    margin: 15px 0px;
+    padding: 28px 5%;
+    border-bottom: solid 1px #d2d2d2;
+    margin-top: 0px;
+}
+
 #webinar-date-filters>.dateFilter {
     display: none;
 }
@@ -1796,7 +1804,7 @@ body.calendar .events-card-list .no_content_message {
     }
     .template-heroPlain .slider-hero .hero-message h3 {
         font-size: 17px;
-        line-height: 22px;
+        line-height: 16px;
         padding: 0px;
     }
     .discover-calendar {
