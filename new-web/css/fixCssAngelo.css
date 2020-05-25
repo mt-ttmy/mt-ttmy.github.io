@@ -719,6 +719,7 @@ h3.home-claim span {
     font-family: Proxima Nova Bold;
     font-size: 28px;
     line-height: 28px;
+    margin-bottom: 25px;
 }
 
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .event-datetime .pipe {
@@ -2250,5 +2251,8 @@ body.event .container.container-event-detail .esquire-message-container .editing
     }
     body.event .container.container-event-detail .esquire-message-container .editing {
         top: 15px;
+    }
+    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .event-datetime {
+        margin-bottom: auto;
     }
 }
