@@ -20,11 +20,6 @@ body {
     margin: 0px;
 }
 
-body.webinarviewall #mainwrap .lastPBColumn #webinarFilters.wrapwidg,
-body.pastWebinars #mainwrap .lastPBColumn #webinarFilters.wrapwidg {
-    background-color: white;
-}
-
 * {
     -webkit-border-radius: 0 !important;
     -moz-border-radius: 0 !important;
