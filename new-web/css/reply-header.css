@@ -1,5 +1,5 @@
 /*reset*/
-#header {
+.homePagePrivateTest #header {
     background-color: transparent;
     text-align: left;
     box-shadow: none;
@@ -88,10 +88,10 @@
     position: relative;
 }
 .wi__header_reply .wi__dropdown-menu ul {
-    list-style: none;
+    list-style: none !important;
     border-left: 2px solid #c5c5c3;
-    padding-left: 15px;
-    margin-right: 100px;
+    padding-left: 15px !important;
+    margin-right: 100px !important;
 }
 .wi__header_reply .wi__dropdown-menu ul li {
     line-height: 20px;
