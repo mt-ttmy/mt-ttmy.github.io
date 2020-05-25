@@ -1638,11 +1638,6 @@ body.calendar .events-card-list .no_content_message {
     padding-bottom: 25px;
 }
 
-body.event .container.container-event-detail .esquire-message-container .editing {
-    position: absolute;
-    top: 0;
-}
-
 body.event .container.container-event-detail .content-tag {
     padding: 10px 9.5%;
 }
@@ -2251,9 +2246,6 @@ body.event .container.container-event-detail .content-tag {
     }
     #footer .webinars-footer .nav-tabs li::after {
         content: none;
-    }
-    body.event .container.container-event-detail .esquire-message-container .editing {
-        top: 15px;
     }
     .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .event-datetime {
         margin-bottom: auto;
