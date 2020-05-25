@@ -1,3 +1,86 @@
-.test {
-	border: 1px solid red !important;
+.wi__header_reply {
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 60px;
+    line-height: 60px;
+    background: rgba(255, 255, 255, 0.95);
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    border-bottom: 1px solid #e2e2e2;
+    top: 0;
+    -webkit-text-size-adjust: none;
+    text-align: left;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.wi__header_reply .wi__logo {
+    float: left;
+    margin: 0 1em 0 1em;
+    width: 130px;
+}
+.wi__header_reply .wi__logo > img {
+    vertical-align: middle;
+    margin-top: 5px;
+    min-width: 150px;
+    width: 150px;
+}
+.wi__header_reply .wi__menu {
+    float: left;
+    list-style: none;
+    padding: 0 0;
+}
+.wi__header_reply .wi__menu .wi__subMenu {
+    white-space: normal;
+    height: 60px;
+    line-height: 60px;
+    display: inline-block;
+    padding: 0 14px;
+    text-transform: uppercase;
+}
+.wi__header_reply .wi__menu .wi__subMenu:first-child {
+    margin-left: 6px;
+}
+.wi__header_reply .wi__menu .wi__subMenu > a {
+    color: #3d3d3d;
+    text-transform: uppercase;
+    display: block;
+    font-size: 14px;
+}
+.wi__header_reply .wi__menu .wi__subMenu > a.current, .wi__header_reply .wi__menu .wi__subMenu > a:hover {
+    color: #16a74e;
+}
+.wi__header_reply .wi__dropdown-menu {
+    position: absolute;
+    left: 0;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    z-index: 99999;
+    padding: 30px 100px;
+    background: #e2e2de;
+    visibility: hidden;
+    opacity: 0;
+    opacity: 1;
+    visibility: visible;
+    display: block;
+}
+@media only screen and (min-width: 593px) {
+    .wi__header_reply .wi__logo > img {
+        min-width: 200px;
+        width: 200px;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .wi__header_reply .wi__logo {
+        width: 180px;
+    }
+    .wi__header_reply .wi__logo > img {
+        min-width: 230px;
+        width: 230px;
+    }
 }
