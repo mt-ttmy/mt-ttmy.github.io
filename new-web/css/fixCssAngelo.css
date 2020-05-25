@@ -1639,6 +1639,15 @@ body.calendar .events-card-list .no_content_message {
     padding-bottom: 25px;
 }
 
+body.event .container.container-event-detail .esquire-message-container .editing {
+    position: absolute;
+    top: 0;
+}
+
+body.event .container.container-event-detail .content-tag {
+    padding: 10px 9.5%;
+}
+
 @media (max-width: 1199px) {
     .wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text {
         padding: 20px 20px;
@@ -1742,11 +1751,6 @@ body.calendar .events-card-list .no_content_message {
         border: 0px;
         color: #fff;
     }
-}
-
-body.event .container.container-event-detail .esquire-message-container .editing {
-    position: absolute;
-    top: 0;
 }
 
 @media (max-width: 767px) {
