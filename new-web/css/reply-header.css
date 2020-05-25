@@ -1,10 +1,11 @@
 /*reset*/
-/*#header {
+#header {
     background-color: transparent;
     text-align: left;
     box-shadow: none;
     min-height: 60px;
-}*/
+}
+
 /*Header Reply (webinar)*/
 .wi__header_reply {
     max-width: 1440px;
