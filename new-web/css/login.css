@@ -1140,13 +1140,13 @@ div#user_agree_check_bis_collapse {
 }
 
 .btn.btn-reply-green {
-    padding: 10px;
+    padding: 0px;
     text-transform: uppercase;
     font-family: Proxima Nova Regular;
     border: 0px;
     font-weight: normal;
     color: #3D3D3D;
-    font-size: 22px;
+    font-size: 20px;
     min-width: 150px;
 }
 
