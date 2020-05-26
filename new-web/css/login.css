@@ -1139,6 +1139,17 @@ div#user_agree_check_bis_collapse {
     min-width: 150px;
 }
 
+.btn.btn-reply-green {
+    padding: 10px;
+    text-transform: uppercase;
+    font-family: Proxima Nova Regular;
+    border: 0px;
+    font-weight: normal;
+    color: #3D3D3D;
+    font-size: 22px;
+    min-width: 150px;
+}
+
 @media (max-width: 768px){
 	#wraplog.modal-login #mainwrap {
 	    padding-top: 10px;
