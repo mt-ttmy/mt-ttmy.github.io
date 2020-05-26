@@ -20,12 +20,6 @@ body {
     margin: 0px;
 }
 
-* {
-    -webkit-border-radius: 0 !important;
-    -moz-border-radius: 0 !important;
-    border-radius: 0 !important;
-}
-
 .btn.btn-reply {
     padding: 10px;
     text-transform: uppercase;
