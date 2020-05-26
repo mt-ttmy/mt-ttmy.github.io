@@ -290,26 +290,85 @@
     }
 }
 
+.menuJoin {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    padding-left: 15px;
+    border-left: 2px solid #c5c5c3;
+    text-transform: none;
+}
+.menuJoin .menuJoin__title {
+    font-size: 20px;
+    color: #353535;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 25px;
+}
+.menuJoin .menuJoin__title span {
+    font-family: "Proxima Nova Light",'Helvetica Neue',Arial,Helvetica,sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 18px;
+    display: block;
+    color: #5c5c5c;
+}
+.menuJoin .menuJoin__text {
+    font-size: 16px;
+    line-height: 1;
+    color: #474747;
+    margin-bottom: 0;
+}
+.menuJoin .menuJoin__link {
+    font-size: 18px;
+    color: #16a74e;
+    display: inline-block;
+    font-weight: 800;
+    font-family: "Proxima Nova Extra Bold",'Helvetica Neue',Arial,Helvetica,sans-serif;
+}
+@media only screen and (max-width: 767px) {
+    .menuJoin {
+        border: none;
+        padding: 20px 25px;
+    }
+    .menuJoin .menuJoin__title {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .menuJoin .menuJoin__title span {
+        font-size: 14px;
+    }
+    .menuJoin .menuJoin__text {
+        font-size: 13px;
+    }
+    .menuJoin .menuJoin__link {
+        padding: 8px 0 !important;
+        font-size: 14px !important;
+    }
+}
+
 /*Menu Mobile Sidebar*/
-.mobileMenuOpen {
-    overflow: hidden;
-}
-.mobileMenuOpen #wi__header_reply,
-.mobileMenuOpen #home-wrapcontent,
-.mobileMenuOpen #footer {
-    -webkit-transform: translateX(350px);
-    transform: translateX(350px);
-    overflow: hidden;
-}
-.mobileMenuOpen .wi__sidenav_level1 {
-    left: 0;
-}
-.mobileMenuOpen .wi__sidenav_languages {
-    display: block;
-}
-.mobileMenuOpen .wi__overlay_backdrop {
-    display: block;
-    height: 100%;
+@media only screen and (max-width: 767px) {
+    .mobileMenuOpen {
+        overflow: hidden;
+    }
+    .mobileMenuOpen #wi__header_reply,
+    .mobileMenuOpen #home-wrapcontent,
+    .mobileMenuOpen #footer {
+        -webkit-transform: translateX(350px);
+        transform: translateX(350px);
+        overflow: hidden;
+    }
+    .mobileMenuOpen .wi__sidenav_level1 {
+        left: 0;
+    }
+    .mobileMenuOpen .wi__sidenav_languages {
+        display: block;
+    }
+    .mobileMenuOpen .wi__overlay_backdrop {
+        display: block;
+        height: 100%;
+    }
 }
 @media only screen and (max-width: 420px) {
     .mobileMenuOpen #wi__header_reply,
@@ -350,13 +409,29 @@
     transition: all 0.1s ease-in;
     text-align: left;
 }
+@media only screen and (min-width: 768px) {
+    .wi__sidenav {
+        display: none;
+    }
+}
 .wi__sidenav_title {
+    display: block;
     color: black;
     height: 40px;
     line-height: 40px;
     padding: 0 16px;
     font-size: 16px;
     border-bottom: 1px solid #fff;
+    text-transform: uppercase;
+}
+.wi__sidenav_title .fa {
+    font-size: 25px;
+    padding: 4px 13px;
+    display: inline-block;
+    vertical-align: -3px;
+    position: relative;
+    left: -4px;
+    margin-right: 3px;
 }
 .wi__sidenav_menu {
     list-style: none;
@@ -372,16 +447,28 @@
     height: auto;
     line-height: normal;
 }
-.wi__sidenav_menu > *.current a, .wi__sidenav_menu > *:hover a {
+.wi__sidenav_menu > *.current > a {
     background: #16a74e;
     color: #fff;
 }
-.wi__sidenav_menu > * a {
+.wi__sidenav_menu > * > a {
     color: #3d3d3d;
     text-transform: uppercase;
     display: block;
     font-size: 14px;
     padding: 11px 28px;
+}
+.wi__sidenav_menu .item-header {
+    margin-bottom: 10px;
+}
+.wi__sidenav_menu .item-header a {
+    font-size: 14px !important;
+    color: #353535;
+    font-family: "Proxima Nova Semi Bold",'Helvetica Neue',Arial,Helvetica,sans-serif;
+    font-weight: 600;
+}
+.wi__sidenav_menu .empty {
+    margin-bottom: 20px;
 }
 .wi__sidenav_languages {
     position: fixed;
@@ -389,7 +476,7 @@
     bottom: 0;
     left: 0;
     width: 350px;
-    z-index: 1;
+    z-index: 1004;
     height: 38px;
     background-color: #d9d9d9;
     font-weight: 600;
@@ -444,6 +531,13 @@
 
 .wi__sidenav_level2 {
     z-index: 1003;
+}
+.wi__sidenav_level2.open {
+    left: 0;
+}
+.wi__sidenav_level2 .wi__sidenav_menu a {
+    padding: 8px 24px;
+    font-size: 12px;
 }
 
 /*Breadcrumb Reply*/
