@@ -109,45 +109,28 @@ body {
     margin: 0 auto;
 }
 
-#footer .webinars-footer .nav-tabs {
-    border: 0px;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    justify-content: center;
+#footer .webinars-footer ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
 
-#footer .webinars-footer .nav-tabs li {
-    font-family: Proxima Nova Regular;
-    font-size: 14px;
-    color: #fff;
+#footer .webinars-footer ul li {
+    padding: .5rem 0;
+    color: #FFFFFF;
 }
 
-#footer .webinars-footer .nav-tabs li::after {
+#footer .webinars-footer ul li::after {
     content: '-';
 }
 
-#footer .webinars-footer .nav-tabs li:last-child::after {
+#footer .webinars-footer ul li:last-child::after {
     content: none;
 }
 
-#footer .webinars-footer .nav-tabs li a {
-    color: #fff;
-    padding: 0px 8px;
-    border: 0px;
-    margin-top: 20px;
-    border-radius: 0px;
-    line-height: 10px;
-    background-color: transparent;
-    margin-left: 2px;
-    display: inline-block;
-}
-
-#footer .webinars-footer .nav-tabs li a:hover {
-    background-color: transparent;
+#footer .webinars-footer ul li a {
+    color: #FFFFFF;
+    margin: 0 1rem;
 }
 
 .form-control:focus {
@@ -2035,22 +2018,6 @@ body.event .container.container-event-detail .content-tag {
         padding: 20px 18px;
         height: auto;
     }
-    #footer .webinars-footer .nav-tabs {
-        display: block;
-    }
-    #footer .webinars-footer .nav-tabs li {
-        font-size: 12px;
-        font-family: Proxima Nova Semibold;
-        display: block;
-        float: none;
-        margin: 8px 0px;
-    }
-    #footer .webinars-footer .nav-tabs li a {
-        margin: 8px 0px;
-        line-height: 14px;
-        padding: 5px 0px;
-        border-right: 0px;
-    }
     #mainwrap .lastPBColumn .wrapwidg {
         margin: 0px !important;
     }
@@ -2257,9 +2224,6 @@ body.event .container.container-event-detail .content-tag {
     }
     #webinarFilters .bootstrap-select {
         width: 100%;
-    }
-    #footer .webinars-footer .nav-tabs li::after {
-        content: none;
     }
     .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .event-datetime {
         margin-bottom: auto;
