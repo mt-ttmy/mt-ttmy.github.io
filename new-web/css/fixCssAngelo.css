@@ -134,10 +134,6 @@ body {
     content: none;
 }
 
-#footer .webinars-footer .nav-tabs li:last-child a {
-    border-right: 0px;
-}
-
 #footer .webinars-footer .nav-tabs li a {
     color: #fff;
     padding: 0px 8px;
