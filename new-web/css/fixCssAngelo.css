@@ -885,6 +885,15 @@ h3.home-claim span {
     width: 47%;
 }
 
+.content-rich-metas .row .learn.centered-layout {
+    display: block;
+}
+
+.content-rich-metas .row .learn.centered-layout div {
+    width: 100%;
+    padding-bottom: 30px;
+}
+
 .content-rich-metas .row .about .section_title {
     color: #3d3d3d;
 }
@@ -900,6 +909,10 @@ h3.home-claim span {
     line-height: 46px;
     font-family: Proxima Nova Semibold;
     max-width: 400px;
+}
+
+.content-rich-metas .row .learn.centered-layout .section_title {
+    max-width: none;
 }
 
 .content-rich-metas .row .about div.rich-description,
