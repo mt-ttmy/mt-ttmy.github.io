@@ -1150,6 +1150,11 @@ div#user_agree_check_bis_collapse {
     min-width: 150px;
 }
 
+
+span.icon-moon.icon-group-3 {
+    display: none;
+}
+
 @media (max-width: 768px){
 	#wraplog.modal-login #mainwrap {
 	    padding-top: 10px;
