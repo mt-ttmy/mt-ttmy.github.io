@@ -2269,3 +2269,91 @@ body.event .container.container-event-detail .content-tag {
         margin-bottom: auto;
     }
 }
+
+.btn {
+    border-radius: 0px;
+    opacity: 1;
+    font-family: Proxima Nova Regular;
+    font-weight: normal;
+}
+
+.form-control {
+    border-radius: 0px;
+    font-family: Proxima Nova Regular;
+    opacity: 1;
+    font-weight: normal;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active,
+.btn-default.active,
+.open>.dropdown-toggle.btn-default {
+    background-color: white;
+}
+
+.wrapwidg.events-card-list .contents_wrapper .content-list-element section .event-title a {
+    font-family: Proxima Nova Black;
+}
+
+.wrapwidg.events-card-list .contents_wrapper .content-list-element section article #event-sessions-area .button-container.event-actions-container a.btn,
+.wrapwidg.events-card-list .contents_wrapper .content-list-element section article #event-sessions-area .button-container button.btn,
+.wrapwidg.events-card-list .contents_wrapper .content-list-element section article #event-sessions-area .link-container button {
+    border-bottom: none;
+    color: #05b03e;
+    font-family: "Proxima Nova Bold", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.wrapwidg.events-card-list .contents_wrapper .content-list-element section article #event-sessions-area .button-container.event-actions-container a.btn:hover,
+.wrapwidg.events-card-list .contents_wrapper .content-list-element section article #event-sessions-area .button-container button.btn:hover,
+.wrapwidg.events-card-list .contents_wrapper .content-list-element section article #event-sessions-area .link-container button:hover {
+    border-bottom: solid 1px #05b03e;
+    margin-bottom: -1px;
+}
+
+.flexslider .contents_wrapper>div {
+    height: 440px;
+}
+
+.flexslider .slider-hero {
+    max-height: 440px;
+    height: 440px;
+}
+
+.slider-hero .hero-image-container {
+    background-position: center 100% !important;
+}
+
+.wrapwidg.events-card-list .contents_wrapper .content-list-element section .event-title a:hover {
+    text-decoration: underline !important;
+}
+
+.wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text .event-title {
+    padding: 15px 0px 15px;
+    line-height: 0px;
+}
+
+.wrapwidg.events-card-list .contents_wrapper .content-list-element section article .event-abstract {
+    padding-top: 10px;
+    line-height: 1.25em;
+}
+
+.wrapwidg.events-card-list .contents_wrapper .content-list-element section .fx-xs-display.event-datetime .event-time {
+    margin-top: 0px;
+}
+
+.wrapwidg.events-card-list .contents_wrapper .content-list-element section .fx-xs-display {
+    font-family: Proxima Nova Regular;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.wrapwidg.events-card-list .contents_wrapper .content-list-element section .fx-xs-display.event-datetime {
+    font-family: Proxima Nova Bold;
+    font-weight: 700;
+    font-size: 15px;
+}
