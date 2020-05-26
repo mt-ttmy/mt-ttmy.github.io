@@ -20,10 +20,16 @@ body {
     margin: 0px;
 }
 
-* {
-    -webkit-border-radius: 0 !important;
-    -moz-border-radius: 0 !important;
-    border-radius: 0 !important;
+.btn.btn-reply {
+    padding: 10px;
+    text-transform: uppercase;
+    font-family: Proxima Nova Regular;
+    background-color: #FFFFFF;
+    border: 0px;
+    font-weight: normal;
+    color: #3D3D3D;
+    font-size: 14px;
+    min-width: 150px;
 }
 
 .flexslider .contents_wrapper>div[class^="template-"] {
@@ -199,10 +205,10 @@ body {
 
 .template-heroPlain .slider-hero .hero-message h3 {
     margin-top: 20px;
-    font-family: Proxima Nova Semibold;
+    font-family: Proxima Nova Light;
     font-size: 24px;
-    font-weight: 600;
-    line-height: 31px;
+    font-weight: 200;
+    line-height: 24.2px;
 }
 
 h3.home-claim span {
@@ -239,15 +245,9 @@ h3.home-claim span {
 [class^=template-hero] .slider-hero a.btn.read-more {
     margin: 35px 0px 0px 0px;
     width: 230px;
-    line-height: 40px;
     font-family: Proxima Nova Regular;
-    background-color: #fff;
-    padding: 0px;
-    border: 0px !important;
     font-weight: normal;
     color: #3d3d3d !important;
-    font-size: 20px;
-    text-transform: inherit;
 }
 
 [class^=template-hero] .slider-hero a.btn.read-more .fa-arrow-right {
@@ -621,7 +621,12 @@ h3.home-claim span {
 }
 
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .title-color-dark .esquire_row .esquire .esquire-message-container .cancel-registation button {
-    background: #3d3d3d;
+    color: #3d3d3d;
+}
+
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .title-color-dark .esquire_row .esquire .esquire-message-container .btn.btn.btn-reply {
+    color: #FFFFFF;
+    background-color: #3D3D3D;
 }
 
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until {
@@ -692,29 +697,32 @@ h3.home-claim span {
 
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .esquire-message {
     text-align: left;
-    width: 800px;
+    width: 700px;
 }
 
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .esquire-message .text-uppercase h2:not(.section_title) {
-    font-family: Proxima Nova Extra Bold !important;
-    font-size: 60px !important;
-    line-height: 55px !important;
-    padding: 0px 0px 20px 0px;
+    font-family: Proxima Nova Black !important;
+    font-size: 54px !important;
+    line-height: 43.7px !important;
+    padding: 0px 0px 50px 0px;
     color: inherit !important;
 }
 
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .type-language {
-    font-family: Proxima Nova Bold;
     font-size: 18px;
     line-height: 16px;
-    padding-bottom: 25px;
+    padding-bottom: 5px;
 }
 
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .event-datetime {
     font-family: Proxima Nova Bold;
-    font-size: 30px;
-    line-height: 30px;
-    display: block;
+    font-size: 28px;
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .event-datetime .pipe {
+    margin: auto 5px;
 }
 
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .event-actions-container {
@@ -849,15 +857,17 @@ h3.home-claim span {
     padding-bottom: 0px;
 }
 
+.content-rich-metas .row .rich,
+.content-rich-metas .row.when-and-where {
+    background-color: #FFFFFF;
+}
+
 .content-rich-metas .row .about,
 .content-rich-metas .row .learn {
-    padding: 60px 11.5% 45px 14.5%;
+    padding: 60px 9.5% 45px 9.5%;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
 }
 
 .content-rich-metas .row .learn {
@@ -875,6 +885,15 @@ h3.home-claim span {
     width: 47%;
 }
 
+.content-rich-metas .row .learn.centered-layout {
+    display: block;
+}
+
+.content-rich-metas .row .learn.centered-layout div {
+    width: 100%;
+    padding-bottom: 30px;
+}
+
 .content-rich-metas .row .about .section_title {
     color: #3d3d3d;
 }
@@ -889,7 +908,11 @@ h3.home-claim span {
     margin: 0px;
     line-height: 46px;
     font-family: Proxima Nova Semibold;
-    width: 260px;
+    max-width: 400px;
+}
+
+.content-rich-metas .row .learn.centered-layout .section_title {
+    max-width: none;
 }
 
 .content-rich-metas .row .about div.rich-description,
@@ -920,7 +943,7 @@ h3.home-claim span {
 
 .content-rich-metas .row.when-and-where {
     text-align: center;
-    padding: 70px 6.5% 60px;
+    padding: 70px 9.5% 60px;
 }
 
 .content-rich-metas .row.when-and-where .section_title {
@@ -1156,6 +1179,14 @@ h3.home-claim span {
     max-width: 170px;
 }
 
+#webinar-date-filters {
+    border-top: solid 1px #d2d2d2;
+    margin: 15px 0px;
+    padding: 28px 5%;
+    border-bottom: solid 1px #d2d2d2;
+    margin-top: 0px;
+}
+
 #webinar-date-filters>.dateFilter {
     display: none;
 }
@@ -1214,7 +1245,6 @@ h3.home-claim span {
     align-items: center;*/
     padding: 10px 5%;
     display: block;
-    background-color: #fff;
     text-transform: uppercase;
 }
 
@@ -1391,7 +1421,7 @@ h3.home-claim span {
 
 .content-rich-metas .row .video-container {
     padding: 30px 0px 50px;
-    background-color: #dcdbdb;
+    background-color: #EEEEEE;
 }
 
 .content-rich-metas .row .video-container iframe {
@@ -1625,6 +1655,11 @@ body.calendar .events-card-list .no_content_message {
     padding-bottom: 25px;
 }
 
+body.event .container.container-event-detail .content-tag {
+    background-color: #FFFFFF;
+    padding: 10px 9.5%;
+}
+
 @media (max-width: 1199px) {
     .wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text {
         padding: 20px 20px;
@@ -1796,7 +1831,7 @@ body.calendar .events-card-list .no_content_message {
     }
     .template-heroPlain .slider-hero .hero-message h3 {
         font-size: 17px;
-        line-height: 22px;
+        line-height: 16px;
         padding: 0px;
     }
     .discover-calendar {
@@ -1869,9 +1904,6 @@ body.calendar .events-card-list .no_content_message {
         padding: 0px 30px;
         padding-top: 20px;
     }
-    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .editing {
-        padding-top: 30px;
-    }
     .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until .share {
         margin-bottom: -25px;
         width: 25px;
@@ -1923,11 +1955,11 @@ body.calendar .events-card-list .no_content_message {
     .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .type-language {
         font-size: 14px;
         line-height: 16px;
-        padding-bottom: 15px;
+        padding-bottom: 0px;
     }
     .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .esquire-message .text-uppercase h2:not(.section_title) {
         font-size: 32px !important;
-        line-height: 32px !important;
+        line-height: 27px !important;
         padding: 0px 0px 15px 0px;
     }
     .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .event-datetime {
@@ -1971,6 +2003,7 @@ body.calendar .events-card-list .no_content_message {
     .content-rich-metas .row .learn .section_title {
         font-size: 32px;
         line-height: 36px;
+        max-width: 300px;
     }
     .content-rich-metas .row.when-and-where {
         padding: 35px 30px 50px 30px;
@@ -2231,5 +2264,8 @@ body.calendar .events-card-list .no_content_message {
     }
     #footer .webinars-footer .nav-tabs li::after {
         content: none;
+    }
+    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .event-datetime {
+        margin-bottom: auto;
     }
 }
