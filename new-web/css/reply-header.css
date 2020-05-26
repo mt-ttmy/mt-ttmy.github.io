@@ -1,4 +1,4 @@
-/*reset*/
+/*reset temp*/
 .homePagePrivateTest #header {
     background-color: transparent;
     text-align: left;
@@ -6,6 +6,12 @@
     min-height: 60px;
 }
 
+/*reset*/
+@media only screen and (max-width: 767px) {
+    #mainwrap {
+        padding: 41px 0 0 0;
+    }
+}
 /*Header Reply (webinar)*/
 .wi__header_reply {
     max-width: 1440px;
@@ -41,7 +47,8 @@
 .wi__header_reply .wi__menu {
     float: left;
     list-style: none;
-    padding: 0 0;
+    padding: 0;
+    margin: 0;
 }
 .wi__header_reply .wi__subMenu {
     white-space: normal;
@@ -108,10 +115,100 @@
     background: #16a74e;
     color: #fff;
 }
-@media only screen and (min-width: 593px) {
+.wi__header_reply .wi__actionbar {
+    float: right;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.wi__header_reply .wi__actionbar > * {
+    height: 60px;
+    line-height: 60px;
+    float: left;
+    padding: 0 16px;
+    position: relative;
+    font-size: 10px;
+}
+.wi__header_reply .wi__actionbar > *:not(:first-child):before {
+    content: "";
+    width: 1px;
+    height: 19px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -9.5px;
+    background-color: #c4c4c4;
+}
+.wi__header_reply .wi__actionbar > * > a {
+    text-transform: uppercase;
+}
+.wi__header_reply .wi__actionbar select {
+    border: 0;
+    padding-right: 17px;
+    background: url(https://mt-ttmy.github.io/new-web/images/arrow-select.png) right 2px no-repeat;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    outline: 0;
+    overflow: hidden;
+    text-overflow: '';
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    line-height: 9px;
+}
+.wi__header_reply .wi__actionbar a {
+    color: #3d3d3d;
+}
+.wi__header_reply .wi__actionbar img {
+    width: 20px;
+    vertical-align: -6px;
+}
+.wi__header_reply .wi__actionbar .dropdown-menu {
+    left: inherit;
+    right: -1px;
+    margin-top: -8px;
+    padding: 0;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.wi__header_reply .wi__actionbar .dropdown-menu .fa {
+    color: #49d552;
+}
+.wi__header_reply .wi__button-menumobile {
+    float: left;
+    text-align: center;
+    width: 40px;
+    height: 100%;
+    color: #3d3d3d;
+    font-size: 19px;
+    border-right: 1px solid #c4c4c4;
+}
+@media only screen and (min-width: 768px) {
     .wi__header_reply .wi__logo > img {
         min-width: 200px;
         width: 200px;
+    }
+    .wi__header_reply .wi__actionbar .name {
+        max-width: 140px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .wi__header_reply .wi__button-menumobile {
+        display: none;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 799px) {
+    .wi__header_reply .wi__actionbar .name {
+        max-width: 100px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
     }
 }
 @media only screen and (min-width: 1024px) {
@@ -121,5 +218,216 @@
     .wi__header_reply .wi__logo > img {
         min-width: 230px;
         width: 230px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .wi__header_reply .wi__menu {
+        display: none;
+    }
+    .wi__header_reply .wi__actionbar .name {
+        max-width: 140px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .wi__header_reply .wi__actionbar .language {
+        display: none;
+    }
+    .wi__header_reply .wi__actionbar > * {
+        height: 40px;
+        line-height: 40px;
+    }
+    .wi__header_reply .wi__actionbar > *:before {
+        top: 0 !important;
+        margin-top: 0 !important;
+        bottom: 0 !important;
+        height: 100% !important;
+    }
+    .wi__header_reply .wi__actionbar .dropdown-menu {
+        right: 0;
+        margin-top: 0;
+    }
+}
+@media only screen and (max-width: 520px) {
+    .wi__header_reply .wi__actionbar .name {
+        max-width: 150px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+}
+@media only screen and (max-width: 410px) {
+    .wi__header_reply .wi__actionbar .name {
+        max-width: 110px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .wi__header_reply .wi__actionbar .name {
+        max-width: 75px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        padding: 0 10px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .wi__header_reply {
+        height: 40px;
+        line-height: 40px;
+    }
+}
+
+/*Menu Mobile Sidebar*/
+.mobileMenuOpen {
+    overflow: hidden;
+}
+.mobileMenuOpen #wi__header_reply,
+.mobileMenuOpen #home-wrapcontent,
+.mobileMenuOpen #footer {
+    -webkit-transform: translateX(350px);
+    transform: translateX(350px);
+    overflow: hidden;
+}
+.mobileMenuOpen .wi__sidenav {
+    left: 0;
+}
+.mobileMenuOpen .wi__sidenav_languages {
+    display: block;
+}
+.mobileMenuOpen .wi__overlay_backdrop {
+    display: block;
+    height: 100%;
+}
+@media only screen and (max-width: 420px) {
+    .mobileMenuOpen #wi__header_reply,
+    .mobileMenuOpen #home-wrapcontent,
+    .mobileMenuOpen #footer {
+        -webkit-transform: translateX(320px);
+        transform: translateX(320px);
+    }
+}
+@media only screen and (max-width: 350px) {
+    .mobileMenuOpen #wi__header_reply,
+    .mobileMenuOpen #home-wrapcontent,
+    .mobileMenuOpen #footer {
+        -webkit-transform: translateX(270px);
+        transform: translateX(270px);
+    }
+}
+
+.wi__overlay_backdrop {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1001;
+}
+
+.wi__sidenav {
+    height: 100%;
+    width: 350px;
+    position: fixed;
+    z-index: 1002;
+    top: 0;
+    left: -350px;
+    background-color: #ececec;
+    overflow-x: hidden;
+    transition: all 0.1s ease-in;
+    text-align: left;
+}
+.wi__sidenav_title {
+    color: black;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 16px;
+    font-size: 16px;
+    border-bottom: 1px solid #fff;
+}
+.wi__sidenav_menu {
+    list-style: none;
+    padding: 20px 0 45px;
+    position: relative;
+    overflow-y: auto;
+    margin: 0;
+}
+.wi__sidenav_menu > * {
+    width: 100%;
+    display: block;
+    padding: 0;
+    height: auto;
+    line-height: normal;
+}
+.wi__sidenav_menu > *.current a, .wi__sidenav_menu > *:hover a {
+    background: #16a74e;
+    color: #fff;
+}
+.wi__sidenav_menu > * a {
+    color: #3d3d3d;
+    text-transform: uppercase;
+    display: block;
+    font-size: 14px;
+    padding: 11px 28px;
+}
+.wi__sidenav_languages {
+    position: fixed;
+    display: none;
+    bottom: 0;
+    left: 0;
+    width: 350px;
+    z-index: 1;
+    height: 38px;
+    background-color: #d9d9d9;
+    font-weight: 600;
+}
+.wi__sidenav_languages > span {
+    line-height: 38px;
+    float: left;
+    font-size: 13px;
+    color: black;
+    padding-left: 10px;
+}
+.wi__sidenav_languages .customSelect {
+    margin-right: 10px;
+    float: right;
+    line-height: 38px;
+}
+.wi__sidenav_languages .customSelect select {
+    border: 0;
+    padding-right: 17px;
+    background: url(https://mt-ttmy.github.io/new-web/images/arrow-select.png) right 17px no-repeat;
+    text-transform: uppercase;
+    font-weight: bold;
+    outline: 0;
+    overflow: hidden;
+    text-overflow: '';
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    line-height: 38px;
+    font-size: 13px;
+}
+@media only screen and (max-width: 420px) {
+    .wi__sidenav {
+        width: 320px;
+        left: -320px;
+    }
+    .wi__sidenav .wi__sidenav_languages {
+        width: 320px;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .wi__sidenav {
+        width: 270px;
+        left: -270px;
+    }
+    .wi__sidenav .wi__sidenav_languages {
+        width: 270px;
     }
 }
