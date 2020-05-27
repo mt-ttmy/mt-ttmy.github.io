@@ -44,7 +44,7 @@
 body {
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 12px;
-    color: #777;
+    color: #FCFCFC;
     background: url(../graphic/background_stripes.gif);
     text-align: center;
 }
@@ -64,6 +64,7 @@ option {
     width: auto;
     max-width: 1440px;
     margin: 0 auto;
+    background-color: #FFFFFF;
 }
 
 #wraplog .header {
