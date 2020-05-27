@@ -275,6 +275,11 @@
         overflow: hidden;
     }
 }
+@media only screen and (max-width: 375px) {
+    .wi__header_reply .wi__actionbar .text-truncate {
+        display: none;
+    }
+}
 @media only screen and (max-width: 320px) {
     .wi__header_reply .wi__actionbar .text-truncate {
         max-width: 75px;
