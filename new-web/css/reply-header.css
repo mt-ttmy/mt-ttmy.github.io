@@ -90,6 +90,8 @@
     visibility: visible;
 }
 .wi__header_reply .wi__dropdown-menu {
+    max-height: 360px;
+    overflow: auto;
     left: 0;
     right: 0;
     width: 100%;
