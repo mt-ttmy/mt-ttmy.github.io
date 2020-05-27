@@ -134,6 +134,9 @@
     background: #16a74e;
     color: #fff;
 }
+.wi__header_reply .wi__dropdown-menu .row ul {
+    display: inline-block;
+}
 .wi__header_reply .wi__dropdown-menu .item-header {
     margin-bottom: 10px;
     font-size: 14px;
@@ -596,7 +599,11 @@
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-    .wi__header_reply .wi__actionbar select {
+    #header .wi__header_reply .wi__actionbar select {
         background-position-y: 5px;
+    }
+
+    #header .wi__sidenav_languages .customSelect select {
+        background-position-y: 8px;
     }
 }
