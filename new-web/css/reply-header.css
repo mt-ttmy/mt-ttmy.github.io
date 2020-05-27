@@ -583,3 +583,9 @@
         display: block;
     }
 }
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .wi__header_reply .wi__actionbar select {
+        background-position-y: 5px;
+    }
+}
