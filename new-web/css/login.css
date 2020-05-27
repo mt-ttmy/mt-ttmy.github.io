@@ -69,7 +69,7 @@ option {
 
 #wraplog .header {
     margin: 0 auto;
-    //background: #000;
+    border-bottom: 1px solid #e2e2e2;
     border-radius: 0px;
     text-align: left;
 }
