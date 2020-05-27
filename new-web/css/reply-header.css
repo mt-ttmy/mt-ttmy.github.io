@@ -340,7 +340,7 @@
     font-family: "Proxima Nova Extra Bold",'Helvetica Neue',Arial,Helvetica,sans-serif;
 }
 .menuJoin .menuJoin__link:hover {
-    text-decoration: underline;
+    text-decoration: underline !important;
 }
 @media only screen and (max-width: 799px) {
     .menuJoin {
