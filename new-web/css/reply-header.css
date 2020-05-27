@@ -381,7 +381,7 @@
     }
 }
 @media only screen and (max-width: 420px) {
-    .mobileMenuOpen #wi__header_reply,
+    .mobileMenuOpen #header #wi__header_reply,
     .mobileMenuOpen #home-wrapcontent,
     .mobileMenuOpen #footer {
         -webkit-transform: translateX(320px);
@@ -389,7 +389,7 @@
     }
 }
 @media only screen and (max-width: 350px) {
-    .mobileMenuOpen #wi__header_reply,
+    .mobileMenuOpen #header #wi__header_reply,
     .mobileMenuOpen #home-wrapcontent,
     .mobileMenuOpen #footer {
         -webkit-transform: translateX(270px);
