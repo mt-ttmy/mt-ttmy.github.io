@@ -126,7 +126,7 @@
     font-size: 12px;
     text-decoration: none;
 }
-.wi__header_reply .wi__dropdown-menu ul li a:hover {
+.wi__header_reply .wi__dropdown-menu ul li a:hover, .wi__header_reply .wi__dropdown-menu ul li a.current {
     background: #16a74e;
     color: #fff;
 }
