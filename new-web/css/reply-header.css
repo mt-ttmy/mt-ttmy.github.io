@@ -350,17 +350,17 @@
     .mobileMenuOpen {
         overflow: hidden;
     }
-    .mobileMenuOpen #wi__header_reply,
+    .mobileMenuOpen #header #wi__header_reply,
     .mobileMenuOpen #home-wrapcontent,
     .mobileMenuOpen #footer {
         -webkit-transform: translateX(350px);
         transform: translateX(350px);
         overflow: hidden;
     }
-    .mobileMenuOpen .wi__sidenav_level1 {
+    .mobileMenuOpen #header .wi__sidenav_level1 {
         left: 0;
     }
-    .mobileMenuOpen .wi__sidenav_languages {
+    .mobileMenuOpen #header .wi__sidenav_languages {
         display: block;
     }
     .mobileMenuOpen .wi__overlay_backdrop {
