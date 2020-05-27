@@ -71,7 +71,7 @@ html {
   -ms-text-size-adjust: 100%;
   /* 3 */
   -webkit-text-size-adjust: 100%;
-  /* 3 */ 
+  /* 3 */
 }
 body {
   font-family: "Proxima Nova Regular", 'Helvetica Neue', Arial, Helvetica, sans-serif;
@@ -100,12 +100,6 @@ body .home-gallery {
   .homeColumn1 {
     padding: 50px 0 0 0;
   }
-}
-#header {
-  background-color: #292a2c;
-}
-#mainwrap #header {
-  text-align: center;
 }
 #mainwrap #header [data-network-logo] {
   background-image: url('../images/reply-webinars-logo.png');
@@ -153,15 +147,6 @@ body .home-gallery {
   right: auto;
   left: -20px;
   top: 50%;
-}
-#header ul.dropdown-menu {
-  right: -12px;
-  border-radius: 0;
-  background-color: #292a2c;
-  color: #fff;
-}
-#header .dropdown-menu > li > a {
-  color: #fff;
 }
 #header .dropdown-menu > li > a:hover {
   color: #292a2c;
@@ -377,7 +362,7 @@ body #home-wrapcontent, body #wrapcontent, body .toolbarPanel {
 .content_details.content_details_editorial > div {
   padding: 0;
 }
-.wrapwidg .content_files, 
+.wrapwidg .content_files,
 .wrapwidg .content_drive_files {
   overflow: visible;
 }
