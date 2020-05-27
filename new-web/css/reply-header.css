@@ -8,6 +8,10 @@
 }
 
 @media only screen and (max-width: 767px) {
+    #header {
+        min-height: 1px;
+    }
+
     #mainwrap {
         padding: 41px 0 0 0;
     }
@@ -391,7 +395,7 @@
     z-index: 1001;
 }
 
-.wi__sidenav {
+#header .wi__sidenav {
     height: 100%;
     width: 350px;
     position: fixed;
@@ -404,11 +408,11 @@
     text-align: left;
 }
 @media only screen and (min-width: 768px) {
-    .wi__sidenav {
+    #header .wi__sidenav {
         display: none;
     }
 }
-.wi__sidenav_title {
+#header .wi__sidenav_title {
     display: block;
     color: black;
     height: 40px;
@@ -418,7 +422,7 @@
     border-bottom: 1px solid #fff;
     text-transform: uppercase;
 }
-.wi__sidenav_title .fa {
+#header .wi__sidenav_title .fa {
     font-size: 25px;
     padding: 4px 13px;
     display: inline-block;
@@ -427,44 +431,44 @@
     left: -4px;
     margin-right: 3px;
 }
-.wi__sidenav_menu {
+#header .wi__sidenav_menu {
     list-style: none;
     padding: 20px 0 45px;
     position: relative;
     overflow-y: auto;
     margin: 0;
 }
-.wi__sidenav_menu > * {
+#header .wi__sidenav_menu > * {
     width: 100%;
     display: block;
     padding: 0;
     height: auto;
     line-height: normal;
 }
-.wi__sidenav_menu > *.current > a {
+#header .wi__sidenav_menu > *.current > a {
     background: #16a74e;
     color: #fff;
 }
-.wi__sidenav_menu > * > a {
+#header .wi__sidenav_menu > * > a {
     color: #3d3d3d;
     text-transform: uppercase;
     display: block;
     font-size: 14px;
     padding: 11px 28px;
 }
-.wi__sidenav_menu .item-header {
+#header .wi__sidenav_menu .item-header {
     margin-bottom: 10px;
 }
-.wi__sidenav_menu .item-header a {
+#header .wi__sidenav_menu .item-header a {
     font-size: 14px !important;
     color: #353535;
     font-family: "Proxima Nova Semi Bold",'Helvetica Neue',Arial,Helvetica,sans-serif;
     font-weight: 600;
 }
-.wi__sidenav_menu .empty {
+#header .wi__sidenav_menu .empty {
     margin-bottom: 20px;
 }
-.wi__sidenav_languages {
+#header .wi__sidenav_languages {
     position: fixed;
     display: none;
     bottom: 0;
@@ -475,19 +479,19 @@
     background-color: #d9d9d9;
     font-weight: 600;
 }
-.wi__sidenav_languages > span {
+#header .wi__sidenav_languages > span {
     line-height: 38px;
     float: left;
     font-size: 13px;
     color: black;
     padding-left: 10px;
 }
-.wi__sidenav_languages .customSelect {
+#header .wi__sidenav_languages .customSelect {
     margin-right: 10px;
     float: right;
     line-height: 38px;
 }
-.wi__sidenav_languages .customSelect select {
+#header .wi__sidenav_languages .customSelect select {
     border: 0;
     padding-right: 17px;
     background: url(https://mt-ttmy.github.io/new-web/images/arrow-select.png) right 17px no-repeat;
@@ -505,20 +509,20 @@
     font-size: 13px;
 }
 @media only screen and (max-width: 420px) {
-    .wi__sidenav {
+    #header .wi__sidenav {
         width: 320px;
         left: -320px;
     }
-    .wi__sidenav .wi__sidenav_languages {
+    #header .wi__sidenav .wi__sidenav_languages {
         width: 320px;
     }
 }
 @media only screen and (max-width: 350px) {
-    .wi__sidenav {
+    #header .wi__sidenav {
         width: 270px;
         left: -270px;
     }
-    .wi__sidenav .wi__sidenav_languages {
+    #header .wi__sidenav .wi__sidenav_languages {
         width: 270px;
     }
 }
