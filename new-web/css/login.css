@@ -515,11 +515,11 @@ body #wraplog .h5 {
 }
 
 body #wraplog [data-network-logo] {
-    width: 237px;
-    background-position: 0% 50%;
+    width: 230px;
     background-size: 100% auto;
-    margin-left: 28px;
-    background-image: url("../images/newLogo.png");
+    margin-left: 16px;
+    background-image: url("https://d11wkw82a69pyn.cloudfront.net/siteassets/images/logos/companies/reply-corporate-logo.png");
+    background-position: 0px 13px;
     background-color: transparent;
     border: 0px;
     height: 60px;
