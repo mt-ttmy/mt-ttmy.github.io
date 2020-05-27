@@ -2240,15 +2240,6 @@ body.event .container.container-event-detail .content-tag {
     font-weight: normal;
 }
 
-.btn-default:hover,
-.btn-default:focus,
-.btn-default.focus,
-.btn-default:active,
-.btn-default.active,
-.open>.dropdown-toggle.btn-default {
-    background-color: white;
-}
-
 .wrapwidg.events-card-list .contents_wrapper .content-list-element section .event-title a {
     font-family: Proxima Nova Black;
 }
