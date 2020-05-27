@@ -527,13 +527,13 @@
     }
 }
 
-.wi__sidenav_level2 {
+#header .wi__sidenav_level2 {
     z-index: 1003;
 }
-.wi__sidenav_level2.open {
+#header .wi__sidenav_level2.open {
     left: 0;
 }
-.wi__sidenav_level2 .wi__sidenav_menu a {
+#header .wi__sidenav_level2 .wi__sidenav_menu a {
     padding: 8px 24px;
     font-size: 12px;
 }
