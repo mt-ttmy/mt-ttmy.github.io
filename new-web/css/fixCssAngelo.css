@@ -1745,10 +1745,6 @@ body.event .container.container-event-detail .content-tag {
 }
 
 @media (max-width: 767px) {
-    #header {
-        height: 39px;
-        min-height: 39px;
-    }
     #header .wrapwidg#user {
         margin-right: 5px;
     }
