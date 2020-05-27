@@ -9,6 +9,11 @@
 #header select::-ms-expand {
     display: none;
 }
+@media (min-width: 768px) {
+    #header .headercolumn_generico.col-sm-6 {
+        width: 100%;
+    }
+}
 
 @media only screen and (max-width: 799px) {
     #header {
