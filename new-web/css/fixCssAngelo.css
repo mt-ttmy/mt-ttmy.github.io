@@ -276,6 +276,11 @@ h3.home-claim span {
     align-items: center;
 }
 
+.discover-calendar .go-to-viewall:hover span:first-child,
+.discover-calendar .go-to-calendar:hover span:first-child {
+    text-decoration: underline;
+}
+
 .discover-calendar .go-to-viewall span.icon-moon,
 .discover-calendar .go-to-calendar span.icon-moon {
     font-size: 22px;
