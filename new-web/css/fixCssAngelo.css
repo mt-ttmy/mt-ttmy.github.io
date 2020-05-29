@@ -472,6 +472,7 @@ h3.home-claim span {
 .wrapwidg.events-card-list .contents_wrapper .content-list-element section .fx-xs-display.event-datetime .event-date,
 .wrapwidg.events-card-list .contents_wrapper .content-list-element section .fx-xs-display.event-datetime .event-time {
     font-size: 17px;
+    line-height: normal;
 }
 
 .wrapwidg.events-card-list .contents_wrapper .content-list-element section .fx-xs-display.event-datetime .event-time {
@@ -2258,6 +2259,8 @@ body.event .container.container-event-detail .content-tag {
 
 .wrapwidg.events-card-list .contents_wrapper .content-list-element section .event-title a {
     font-family: Proxima Nova Black;
+    font-size: 30px;
+    line-height: 25px;
 }
 
 .wrapwidg.events-card-list .contents_wrapper .content-list-element section article #event-sessions-area .button-container.event-actions-container a.btn,
