@@ -767,12 +767,15 @@ h3.home-claim span {
 
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .cancel-registation button {
     font-family: Proxima Nova Semibold;
-    text-decoration: underline;
+
     font-size: 20px;
     color: #fff;
     cursor: pointer;
+    padding-left: 0;
 }
-
+.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .cancel-registation button:hover {
+    text-decoration: underline;
+}
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .fx-xs-display .pipe {
     padding: 0px 8px;
 }
@@ -2377,6 +2380,6 @@ body.event .container.container-event-detail .content-tag {
 }
 @media (min-width: 825px) {
     .esquire-message-container .editing {
-        top: -70px;
+        top: -55px;
     }
 }
