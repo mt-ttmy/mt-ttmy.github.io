@@ -2363,9 +2363,11 @@ body.event .container.container-event-detail .content-tag {
     }
 }
 @media (min-width: 768px) and (max-width: 968px) {
-    #webinarFilters .view-select-filter,
-    #webinarFilters .view-select-filter .dropdown {
+    #webinarFilters .view-select-filter {
         max-width: 150px;
+    }
+    #webinarFilters .view-select-filter .dropdown {
+        max-width: 138px;
     }
 }
 @media (max-width: 767px) {
