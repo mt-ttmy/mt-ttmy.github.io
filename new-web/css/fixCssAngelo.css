@@ -2378,7 +2378,7 @@ body.event .container.container-event-detail .content-tag {
 }
 @media (max-width: 1023px) {
     #webinarFilters .panel-heading {
-        padding: 12px 5%;
+        padding: 12px 5px;
     }
 }
 @media (max-width: 767px) {
