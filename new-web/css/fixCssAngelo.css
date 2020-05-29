@@ -2368,6 +2368,15 @@ body.event .container.container-event-detail .content-tag {
 /*fix*/
 .esquire-message-container .editing {
     position: absolute;
-    top: -70px;
+    top: -38px;
     right: 0;
+}
+.esquire-message-container .editing .dropdown-menu {
+    left: inherit;
+    right: 0;
+}
+@media (min-width: 825px) {
+    .esquire-message-container .editing {
+        top: -70px;
+    }
 }
