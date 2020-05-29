@@ -2331,6 +2331,8 @@ body.event .container.container-event-detail .content-tag {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
+    background-color: #fbfbfb;
+    border-top: none
 }
 #webinarFilters .form-inline .form-group.has-feedback .fa-calendar {
     font-size: 18px;
@@ -2340,7 +2342,7 @@ body.event .container.container-event-detail .content-tag {
     padding-right: 30px;
 }
 #webinarFilters .panel-heading {
-    padding: 28px 5%;
+    padding: 12px 5%;
 }
 #webinarFilters .panel-heading .panel-title {
     font-family: "Proxima Nova Regular", 'Helvetica Neue', Arial, Helvetica, sans-serif;
