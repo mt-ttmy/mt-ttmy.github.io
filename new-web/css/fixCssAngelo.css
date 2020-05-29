@@ -260,7 +260,7 @@ h3.home-claim span {
 
 .discover-calendar .go-to-viewall,
 .discover-calendar .go-to-calendar {
-    font-family: Proxima Nova Semibold;
+    font-family: "Proxima Nova Regular", 'Helvetica Neue', Arial, Helvetica, sans-serif;
     font-size: 14px;
     font-weight: 600;
     border: 0px;
@@ -271,9 +271,9 @@ h3.home-claim span {
     display: -webkit-flex;
     display: flex;
     flex-direction: row-reverse;
-    -webkit-align-items: baseline;
-    -ms-flex-align: baseline;
-    align-items: baseline;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .discover-calendar .go-to-viewall span.icon-moon,
@@ -281,6 +281,7 @@ h3.home-claim span {
     font-size: 22px;
     color: #3d3d3d;
     margin-right: 10px;
+    margin-top: -3px;
 }
 
 .discover-calendar .go-to-calendar .fa-calendar {
@@ -1843,9 +1844,9 @@ body.event .container.container-event-detail .content-tag {
         display: -ms-flexbox;
         display: -webkit-flex;
         display: flex;
-        -webkit-align-items: baseline;
-        -ms-flex-align: baseline;
-        align-items: baseline;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
         justify-content: flex-start;
         flex-direction: row-reverse;
         font-size: 12px;
@@ -1857,6 +1858,7 @@ body.event .container.container-event-detail .content-tag {
     .discover-calendar .go-to-viewall span.icon-moon,
     .discover-calendar .go-to-calendar span.icon-moon {
         font-size: 18px;
+        margin-top: -3px
     }
     .wrapwidg.events-card-list .contents_wrapper .content-list-element section .event-cover {
         height: 105px;
