@@ -531,7 +531,7 @@ h3.home-claim span {
 }
 
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire {
-    height: 640px;
+    height: 580px;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
@@ -609,11 +609,18 @@ h3.home-claim span {
 }
 
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until {
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    justify-content: flex-end;
-    padding-bottom: 30px;
+     display: -ms-flexbox;
+     display: -webkit-flex;
+     display: flex;
+     justify-content: flex-end;
+     padding-bottom: 30px;
+}
+
+@media (min-width: 825px) {
+    .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until {
+        position: absolute;
+        right: 0;
+    }
 }
 
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until .share {
@@ -2355,4 +2362,12 @@ body.event .container.container-event-detail .content-tag {
     .discover-buttons-home span {
         font-size: 10px;
     }
+}
+
+
+/*fix*/
+.esquire-message-container .editing {
+    position: absolute;
+    top: -70px;
+    right: 0;
 }
