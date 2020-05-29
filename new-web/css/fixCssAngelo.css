@@ -2395,13 +2395,13 @@ body.event .container.container-event-detail .content-tag {
     #webinarFilters .fa {
         font-size: 100%;
     }
-    #webinarFilters .mobile-filter .collapse {
+   /* #webinarFilters .mobile-filter .collapse {
         display: block;
         height: auto !important;
     }
     #webinarFilters .mobile-filter .collapse.in {
         display: none;
-    }
+    }*/
 }
 @media (max-width: 655px) {
     #webinarFilters .form-inline .form-group {
