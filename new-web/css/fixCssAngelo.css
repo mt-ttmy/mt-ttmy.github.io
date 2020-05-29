@@ -1727,7 +1727,7 @@ body.event .container.container-event-detail .content-tag {
         padding: 10px 0px;
     }
     #webinar-date-filters {
-        padding: 28px 0px;
+        padding: 28px 5px;
     }
     body.pastWebinars .webinair_backdetail {
         padding-left: 15px;
@@ -2368,6 +2368,17 @@ body.event .container.container-event-detail .content-tag {
     }
     #webinarFilters .view-select-filter .dropdown {
         max-width: 138px;
+    }
+}
+
+@media (min-width: 969px) and (max-width: 1057px) {
+    #webinarFilters .view-select-filter .dropdown {
+        max-width: 190px;
+    }
+}
+@media (max-width: 1023px) {
+    #webinarFilters .panel-heading {
+        padding: 12px 5%;
     }
 }
 @media (max-width: 767px) {
