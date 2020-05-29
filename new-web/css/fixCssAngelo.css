@@ -2364,7 +2364,17 @@ body.event .container.container-event-detail .content-tag {
 }
 @media (max-width: 767px) {
     #webinarFilters #webinar-date-filters {
-        padding: 15px 5px 0;
+        padding: 15px 10px 5px;
+    }
+    #webinarFilters .mobile-filter {
+        margin-bottom: 15px;
+    }
+    #webinarFilters .panel-heading {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #webinarFilters .fa {
+        font-size: 100%;
     }
 }
 @media (max-width: 655px) {
