@@ -2360,7 +2360,6 @@ body.event .container.container-event-detail .content-tag {
     #webinarFilters .form-inline .form-group {
         margin-bottom: 0;
         padding: 0 6px;
-        margin: 0 !important;
     }
 }
 @media (max-width: 767px) {
