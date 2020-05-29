@@ -730,9 +730,9 @@ h3.home-claim span {
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .event-actions-container button {
     border-radius: 0;
     width: 255px;
-    height: 45px;
+    height: 50px;
     font-family: Proxima Nova Regular;
-    font-size: 20px;
+    font-size: 16px;
     color: #3d3d3d;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -741,18 +741,14 @@ h3.home-claim span {
     -ms-flex-align: center;
     align-items: center;
     justify-content: center;
-}
-
-.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .event-actions-container button .text_button {
-    padding-left: 10px;
 }
 
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .event-actions-container a.btn-default {
     border-radius: 0;
     width: 255px;
-    height: 45px;
+    height: 50px;
     font-family: Proxima Nova Regular;
-    font-size: 20px;
+    font-size: 15px;
     color: #3d3d3d;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -761,10 +757,6 @@ h3.home-claim span {
     -ms-flex-align: center;
     align-items: center;
     justify-content: center;
-}
-
-.container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .event-actions-container a.btn-default .text_button {
-    padding-left: 15px;
 }
 
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .cancel-registation {
@@ -773,8 +765,7 @@ h3.home-claim span {
 
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .cancel-registation button {
     font-family: Proxima Nova Semibold;
-
-    font-size: 20px;
+    font-size: 16px;
     color: #fff;
     cursor: pointer;
     padding-left: 0;
@@ -984,15 +975,15 @@ h3.home-claim span {
 
 .more a.pager-more {
     width: 264px;
-    line-height: 45px;
+    line-height: 50px;
     color: #fff;
     background-color: #00af00;
     text-align: center;
     font-family: Proxima Nova Regular;
     display: block;
     margin: 0 auto 45px auto;
-    height: 45px;
-    font-size: 20px;
+    height: 50px;
+    font-size: 16px;
     padding: 0px;
     border: 0px;
     -webkit-transition: all 0.3s ease-out;
