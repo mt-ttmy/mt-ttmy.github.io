@@ -615,11 +615,11 @@ h3.home-claim span {
 }
 
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .share-until {
-     display: -ms-flexbox;
-     display: -webkit-flex;
-     display: flex;
-     justify-content: flex-end;
-     padding-bottom: 30px;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 30px;
 }
 
 @media (min-width: 825px) {
@@ -770,9 +770,11 @@ h3.home-claim span {
     cursor: pointer;
     padding-left: 0;
 }
+
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .cancel-registation button:hover {
     text-decoration: underline;
 }
+
 .container.container-event-detail .wrapwidg.plugin_contentDetailWidget .esquire_row .esquire .esquire-message-container .fx-xs-display .pipe {
     padding: 0px 8px;
 }
@@ -2317,36 +2319,43 @@ body.event .container.container-event-detail .content-tag {
 
 
 /*FILTERS*/
+
 .discover-buttons-home .filters .fa-filter {
     font-size: 20px;
     margin-right: 7px;
 }
+
 #webinarFilters #webinar-date-filters {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    background-color: #fbfbfb;
     border-top: none
 }
+
 #webinarFilters .form-inline .form-group.has-feedback .fa-calendar {
     font-size: 18px;
     line-height: 34px;
 }
+
 #webinarFilters .form-inline .form-group.has-feedback .form-control {
     padding-right: 30px;
 }
+
 #webinarFilters .panel-heading {
     padding: 12px 5%;
 }
+
 #webinarFilters .panel-heading .panel-title {
     font-family: "Proxima Nova Regular", 'Helvetica Neue', Arial, Helvetica, sans-serif;
     margin-left: 5px;
     font-weight: 300;
 }
+
 #webinarFilters .panel-heading .panel-title a,
 #webinarFilters .panel-heading .panel-title a:hover {
     color: #3d3d3d;
 }
+
 @media (min-width: 768px) {
     #webinarFilters .view-select-filter:first-child {
         margin-left: 6px;
@@ -2363,6 +2372,7 @@ body.event .container.container-event-detail .content-tag {
         height: auto !important;
     }
 }
+
 @media (min-width: 768px) and (max-width: 968px) {
     #webinarFilters .view-select-filter {
         max-width: 150px;
@@ -2377,11 +2387,13 @@ body.event .container.container-event-detail .content-tag {
         max-width: 190px;
     }
 }
+
 @media (max-width: 1023px) {
     #webinarFilters .panel-heading {
         padding: 12px 10px;
     }
 }
+
 @media (max-width: 767px) {
     #webinarFilters #webinar-date-filters {
         padding: 15px 10px 5px;
@@ -2397,12 +2409,14 @@ body.event .container.container-event-detail .content-tag {
         font-size: 100%;
     }
 }
+
 @media (max-width: 655px) {
     #webinarFilters .form-inline .form-group {
         width: 50%;
         margin-bottom: 15px;
     }
 }
+
 @media (max-width: 440px) {
     #webinar-date-filters {
         padding-bottom: 5px;
@@ -2412,6 +2426,7 @@ body.event .container.container-event-detail .content-tag {
         margin-bottom: 10px;
     }
 }
+
 @media (max-width: 359px) {
     .discover-buttons-home span {
         font-size: 10px;
@@ -2420,15 +2435,18 @@ body.event .container.container-event-detail .content-tag {
 
 
 /*fix*/
+
 .esquire-message-container .editing {
     position: absolute;
     top: -38px;
     right: 0;
 }
+
 .esquire-message-container .editing .dropdown-menu {
     left: inherit;
     right: 0;
 }
+
 @media (min-width: 825px) {
     .esquire-message-container .editing {
         top: -55px;
