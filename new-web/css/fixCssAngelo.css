@@ -1801,8 +1801,9 @@ body.event .container.container-event-detail .content-tag {
     }
     [class^="wrapwidg hero"] .contents_wrapper>div .slider-hero .hero-message h2 {
         margin-top: 0px !important;
-        font-size: 35px !important;
-        line-height: 40px;
+        font-size: 28px !important;
+        line-height: 16px;
+        text-shadow: 1px 1px 5px rgba(0, 0, 0, .5)!important;
     }
     [class^="wrapwidg hero"] .contents_wrapper>div .slider-hero .hero-message h2 span {
         padding: 0px !important;
