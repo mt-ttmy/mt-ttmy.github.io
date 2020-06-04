@@ -325,9 +325,6 @@ body #home-wrapcontent, body #wrapcontent, body .toolbarPanel {
 .footer .footer__fixedButton {
   background: url(../images/footeropenclose.png) no-repeat 0 0;
 }
-.footer .footer__openClose {
-  background-color: #292a2c;
-}
 
 /*dettaglio*/
 #home-wrapcontent .wrapcontent_padding {
