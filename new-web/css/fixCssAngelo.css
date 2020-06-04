@@ -2460,6 +2460,8 @@ body.event .container.container-event-detail .content-tag {
 
 /* REPLY SITE FOOTER start */
 
+#footer .footer {border-top: none;}
+
 .footer__linkItemLink, .footer__socialItem {
     font-family: "Proxima Nova Semi Bold", 'Helvetica Neue', Arial, Helvetica, sans-serif;
     font-weight: 600;
@@ -2876,8 +2878,8 @@ body.event .container.container-event-detail .content-tag {
     .ie8 .footer__linkGreen {
       font-size: 18px;
       line-height: 18px; }
-    .footer__linkGreen:hover {
-      text-decoration: underline; }
+    .footer .footer__linkGreen:hover {
+      text-decoration: underline !important; }
     @media (max-width: 650px) {
       .footer__linkGreen {
         font-size: 0.875rem;
