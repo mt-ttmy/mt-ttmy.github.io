@@ -748,8 +748,8 @@ input.generic_button {
 
 /* Per la pagina di registrazione */
 
-#mainwrap.registration {
-    padding: 50px 6% 140px 6%;
+#mainwrap .padded-registration {
+    padding: 0 6% 140px 6%;
 }
 
 #mainwrap.registration .panel-body {
@@ -1199,9 +1199,6 @@ div#user_agree_check_bis_collapse {
     #wraplog #mainwrap .col_register {
         padding: 0px 40px 100px 40px;
     }
-    #mainwrap.registration {
-        padding: 50px 40px 140px 40px;
-    }
     #mainwrap.registration .content_tab_edit .form-group {
         width: 38%;
     }
@@ -1253,9 +1250,6 @@ div#user_agree_check_bis_collapse {
     #wraplog #mainwrap #password-change-submit {
         width: 100%;
         padding: 20px 18px 0px;
-    }
-    #mainwrap.registration {
-        padding: 25px 15px 40px 15px;
     }
     #mainwrap.registration h2.panel-title {
         margin-bottom: 10px;
