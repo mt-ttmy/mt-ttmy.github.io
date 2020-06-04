@@ -322,12 +322,6 @@ body #home-wrapcontent, body #wrapcontent, body .toolbarPanel {
 
 
 /*footer*/
-.footer .footer__fixed {
-  background-color: #efefef;
-}
-.footer .footer__fixedText {
-  color: #35373b;
-}
 .footer .footer__fixedButton {
   background: url(../images/footeropenclose.png) no-repeat 0 0;
 }
