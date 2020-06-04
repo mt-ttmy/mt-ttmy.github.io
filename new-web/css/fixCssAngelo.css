@@ -2903,4 +2903,10 @@ body.event .container.container-event-detail .content-tag {
       .no-mediaqueries .showMore__link:hover {
         color: #ccc; }
 
+	@media (max-width: 50em) {
+		.footer__socialItem--icon .icon img {
+		  height: 15px;
+		}
+	}
+
 /* REPLY SITE FOOTER end */
