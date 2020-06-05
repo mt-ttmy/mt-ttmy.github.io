@@ -2459,6 +2459,10 @@ body.event .container.container-event-detail .content-tag {
 	color: #16a74e;
 }
 
+.homePage #mainwrap .lastPBColumn {
+	padding-bottom: 30px;
+}
+
 /* REPLY SITE FOOTER start */
 
 #footer .footer {border-top: none;}
