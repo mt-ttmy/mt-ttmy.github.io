@@ -2463,6 +2463,11 @@ body.event .container.container-event-detail .content-tag {
 	padding-bottom: 30px;
 }
 
+.filters-accordion .panel-title {
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
 /* REPLY SITE FOOTER start */
 
 #footer .footer {border-top: none;}
