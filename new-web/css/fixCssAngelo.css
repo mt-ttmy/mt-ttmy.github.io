@@ -2453,6 +2453,12 @@ body.event .container.container-event-detail .content-tag {
     }
 }
 
+.discover-buttons-home a:hover span,
+.discover-calendar .go-to-viewall:hover span.icon-moon,
+.discover-calendar .go-to-calendar:hover span.icon-moon {
+	color: #16a74e;
+}
+
 /* REPLY SITE FOOTER start */
 
 #footer .footer {border-top: none;}
