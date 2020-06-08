@@ -343,9 +343,6 @@ h3.home-claim span {
 }
 
 .wrapwidg.events-card-list .contents_wrapper .content-list-element section article #event-sessions-area {
-    position: absolute;
-    bottom: 20px;
-    left: 25px;
     font-family: Proxima Nova Extra Bold;
     font-size: 16px;
     color: #3d3d3d;
@@ -2925,3 +2922,109 @@ body.event .container.container-event-detail .content-tag {
 	}
 
 /* REPLY SITE FOOTER end */
+
+/* Social Share - start */
+
+.event-card .absolute-bottom {
+	position: absolute;
+	bottom: 15px;
+	width: 89%;
+}
+
+.event-card .absolute-bottom > div,
+.event-card  .social-share > div {
+	min-height: 36px;
+}
+
+.event-card .social-share {
+	cursor: pointer;
+}
+
+.event-card .social-share .fa.fa-share-alt {
+	font-size: 1.25rem;
+	padding: 8px;
+	margin: 0;
+}
+
+.event-card .social-share ul {
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	transition: all .3s ease-out;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.event-card .social-share .social-share-check:checked + ul,
+.event-card:hover .social-share .social-share-check + ul{
+	visibility: visible;
+	opacity: 1;
+}
+
+.event-card .social-share ul {
+	margin-right: 10px;
+}
+
+.event-card .social-share ul > li {
+	margin-left: 5px;
+}
+
+.event-card .social-share ul > li > button {
+	color: #434343;
+	width: 36px;
+	height: 36px;
+	text-align: center;
+	padding: 0;
+	cursor: pointer;
+	background-color: #E5E5E5;
+	background-color: rgba(0,0,0,.1);
+	border: 0;
+	font-size: 1rem;
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	transition: all .3s ease-out;
+}
+
+.event-card .social-share ul > li > button:hover {
+	background-color: #16a74e;
+	color: #fff;
+}
+
+@media (min-width: 1200px) {
+	.event-card .social-share .fx-xl-direction {
+		flex-direction: row;
+	}
+
+	.event-card .social-share .fx-xl-justify-flex-start {
+		justify-content: flex-start;
+	}
+}
+
+@media (max-width: 1200px) {
+	.event-card .social-share {
+		margin-top: 10px;	
+	}
+}
+
+@media (max-width: 767px) {
+	.wrapwidg.events-card-list .contents_wrapper .content-list-element section {
+		padding-bottom: 40px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+	.event-card .social-share ul {
+		margin-right: 0;
+		margin-left: 10px;
+	}
+
+	.wrapwidg.events-card-list .contents_wrapper .content-list-element section {
+		padding-bottom: 75px;
+	}
+}
+
+/* Social Share - end */
