@@ -3006,7 +3006,12 @@ body.event .container.container-event-detail .content-tag {
 
 @media (max-width: 1200px) {
 	.event-card .social-share {
-		margin-top: 10px;	
+		margin-top: 10px;
+	}
+
+	.event-card .social-share ul {
+		margin-right: 0;
+		margin-left: 10px;
 	}
 }
 
@@ -3017,11 +3022,6 @@ body.event .container.container-event-detail .content-tag {
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
-	.event-card .social-share ul {
-		margin-right: 0;
-		margin-left: 10px;
-	}
-
 	.wrapwidg.events-card-list .contents_wrapper .content-list-element section {
 		padding-bottom: 75px;
 	}
