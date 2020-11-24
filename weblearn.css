@@ -1,0 +1,89 @@
+@media (min-width: 768px) {
+    .wrapwidg.events-card-list .contents_wrapper .content-list-element.col-sm-6 {
+        width: 50%;
+    }
+}
+
+.discover-calendar.discover-weblearn {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.discover-calendar.discover-weblearn h3 {
+    font-size: 1.6rem;
+}
+
+#calendarWeblearnCommunication .fc-view,
+#calendarWeblearnCommunication .fc-view>table,
+#calendarWeblearnCommerce .fc-view,
+#calendarWeblearnCommerce .fc-view>table {
+    padding-bottom: 0px;
+}
+
+#calendarWeblearnCommunication .wrapwidg.events-card-list .contents_wrapper,
+#calendarWeblearnCommerce .wrapwidg.events-card-list .contents_wrapper {
+    display: none;
+}
+
+#calendarWeblearnCommunication .wrapwidg.events-card-list,
+#calendarWeblearnCommerce .wrapwidg.events-card-list {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    #calendarWeblearnCommunication .fc-view,
+    #calendarWeblearnCommunication .fc-view>table,
+    #calendarWeblearnCommerce .fc-view,
+    #calendarWeblearnCommerce .fc-view>table {
+        padding-bottom: 0px;
+    }
+    #calendarWeblearnCommunication .wrapwidg.events-card-list,
+    #calendarWeblearnCommerce .wrapwidg.events-card-list {
+        display: block;
+    }
+    #calendarWeblearnCommunication .wrapwidg.events-card-list .contents_wrapper,
+    #calendarWeblearnCommerce .wrapwidg.events-card-list .contents_wrapper {
+        display: block;
+        padding-left: 7%;
+        padding-right: 8%;
+    }
+    #calendarWeblearnCommunication .wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text,
+    #calendarWeblearnCommerce .wrapwidg.events-card-list .contents_wrapper .content-list-element section .border-text {
+        padding: 12px 20px;
+    }
+    #calendarWeblearnCommunication .wrapwidg.events-card-list .contents_wrapper .content-list-element section .event-title a,
+    #calendarWeblearnCommerce .wrapwidg.events-card-list .contents_wrapper .content-list-element section .event-title a {
+        font-size: 14px;
+        line-height: 16px;
+        padding: 0px;
+    }
+    #calendarWeblearnCommunication .wrapwidg.events-card-list .contents_wrapper .content-list-element section.event-is-mine-true .event-title a,
+    #calendarWeblearnCommerce .wrapwidg.events-card-list .contents_wrapper .content-list-element section.event-is-mine-true .event-title a {
+        color: white;
+    }
+    #calendarWeblearnCommunication .wrapwidg.events-card-list .contents_wrapper .content-list-element section .fx-xs-display.event-datetime .event-time,
+    #calendarWeblearnCommerce .wrapwidg.events-card-list .contents_wrapper .content-list-element section .fx-xs-display.event-datetime .event-time {
+        font-size: 14px;
+        font-family: Proxima Nova Regular;
+        font-weight: 100;
+        padding: 0px;
+        margin: 0px;
+        line-height: 16px;
+    }
+    #calendarWeblearnCommunication .wrapwidg.events-card-list .contents_wrapper .content-list-element section.event-is-mine-true .fx-xs-display.event-datetime .event-time,
+    #calendarWeblearnCommerce .wrapwidg.events-card-list .contents_wrapper .content-list-element section.event-is-mine-true .fx-xs-display.event-datetime .event-time {
+        color: white;
+    }
+    #calendarWeblearnCommunication .wrapwidg.events-card-list .contents_wrapper .content-list-element section .fx-xs-display.event-datetime .event-date,
+    #calendarWeblearnCommerce .wrapwidg.events-card-list .contents_wrapper .content-list-element section .fx-xs-display.event-datetime .event-date {
+        display: none;
+    }
+    #calendarWeblearnCommunication .wrapwidg.events-card-list .contents_wrapper .content-list-element,
+    #calendarWeblearnCommerce .wrapwidg.events-card-list .contents_wrapper .content-list-element {
+        margin: 0px 0px 18px 0px;
+    }
+    #calendarWeblearnCommunication .wrapwidg.plugin_contentFullCalendar,
+    #calendarWeblearnCommerce .wrapwidg.plugin_contentFullCalendar {
+        padding: 0px 20px 20px 20px !important;
+    }
+}
