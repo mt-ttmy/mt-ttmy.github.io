@@ -17,6 +17,24 @@
     font-size: 1.6rem;
 }
 
+#main {
+    min-height: initial;
+}
+
+a.clr-green {
+    color: #05b03e !important;
+}
+
+a.weblearn-link {
+    text-transform: uppercase;
+    font-family: "Proxima Nova Bold", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+a.weblearn-link:hover {
+    text-decoration: underline !important;
+}
+
 #calendarWeblearnCommunication .fc-view,
 #calendarWeblearnCommunication .fc-view>table,
 #calendarWeblearnCommerce .fc-view,
@@ -90,4 +108,22 @@
     #calendarWeblearnCommerce .wrapwidg.plugin_contentFullCalendar {
         padding: 0px 20px 20px 20px !important;
     }
+}
+
+#calendarWeblearnCommunication .plugin_contentFullCalendar .widget_title,
+#calendarWeblearnCommerce .plugin_contentFullCalendar .widget_title {
+    padding: 0 6%;
+}
+
+#calendarWeblearnCommunication .timezone-notice,
+#calendarWeblearnCommunication .calendar-legend,
+#calendarWeblearnCommunication .fc-content .fc-language,
+#calendarWeblearnCommerce .timezone-notice,
+#calendarWeblearnCommerce .calendar-legend,
+#calendarWeblearnCommerce .fc-content .fc-language {
+    display: none;
+}
+
+.fc-content .fc-language {
+    display: none;
 }
