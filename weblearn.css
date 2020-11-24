@@ -2,6 +2,10 @@
     position: fixed;
 }
 
+#header .wi__button-menumobile {
+    display: none;
+}
+
 @media (min-width: 768px) {
     .wrapwidg.events-card-list .contents_wrapper .content-list-element.col-sm-6 {
         width: 50%;
@@ -126,4 +130,14 @@ a.weblearn-link:hover {
 
 .fc-content .fc-language {
     display: none;
+}
+
+@media (max-width: 767px) {
+    #mainwrap .lastPBColumn #weblearnNestedIntro.wrapwidg {
+        margin-top: 30px !important;
+    }
+    .discover-calendar.discover-weblearn h3 {
+        font-size: 1rem;
+        line-height: normal;
+    }
 }
