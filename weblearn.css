@@ -1,3 +1,7 @@
+#header {
+    position: fixed;
+}
+
 @media (min-width: 768px) {
     .wrapwidg.events-card-list .contents_wrapper .content-list-element.col-sm-6 {
         width: 50%;
