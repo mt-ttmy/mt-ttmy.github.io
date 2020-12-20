@@ -1,0 +1,10 @@
+@import url("../../ajowan/css/login.css");
+@import url("fonts.css");
+@import url("backbone.css");
+@import url("responsive.css");
+
+@media (max-width:640px){
+	
+	#wraplog{width:100%;margin:0 auto;}
+	
+}

@@ -1,0 +1,200 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../../fonts/icomoon/icomoon.eot?t5uzoa');
+  src:  url('../../fonts/icomoon/icomoon.eot?t5uzoa#iefix') format('embedded-opentype'),
+    url('../../fonts/icomoon/icomoon.ttf?t5uzoa') format('truetype'),
+    url('../../fonts/icomoon/icomoon.woff?t5uzoa') format('woff'),
+    url('../../fonts/icomoon/icomoon.svg?t5uzoa#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-paper-plane:before {
+  content: "\e930";
+}
+.icon-attach-icon:before {
+  content: "\e92e";
+}
+.icon-push-pin-outline:before {
+  content: "\e92f";
+}
+.icon-view-grid:before {
+  content: "\e92c";
+}
+.icon-view-slider:before {
+  content: "\e92d";
+}
+.icon-you-docs:before {
+  content: "\e92a";
+}
+.icon-you-psermessi:before {
+  content: "\e92b";
+}
+.icon-you-clienti:before {
+  content: "\e924";
+}
+.icon-you-conoscenze:before {
+  content: "\e925";
+}
+.icon-you-cosaoffriamo:before {
+  content: "\e926";
+}
+.icon-you-noi:before {
+  content: "\e927";
+}
+.icon-you-processi:before {
+  content: "\e928";
+}
+.icon-you-progetti:before {
+  content: "\e929";
+}
+.icon-star-numbered:before {
+  content: "\e923";
+}
+.icon-doingwhatsright:before {
+  content: "\e916";
+}
+.icon-experience:before {
+  content: "\e920";
+}
+.icon-fabbisogno:before {
+  content: "\e921";
+}
+.icon-training:before {
+  content: "\e922";
+}
+.icon-back:before {
+  content: "\e600";
+}
+.icon-forward:before {
+  content: "\e601";
+}
+.icon-search2:before {
+  content: "\e602";
+}
+.icon-download:before {
+  content: "\e603";
+}
+.icon-email:before {
+  content: "\e604";
+}
+.icon-notification_outline:before {
+  content: "\e605";
+}
+.icon-comments:before {
+  content: "\e606";
+}
+.icon-attachments:before {
+  content: "\e607";
+}
+.icon-tags:before {
+  content: "\e608";
+}
+.icon-groups:before {
+  content: "\e91f";
+}
+.icon-prenotazioni:before {
+  content: "\e900";
+}
+.icon-people:before {
+  content: "\e901";
+}
+.icon-notification:before {
+  content: "\e902";
+}
+.icon-bubble:before {
+  content: "\e903";
+}
+.icon-care:before {
+  content: "\e904";
+}
+.icon-check:before {
+  content: "\e905";
+}
+.icon-collaboration:before {
+  content: "\e906";
+}
+.icon-corsi_tutti:before {
+  content: "\e907";
+}
+.icon-desktop:before {
+  content: "\e908";
+}
+.icon-digital:before {
+  content: "\e909";
+}
+.icon-heart:before {
+  content: "\e90a";
+}
+.icon-inclusion:before {
+  content: "\e90b";
+}
+.icon-rate:before {
+  content: "\e90c";
+}
+.icon-search:before {
+  content: "\e90d";
+}
+.icon-play:before {
+  content: "\e90e";
+}
+.icon-survey:before {
+  content: "\e90f";
+}
+.icon-manager_notify:before {
+  content: "\e910";
+}
+.icon-attention:before {
+  content: "\e911";
+}
+.icon-movie:before {
+  content: "\e912";
+}
+.icon-document:before {
+  content: "\e913";
+}
+.icon-news_all:before {
+  content: "\e914";
+}
+.icon-vodafone:before {
+  content: "\e915";
+}
+.icon-course_desk:before {
+  content: "\e917";
+}
+.icon-upcoming:before {
+  content: "\e918";
+}
+.icon-share:before {
+  content: "\e919";
+}
+.icon-mic:before {
+  content: "\e91a";
+}
+.icon-question:before {
+  content: "\e91b";
+}
+.icon-stats:before {
+  content: "\e91c";
+}
+.icon-FAQ:before {
+  content: "\e91d";
+}
+.icon-live:before {
+  content: "\e91e";
+}
