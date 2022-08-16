@@ -1,0 +1,128 @@
+.cognito-login-enabled #mainwrap.login-template {
+	display: flex;
+	flex-direction: column;
+	padding: 0 !important;
+	align-items: center;
+}
+
+.cognito-login-boxes {
+	flex-grow: 0.9;
+	max-width: 60rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+}
+
+.cognito-login-boxes h6 {
+	font-family: "Proxima Nova Extra Bold";
+	color: black !important;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	margin: 0;
+}
+
+.cognito-login-boxes.row.boxes {
+	flex-grow: 1;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.cognito-login-boxes .box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	max-width: 20rem;
+	margin: 0 auto;
+}
+
+.cognito-login-boxes .standard-login {
+	border-right: 1px solid rgb(217, 217, 217);
+}
+
+.cognito-login-boxes .btn {
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	margin: 2rem auto;
+}
+
+.cognito-login-boxes .btn a {
+	color: white !important;
+	text-decoration: none;
+}
+
+.cognito-login-boxes .btn:hover {
+	opacity: 0.8;
+}
+
+.cognito-login-boxes .sign-up-link {
+	font-family: "Proxima Nova Extra Bold";
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	position: absolute;
+	top: 100%;
+}
+
+
+/* Login modal */
+.cognito-login-enabled #login-modal-area .modal-header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0px!important;
+}
+
+.cognito-login-enabled #login-modal-area .modal-header:after{
+    content:"";
+    display: block;
+    position: absolute;
+    width: 10rem;
+    height: 3rem;
+    margin-top: 5rem;
+    z-index: 1;
+    background: url("../images/reply-corporate-logo.png") left center / cover no-repeat
+}
+
+
+.cognito-login-enabled #login-modal-area .modal-header h4 {
+	opacity: 0;
+}
+
+.cognito-login-enabled #login-modal-area .modal-content {
+	height: 400px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+.cognito-login-enabled #login-modal-area .modal-body {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+}
+
+.cognito-login-enabled #login-modal-area iframe {
+	height: 100% !important;
+}
+
+@media ( max-width : 768px) {
+	.cognito-login-boxes .standard-login {
+		margin-bottom: 3rem;
+		border-right: 0px;
+		border-bottom: 1px solid rgb(217, 217, 217);
+	}
+}
+
+@media ( max-width : 990px) {
+	.cognito-login-enabled #login-modal-area .modal-header:after{
+		margin-top:0px;
+	}
+}
+
+

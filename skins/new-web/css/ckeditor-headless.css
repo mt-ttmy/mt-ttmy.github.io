@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+.img-responsive {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+.text-center {
+	text-align: center;
+}
+
+/* Templates start */
+
+[data-template="agenda01"] .entry-title {
+	font-family: "Proxima Nova Semi Bold","Helvetica Neue",Arial,Helvetica,sans-serif;
+}
+
+[data-template="agenda01"] .entry-title {
+	font-family: "Proxima Nova Semi Bold","Helvetica Neue",Arial,Helvetica,sans-serif;
+}
+
+[data-template="agenda01"] .entry-description p {
+	margin: 0 auto;
+}
+
+[data-template="agenda01"] .agenda-entry + .agenda-entry,
+[data-template="agenda01"] + p,
+[data-template="agenda01"]+ [data-template="agenda01"] {
+	margin-top: 2rem;
+}
+
+[data-template^="speaker"] .speaker-card {
+	margin: 0 .5rem 1.5rem .5rem;
+	max-width: 186px;
+}
+
+[data-template^="speaker"] .speaker-card .photo {
+	width: 186px;
+}
+
+[data-template^="speaker"] .speaker-card .name {
+	text-transform: uppercase;
+	font-family: "Proxima Nova Semi Bold","Helvetica Neue",Arial,Helvetica,sans-serif;
+	font-size: 1.3rem;
+	font-weight: bold;
+	margin-top: 1rem;
+}
+
+@media (max-width: 575px) {
+	[data-template^="speaker"] .speaker-card {
+		max-width: none;
+	}
+}
+
+/* Templates end */
