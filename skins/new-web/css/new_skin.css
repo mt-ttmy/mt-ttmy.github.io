@@ -181,6 +181,9 @@ button.btn.btn-default.action {
     background: var(--neutral-100);
     border-radius: 4px;
     color: white;
+    font-family: 'AlaskaExpanded';
+    justify-self: stretch;
+    font-weight: 500;
 }
 
 
@@ -400,7 +403,7 @@ ul.dropdown-menu.inner {
     border-color: var(--neutral-100);
 }
 
-.home-page-webinars input.form-control {
+#webinar-date-filters input.form-control {
     border: none;
     height: 44px;
     background: none;
@@ -415,12 +418,12 @@ ul.dropdown-menu.inner {
     box-shadow: none;
 }
 
-.home-page-webinars input.form-control:focus, .home-page-webinars input.form-control:active {
+#webinar-date-filters input.form-control:focus, #webinar-date-filters input.form-control:active {
     outline: none;
     border-bottom: 2px solid var(--neutral-100);
 }
 
-.home-page-webinars input.form-control::placeholder {
+#webinar-date-filters input.form-control::placeholder {
     font-size: 14px;
     color: var(--neutral-100);
     font-family: 'Alaska';
@@ -564,7 +567,7 @@ ul.legend-labels:before {
     padding: 30px 40px;
     background: var(--neutral-100);
     border-radius: 6px 6px 0px 0px;
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
 }
 
 .fc .fc-toolbar>*>:first-child {
@@ -625,7 +628,7 @@ td.fc-day-number {
     padding: 16px !important;
 }
 
-div#upcomingWebinars {
+div#upcomingWebinars, div#allWebinars {
     margin: 0;
     padding: 0;
     border: none;
@@ -656,5 +659,42 @@ div#upcomingWebinars {
 }
 
 .btn.btn-default.go-to-viewall span.icon-moon.icon-grid {
+    display: none;
+}
+
+.panel-collapse {
+    display: inline-block;
+}
+
+div#event-sessions-area {
+    width: 100%;
+}
+
+.wrapwidg {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+div#more {
+    width: 200px;
+    margin: auto;
+}
+
+a.btn.btn-default.pager-more {
+    padding: 0px;
+    border: none;
+    margin: 0px;
+    border-bottom: 2px solid;
+    border-radius: 0;
+    font-size: 14px;
+    font-family: 'AlaskaExpanded';
+    font-weight: 500;
+    padding-bottom: 12px;
+    height: auto;
+    line-height: normal;
+}
+
+.more i.fa.fa-chevron-down.pager-icon {
     display: none;
 }
