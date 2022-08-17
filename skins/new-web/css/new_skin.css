@@ -1,5 +1,3 @@
-
-
 :root, ::after, ::before  {
     --dark-blue: #151F27;
 --green-on-light: #02D34A;
@@ -87,6 +85,8 @@ template-event.content-list-element.col-sm-4 section {
     text-transform: uppercase;
     font-size: 10px;
     line-height: 140%;
+    font-weight: 500;
+    font-family: 'AlaskaExpanded';
 }
 
 header.event-title.text-uppercase {
@@ -141,6 +141,7 @@ header.event-title a {
     font-size: 20px;
     font-weight: 800;
     line-height: 130%;
+    text-transform: none;
 }
 
 .event-datetime.fx-xs-display.fx-xs-justify-flex-start .event-date {
@@ -155,6 +156,7 @@ header.event-title a {
     display: flex;
     align-items: center;
     column-gap: 10px;
+    font-weight: 500;
     text-transform: uppercase;
 }
 
@@ -214,8 +216,9 @@ div#header {
 div#webinarFilters {
     width: 1440px;
     margin: auto;
-    padding: 0 40px 40px 40px;
+    padding: 32px 40px 40px 40px;
     box-sizing: border-box;
+    border: none;
 }
 
 .discover-calendar.text-uppercase {
@@ -224,6 +227,7 @@ div#webinarFilters {
     display: flex;
     align-items: center;
     column-gap: 20px;
+    padding-top: 40px;
 }
 
 .discover-calendar.text-uppercase:before {
@@ -232,6 +236,7 @@ div#webinarFilters {
     text-transform: uppercase;
     color: var(--neutral-70);
     font-size: 10px;
+    font-family: 'AlaskaExpanded';
 }
 
 .discover-calendar h3.title {
@@ -239,6 +244,11 @@ div#webinarFilters {
     font-weight: 500;
     padding: 8px 20px;
     border-radius: 72px;
+    margin: 0px;
+    font-weight: 500;
+    font-family: 'Alaska';
+    text-transform: none;
+    line-height: unset;
     border: 1px solid rgba(214, 224, 234, 1);
 }
 
@@ -255,6 +265,7 @@ a.btn.btn-default.go-to-viewall {
     text-decoration: none;
     font-size: 14px;
     font-weight: 500;
+    text-transform: none;
     padding: 8px 20px;
     border-radius: 72px;
     border: 1px solid var(--border-100);
@@ -266,6 +277,7 @@ a.btn.btn-default.go-to-calendar:before {
     color: var(--neutral-70);
     text-transform: uppercase;
     text-decoration: none;
+    font-family: 'AlaskaExpanded';
 }
 
 a.btn.btn-default.go-to-calendar span:not(.icon-moon) {
@@ -281,6 +293,7 @@ a.btn.btn-default.go-to-calendar {
     align-items: center;
     text-transform: uppercase;
     text-decoration: none;
+    border: none;
 }
 
 span.icon-moon.icon-noun-calendar-684825 {
@@ -300,6 +313,7 @@ button.btn.dropdown-toggle.btn-default {
     align-items: center;
     padding: 0px;
     cursor: pointer;
+    border-radius: 0;
 }
 
 .filter-option {
@@ -324,6 +338,8 @@ button.btn.dropdown-toggle.btn-default {
     width: calc(100% + 43px * 2);
     left: -43px;
     max-height: 100px !important;
+    padding: 0;
+    margin: 0;
 }
 
 div#webinar-date-filters {
@@ -375,6 +391,7 @@ ul.dropdown-menu.inner {
 
 .bootstrap-select .dropdown-menu li a:hover {
     color: var(--neutral-100);
+    background: transparent;
 }
 
 
@@ -394,6 +411,8 @@ ul.dropdown-menu.inner {
     font-family: 'Alaska';
     font-weight: 500;
     transition: border-bottom .2s;
+    border-radius: 0px;
+    box-shadow: none;
 }
 
 .home-page-webinars input.form-control:focus, .home-page-webinars input.form-control:active {
@@ -604,4 +623,38 @@ th.fc-day-header {
 
 td.fc-day-number {
     padding: 16px !important;
+}
+
+div#upcomingWebinars {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.bootstrap-select.show-tick .dropdown-menu li a span.text {
+    margin-right: 0px;
+    word-break: break-all;
+    width: 100%;
+}
+
+.bootstrap-select .dropdown-menu li a {
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+.bootstrap-select .dropdown-menu li a {
+    padding: 0px !important;
+}
+
+.panel-default>.panel-heading {
+    display: none;
+}
+
+.form-group.view-select-filter {
+    margin: 0;
+    padding: 0;
+}
+
+.btn.btn-default.go-to-viewall span.icon-moon.icon-grid {
+    display: none;
 }
