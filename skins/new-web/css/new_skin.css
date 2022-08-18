@@ -1,21 +1,26 @@
 :root, ::after, ::before  {
     --dark-blue: #151F27;
---green-on-light: #02D34A;
---primary-50: #02D34A;
---green-on-dark: #00EA51;
---primary-20: #00EA51;
---neutral-100: #151F27;
---neutral-90: #28333E;
---neutral-80: #3F4D5A;
---neutral-70: #586674;
---neutral-60: #71808E;
---neutral-50: #8D99A5;
---neutral-40: #A9B3BC;
---neutral-30: #C5CCD3;
---neutral-20: #F4F8FC;
---rose: #E50049;
---rose-hover: #D50049;
---border-100: #D6E0EA;
+    --green-on-light: #02D34A;
+    --primary-50: #02D34A;
+    --green-on-dark: #00EA51;
+    --primary-20: #00EA51;
+    --neutral-100: #151F27;
+    --neutral-90: #28333E;
+    --neutral-80: #3F4D5A;
+    --neutral-70: #586674;
+    --neutral-60: #71808E;
+    --neutral-50: #8D99A5;
+    --neutral-40: #A9B3BC;
+    --neutral-30: #C5CCD3;
+    --neutral-20: #F4F8FC;
+    --rose: #E50049;
+    --rose-hover: #D50049;
+    --border-100: #D6E0EA;
+
+    --grid-width: 100%;
+    --grid-columns: 4;
+    --grid-gutter: 40px;
+    --grid-padding: 40px;
 }
 
 @font-face {
@@ -54,10 +59,30 @@
     font-weight: 700;
 }
 
+@media (min-width: 768px) {
+    :root, ::after, ::before {
+        --grid-columns: 8;
+        --grid-padding: 64px;
+    }
+}
+
+@media (min-width: 1024px) {
+    :root, ::after, ::before {
+        --grid-columns: 12;
+    }
+}
+
+@media (min-width: 1440px) {
+    :root, ::after, ::before {
+        --grid-width: min(100%, 1660px);
+    } 
+}
+
 body {
     font-family: 'Alaska', sans-serif;
     font-weight: 400;
     color: var(--neutral-100);
+    background: white;
     margin: 0;
     box-sizing: content-box;
 }
@@ -94,7 +119,6 @@ header.event-title.text-uppercase {
 }
 
 .widget_padding {
-    
 }
 
 div#lastContents733 {
@@ -103,24 +127,32 @@ div#lastContents733 {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(12, minmax(0, 1fr));
-    grid-column-gap: 40px;
-    padding: 0px 64px;
+    grid-template-columns: repeat(var(--grid-columns), minmax(0, 1fr));
+    grid-column-gap: var(--grid-gutter);
+    padding: 0px var(--grid-padding);
     width: 100%;
 }
 
 .contents_wrapper.row {
-    padding: 0 !important;
+    /* padding: 0 !important; */
     display: grid !important;
-    grid-template-columns: repeat(12, minmax(0, 1fr));
-    grid-column-gap: 40px;
-    padding: 0px 64px;
-    width: 1440px;
+    grid-template-columns: repeat(var(--grid-columns), minmax(0, 1fr));
+    grid-column-gap: var(--grid-gutter);
+    padding: 0px var(--grid-padding);
+    width: var(--grid-width);
     margin: auto;
-    row-gap: 40px;
+    row-gap: var(--grid-gutter);
 }
 
-.template-event.content-list-element.col-sm-4 {grid-column: span 4;margin: 0 !important;width: 100% !important;padding: 0 !important;border-radius: 6px;overflow: hidden;box-shadow: 0px 14px 54px #E8EDF2;}
+.template-event.content-list-element.col-sm-4 {
+    grid-column: span 4;
+    margin: 0 !important;
+    width: 100% !important;
+    padding: 0 !important;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0px 14px 54px #E8EDF2;
+}
 
 .row::before {
     content: none !important;
@@ -167,6 +199,7 @@ header.event-title a {
     display: block;
     background: red;
     border-radius: 50%;
+    flex-shrink: 0;
 }
 
 .event-abstract {
@@ -217,20 +250,20 @@ div#header {
 }
 
 div#webinarFilters {
-    width: 1440px;
+    width: var(--grid-width);
     margin: auto;
-    padding: 32px 40px 40px 40px;
+    padding: 40px var(--grid-padding) 40px var(--grid-padding);
     box-sizing: border-box;
     border: none;
 }
 
 .discover-calendar.text-uppercase {
-    width: 1440px;
+    width: var(--grid-width);
     margin: auto;
     display: flex;
     align-items: center;
     column-gap: 20px;
-    padding-top: 40px;
+    padding: 40px var(--grid-padding) 0px var(--grid-padding);
 }
 
 .discover-calendar.text-uppercase:before {
@@ -500,7 +533,7 @@ span.month.disabled {
 }
 
 .slider-hero .hero-message {
-    width: 1440px;
+    width: var(--grid-width);
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -516,7 +549,7 @@ footer.footer.j-footer {
     background: var(--neutral-100);
     margin-top: 96px;
     color: white;
-    padding: 40px calc((100vw - 1440px) / 2);
+    padding: 40px calc((100vw - var(--grid-width)) / 2);
 }
 
 footer.footer.j-footer * {
@@ -524,7 +557,8 @@ footer.footer.j-footer * {
 }
 
 div.fullcalendar-widget {
-    width: 1440px;
+    padding: 0px var(--grid-padding);
+    width: var(--grid-width);
     margin: auto;
     display: flex;
     flex-flow: column;
@@ -560,7 +594,9 @@ ul.legend-labels:before {
     content: 'Legend';
     text-transform: uppercase;
     font-size: 10px;
+    font-family: 'AlaskaExpanded';
     color: var(--neutral-70);
+    font-weight: 400;
 }
 
 .fc-toolbar {
@@ -571,22 +607,25 @@ ul.legend-labels:before {
 }
 
 .fc .fc-toolbar>*>:first-child {
+    font-weight: 500;
     color: white;
     min-width: 236px;
     text-align: left;
     font-size: 24px;
+    font-family: 'Alaska';
+    text-transform: none;
 }
 
 button.fc-prev-button, button.fc-next-button {
     background: none;
-    border: 1px solid white;
+    border: 1px solid white !important;
     border-radius: 50% !important;
-    height: 48px;
-    width: 48px;
+    height: 48px !important;
+    width: 48px !important;
 }
 
 .fc-button-group {
-    display: flex;
+    display: flex !important;
     column-gap: 8px;
 }
 
@@ -605,9 +644,9 @@ button.fc-today-button {
 
 .mb-0_5.timezone-notice {
     position: absolute;
-    top: calc(82px + 40px);
+    top: calc(54px + 40px);
     color: white;
-    right: 40px;
+    right: calc(var(--grid-padding) + 40px);
 }
 
 .mb-0_5.timezone-notice i {
@@ -616,12 +655,15 @@ button.fc-today-button {
 }
 
 .full-calendar-hp {
-    margin-top: 40px;
+    margin-top: 15px;
 }
 
 th.fc-day-header {
-    padding: 20px;
-    text-align: left;
+    padding: 20px !important;
+    text-align: left !important;
+    height: auto;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 td.fc-day-number {
@@ -697,4 +739,30 @@ a.btn.btn-default.pager-more {
 
 .more i.fa.fa-chevron-down.pager-icon {
     display: none;
+}
+
+#calendarWebinarsInner .wrapwidg.events-card-list {
+    display: none;
+}
+
+#webinarFilters .widget_padding {
+    margin-left: 40px;
+}
+
+div#calendarWebinarsInner .discover-calendar {
+    margin-bottom: 40px;
+}
+
+div#main {
+    min-height: auto;
+}
+
+div#home-wrapcontent .wrapcontent_padding {
+    padding-bottom: 0;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    a.btn.btn-default.btn-sm.pager-more.btn-reply {
+        margin-top: var(--grid-gutter);
+    }    
 }
