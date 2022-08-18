@@ -464,9 +464,7 @@ ul.dropdown-menu.inner {
     color: var(--neutral-100);
     font-family: 'Alaska';
     font-weight: 500;
-}}
-
-.form-group {}
+}
 
 .bootstrap-datetimepicker-widget.dropdown-menu.usetwentyfour.bottom {
     position: absolute;
