@@ -761,6 +761,11 @@ div#event-sessions-area {
 .wrapwidg {
     border: none;
     margin: 0;
+    padding: 0;
+    
+}
+
+.container-event-detail .wrapwidg {
     padding: 0 !important;
 }
 
@@ -1013,6 +1018,10 @@ h3.section_title {
     font-size: var(--paragraph-title-fz);
     font-family: 'Alaska';
     font-weight: 500;
+    color: var(--neutral-100);
+}
+
+.rich p {
     color: var(--neutral-100);
 }
 
