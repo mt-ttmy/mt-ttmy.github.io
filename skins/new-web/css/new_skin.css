@@ -930,10 +930,16 @@ section.container.container-event-detail {
 .clearfix.content_details.content_details_editorial {
     padding: 0;
     margin: 0 !important;
+    padding-top: 96px;
 }
 
 .row {
     margin: 0px;
+}
+
+.rich strong {
+    font-family: 'Alaska';
+    font-weight: 500;
 }
 
 .rich.about.col-sm-12 {
@@ -949,17 +955,41 @@ section.container.container-event-detail {
 
 .rich.about div:first-child {
     grid-row: 1;
-    grid-column: 2 / span 10;
+    grid-column: 1 / span 4;
 }
 
 .rich.about .rich-description {
     grid-row: 2;
-    grid-column: 2 / span 10;
-    column-count: 2;
+    grid-column: 1 / span 4;
+    column-count: 1;
     column-gap: var(--grid-gutter);
     color: var(--neutral-100);
     font-size: 16px;
     line-height: 160%;
+}
+
+@media (min-width: 768px) {
+    .rich.about div:first-child {
+        grid-row: 1;
+        grid-column: 1 / span 8;
+    }
+
+    .rich.about .rich-description {
+        grid-row: 2;
+        grid-column: 1 / span 8;
+        column-count: 2;
+    }
+}
+
+@media (min-width: 1024px) {
+    .rich.about div:first-child {
+        grid-row: 1;
+        grid-column: 2 / span 10;
+    }
+
+    .rich.about .rich-description {
+        grid-column: 2 / span 10;
+    }
 }
 
 h3.section_title {
@@ -982,13 +1012,36 @@ h3.section_title {
 }
 
 .rich.learn div:first-child {
-    grid-column: 2 / span 5;
+    grid-column: 1 / span 4;
+    grid-row: 1;
 }
 
 .rich.learn .rich-description {
-    grid-column: 7 / span 5;
+    grid-column: 1 / span 4;
     font-size: 16px;
+    grid-row: 2;
     line-height: 160%;
+}
+
+@media (min-width: 768px) {
+    .rich.learn div:first-child {
+        grid-column: 1 / span 8;
+    }
+
+    .rich.learn .rich-description {
+        grid-column: 1 / span 8;
+    }
+}
+
+@media (min-width: 1024px) {
+    .rich.learn div:first-child {
+        grid-column: 2 / span 5;
+    }
+
+    .rich.learn .rich-description {
+        grid-column: 7 / span 5;
+        grid-row: 1;
+    }
 }
 
 .rich.agenda.col-sm-12 {
@@ -1003,13 +1056,37 @@ h3.section_title {
 }
 
 .rich.agenda div:first-child {
-    grid-column: 2 / span 5;
+    grid-column: 1 / span 4;
+    grid-row: 1;
 }
 
 .rich.agenda .rich-description {
-    grid-column: 7 / span 5;
+    grid-column: 1 / span 4;
     font-size: 16px;
+    grid-row: 2;
     line-height: 160%;
+    color: var(--neutral-100);
+}
+
+@media (min-width: 768px) {
+    .rich.agenda div:first-child {
+        grid-column: 1 / span 8;
+    }
+
+    .rich.agenda .rich-description {
+        grid-column: 1 / span 8;
+    }
+}
+
+@media (min-width: 1024px) {
+    .rich.agenda div:first-child {
+        grid-column: 2 / span 5;
+    }
+
+    .rich.agenda .rich-description {
+        grid-column: 7 / span 5;
+        grid-row: 1;
+    }
 }
 
 .rich.speakers.col-sm-12 {
@@ -1071,4 +1148,85 @@ img.img-responsive {
     font-weight: 500;
     line-height: 170%;
     color: var(--neutral-70);
+}
+
+.esquire {
+    height: auto;
+    min-height: auto;
+}
+
+.esquire-message-container {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0;
+    right: 0;
+}
+
+.esquire.dark {
+    height: auto !important;
+    min-height: auto;
+    position: relative;
+    padding-top: 50%;
+}
+
+div#event-image-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+}
+
+.esquire-message-container {
+    display: grid;
+    grid-template-columns: repeat(var(--grid-columns), minmax(0, 1fr));
+    grid-column-gap: var(--grid-gutter);
+    padding: 96px var(--grid-padding);
+    grid-row-gap: var(--grid-gutter);
+    grid-template-rows: 1px auto;
+    align-content: center;
+}
+
+.share-until {
+    grid-row: 1;
+    grid-column: 2 / span 8;
+    display: flex;
+    align-items: center;
+}
+
+.esquire-message {
+    grid-row: 2;
+    grid-column: 2 / span 8;
+}
+
+.esquire-message * {
+    font-family: 'Alaska';
+    font-weight: 400;
+}
+
+.esquire-message h2 span {
+    text-transform: none;
+    font-size: 64px;
+    line-height: 110%;
+    
+}
+
+.share-until:before {
+    content: 'EVENT';
+    font-family: 'AlaskaExpanded';
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.days-until {
+    background: var(--primary-20);
+    color: black;
+    font-size: 10px;
+    font-family: 'AlaskaExpanded';
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 42px;
+    margin-left: 12px;
+    text-transform: uppercase;
 }
