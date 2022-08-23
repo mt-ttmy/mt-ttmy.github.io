@@ -951,10 +951,9 @@ section.container.container-event-detail {
 .row {
     margin: 0px;
     display: flex;
-    
 }
 
-.content-rich-metas.row {
+.content-rich-metas .row {
     flex-flow: column;
     align-items: center;
 }
