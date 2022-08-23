@@ -1019,6 +1019,7 @@ h3.section_title {
     grid-row-gap: var(--paragraph-title-bottom-space);
     position: relative;
     z-index: 1;
+    background: none;
 }
 
 .rich.learn.col-sm-12:before {
