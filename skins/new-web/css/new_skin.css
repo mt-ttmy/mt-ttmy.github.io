@@ -327,6 +327,7 @@ a.btn.btn-default.go-to-calendar:before {
     text-transform: uppercase;
     text-decoration: none;
     font-family: 'AlaskaExpanded';
+    font-weight: 500;
 }
 
 a.btn.btn-default.go-to-calendar span:not(.icon-moon) {
@@ -945,6 +946,10 @@ section.container.container-event-detail {
 .row {
     margin: 0px;
     display: flex;
+    
+}
+
+.content-rich-metas.row {
     flex-flow: column;
     align-items: center;
 }
