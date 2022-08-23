@@ -759,7 +759,7 @@ div#event-sessions-area {
 .wrapwidg {
     border: none;
     margin: 0;
-    padding: 0;
+    padding: 0 !important;
 }
 
 div#more {
@@ -939,11 +939,13 @@ section.container.container-event-detail {
 .clearfix.content_details.content_details_editorial {
     padding: 0;
     margin: 0 !important;
-    padding-top: 96px;
 }
 
 .row {
     margin: 0px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 }
 
 .rich strong {
@@ -956,10 +958,9 @@ section.container.container-event-detail {
     display: grid;
     grid-template-columns: repeat(var(--grid-columns), minmax(0, 1fr));
     grid-column-gap: var(--grid-gutter);
-    padding: 0px var(--grid-padding);
-    width: 100%;
+    padding: 96px var(--grid-padding);
+    width: var(--grid-width);
     grid-row-gap: var(--paragraph-title-bottom-space);
-    margin-bottom: 96px;
 }
 
 .rich.about div:first-child {
@@ -1010,14 +1011,24 @@ h3.section_title {
 }
 
 .rich.learn.col-sm-12 {
-    background: var(--neutral-20) !important;
     display: grid;
     grid-template-columns: repeat(var(--grid-columns), minmax(0, 1fr));
     grid-column-gap: var(--grid-gutter);
     padding: 96px var(--grid-padding);
-    width: 100%;
+    width: var(--grid-width);
     grid-row-gap: var(--paragraph-title-bottom-space);
-    margin-bottom: 96px;
+    position: relative;
+    z-index: 1;
+}
+
+.rich.learn.col-sm-12:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100vw;
+    z-index: -1;
+    background: var(--neutral-20) !important;
+    left: calc((100vw - var(--grid-width)) / -2);
 }
 
 .rich.learn div:first-child {
@@ -1059,9 +1070,8 @@ h3.section_title {
     grid-template-columns: repeat(var(--grid-columns), minmax(0, 1fr));
     grid-column-gap: var(--grid-gutter);
     padding: 96px var(--grid-padding);
-    width: 100%;
+    width: var(--grid-width);
     grid-row-gap: var(--grid-gutter);
-    margin-bottom: 96px;
 }
 
 .rich.agenda div:first-child {
@@ -1104,7 +1114,7 @@ h3.section_title {
     grid-template-columns: repeat(var(--grid-columns), minmax(0, 1fr));
     grid-column-gap: var(--grid-gutter);
     padding: 96px var(--grid-padding);
-    width: 100%;
+    width: var(--grid-width);
     grid-row-gap: var(--paragraph-title-bottom-space);
     margin-bottom: 96px;
 }
