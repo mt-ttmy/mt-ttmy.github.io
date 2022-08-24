@@ -27,6 +27,8 @@
     --paragraph-title-fz: 28px;
     --paragraph-title-bottom-space: 24px;
 
+    --hero-title-fz: 36px;
+
     --spacer-s: 32px;
     --spacer-m: 56px;   
     --spacer-l: 80px;
@@ -78,6 +80,8 @@
         --paragraph-title-bottom-space: 32px;
         --paragraph-title-fz: 28px;
 
+        --hero-title-fz: 42px;
+
         --spacer-s: 36px;
         --spacer-m: 64px;   
         --spacer-l: 88px;
@@ -103,6 +107,8 @@
 
         --paragraph-title-bottom-space: 40px;
         --paragraph-title-fz: 36px;
+
+        --hero-title-fz: 64px;
     } 
 }
 
@@ -543,13 +549,14 @@ span.month.disabled {
     height: max(50vw, 450px);
 }
 
-.hero-message-container {
+.slider-hero .hero-message-container {
     display: flex !important;
     height: auto !important;
     min-height: auto !important;
     position: static !important;
-    grid-column: 1 / span 8;
+    grid-column: 2 / span 8;
     margin-left: 0px !important;
+    align-items: center;
 }
 
 .slider-hero.text-center.slider-plain.has-cover {
@@ -558,7 +565,6 @@ span.month.disabled {
     grid-column-gap: var(--grid-gutter);
     padding: var(--spacer-l) var(--grid-padding);
     grid-row-gap: var(--grid-gutter);
-    grid-template-rows: 1px auto;
     align-content: center;
     height: 100%;
 }
@@ -578,12 +584,23 @@ span.month.disabled {
 }
 
 .slider-hero .hero-message {
+    padding-bottom: 0px !important;
     width: var(--grid-width);
     display: flex !important;
     flex-flow: column;
-    justify-content: center;
-    justify-self: center;
-    margin: auto;
+    text-align: left;
+    vertical-align: unset !important;
+}
+
+.slider-hero .hero-message * {
+    font-family: 'Alaska';
+}
+
+.slider-hero .hero-message h2 span {
+    font-size: var(--hero-title-fz);
+    font-weight: 300;
+    line-height: 110%;
+    text-transform: none;
 }
 
 div#login-modal-area, div#event-enrollment-modal, div#login-modal-area, div#event-cancel-modal {
