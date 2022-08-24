@@ -33,6 +33,8 @@
     --spacer-m: 56px;   
     --spacer-l: 80px;
     --spacer-xl: 96px;
+
+    --grid-column-width: calc((min(100vw, 1660px) - (var(--grid-padding) * 2) - (var(--grid-gutter) * (var(--grid-columns) - 1))) / var(--grid-columns));
 }
 
 @font-face {
@@ -550,13 +552,11 @@ span.month.disabled {
 }
 
 .slider-hero .hero-message-container {
-    display: flex !important;
     height: auto !important;
     min-height: auto !important;
     position: static !important;
     grid-column: 2 / span 8;
     margin-left: 0px !important;
-    align-items: center;
 }
 
 .slider-hero.text-center.slider-plain.has-cover {
@@ -571,6 +571,7 @@ span.month.disabled {
 
 .slider-hero .hero-message h2 {
     font-family: 'Alaska';
+    padding-bottom: 24px !important;
 }
 
 .slider-hero .hero-message h3 {
@@ -585,15 +586,51 @@ span.month.disabled {
 
 .slider-hero .hero-message {
     padding-bottom: 0px !important;
-    width: var(--grid-width);
-    display: flex !important;
-    flex-flow: column;
+    display: grid !important;
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+    grid-column-gap: var(--grid-gutter);
     text-align: left;
-    vertical-align: unset !important;
 }
 
 .slider-hero .hero-message * {
-    font-family: 'Alaska';
+    font-family: 'Alaska' !important;
+}
+
+.slider-hero .hero-message h2 {
+    grid-row: 1;
+    grid-column: 1 / span 8;
+}
+
+.slider-hero .hero-message h3.home-claim {
+    grid-row: 2;
+    grid-column: 2 / span 6;
+    margin: 0 !important;
+    position: relative;
+}
+
+.slider-hero .hero-message a.btn.btn-reply.read-more {
+    grid-row: 3;
+    grid-column: 2 / span 2;
+}
+
+.slider-hero .hero-message a.btn.btn-reply.read-more.vod-home-cta {
+    grid-column: 4 / span 2;
+}
+
+.slider-hero .hero-message h3.home-claim * {
+    font-size: 16px;
+    line-height: 170%;
+}
+
+.slider-hero .hero-message h3.home-claim:before {
+    content: '';
+    height: 1px;
+    width: var(--grid-column-width);
+    display: block;
+    background: white;
+    position: absolute;
+    top: 13px;
+    left: calc(-1 * (var(--grid-gutter) + var(--grid-column-width)));
 }
 
 .slider-hero .hero-message h2 span {
