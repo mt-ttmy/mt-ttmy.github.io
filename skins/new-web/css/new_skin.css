@@ -34,7 +34,8 @@
     --spacer-l: 80px;
     --spacer-xl: 96px;
 
-    --grid-column-width: calc((min(100vw, 1660px) - (var(--grid-padding) * 2) - (var(--grid-gutter) * (var(--grid-columns) - 1))) / var(--grid-columns));
+    --grid-column-width:
+    calc((100vw - (var(--grid-padding) * 2) - (var(--grid-gutter) * (var(--grid-columns) - 1))) / var(--grid-columns));
 }
 
 @font-face {
@@ -548,7 +549,7 @@ span.month.disabled {
 }
 
 .flexslider .contents_wrapper {
-    height: max(50vw, 450px);
+    height: max(50vw, 450px) !important;
 }
 
 .slider-hero .hero-message-container {
@@ -557,6 +558,7 @@ span.month.disabled {
     position: static !important;
     grid-column: 2 / span 8;
     margin-left: 0px !important;
+    max-height: 100% !important;
 }
 
 .slider-hero.text-center.slider-plain.has-cover {
@@ -566,7 +568,14 @@ span.month.disabled {
     padding: var(--spacer-l) var(--grid-padding);
     grid-row-gap: var(--grid-gutter);
     align-content: center;
-    height: 100%;
+}
+
+ul.flex-direction-nav {
+    display: none;
+}
+
+[class^="wrapwidg hero"], [class^="wrapwidg hero"] .flexslider, [class^="wrapwidg hero"] .contents_wrapper, [class^="wrapwidg hero"] .contents_wrapper > div, [class^="wrapwidg hero"] .contents_wrapper > div .slider-hero, [class^="wrapwidg hero"] .contents_wrapper > div .slider-hero .hero-message, [class^="wrapwidg hero"] .contents_wrapper > div .slider-hero .hero-message-container, [class^="wrapwidg hero"] .contents_wrapper > div .hero-image-container, [class^="wrapwidg hero"] .contents_wrapper > div .hero-video-container, .slides {
+    min-height: auto !important;
 }
 
 .slider-hero .hero-message h2 {
@@ -603,7 +612,7 @@ span.month.disabled {
 
 .slider-hero .hero-message h3.home-claim {
     grid-row: 2;
-    grid-column: 2 / span 6;
+    grid-column: 2 / span 5;
     margin: 0 !important;
     position: relative;
 }
