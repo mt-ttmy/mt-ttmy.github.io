@@ -576,6 +576,7 @@ ul.flex-direction-nav {
 
 [class^="wrapwidg hero"], [class^="wrapwidg hero"] .flexslider, [class^="wrapwidg hero"] .contents_wrapper, [class^="wrapwidg hero"] .contents_wrapper > div, [class^="wrapwidg hero"] .contents_wrapper > div .slider-hero, [class^="wrapwidg hero"] .contents_wrapper > div .slider-hero .hero-message, [class^="wrapwidg hero"] .contents_wrapper > div .slider-hero .hero-message-container, [class^="wrapwidg hero"] .contents_wrapper > div .hero-image-container, [class^="wrapwidg hero"] .contents_wrapper > div .hero-video-container, .slides {
     min-height: auto !important;
+    height: 100%;
 }
 
 .slider-hero .hero-message h2 {
