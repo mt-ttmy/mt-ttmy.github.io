@@ -197,6 +197,7 @@ header.event-title a {
     font-weight: 800;
     line-height: 130%;
     text-transform: none;
+    font-weight: 500;
 }
 
 .event-datetime.fx-xs-display.fx-xs-justify-flex-start .event-date {
@@ -537,14 +538,27 @@ span.month.disabled {
     position: relative;
 }
 
-.hero-message-container {
-    width: 100%;
-    margin: auto;
-    display: flex !important;
-    align-items: center;
+.flexslider .contents_wrapper {
+    height: min(50vw, 450px);
 }
 
-.slider-hero.text-center.slider-plain.has-cover.text-lighter {
+.hero-message-container {
+    display: flex !important;
+    height: auto !important;
+    min-height: auto !important;
+    position: static !important;
+    grid-column: 1 / span 8;
+    margin-left: 0px !important;
+}
+
+.slider-hero.text-center.slider-plain.has-cover {
+    display: grid;
+    grid-template-columns: repeat(var(--grid-columns), minmax(0, 1fr));
+    grid-column-gap: var(--grid-gutter);
+    padding: var(--spacer-l) var(--grid-padding);
+    grid-row-gap: var(--grid-gutter);
+    grid-template-rows: 1px auto;
+    align-content: center;
 }
 
 .slider-hero .hero-message h2 {
@@ -557,11 +571,13 @@ span.month.disabled {
 
 .slider-hero .hero-image-container {
     background-size: cover;
+    position: absolute;
+    inset: 0;
 }
 
 .slider-hero .hero-message {
     width: var(--grid-width);
-    display: flex;
+    display: flex !important;
     flex-flow: column;
     justify-content: center;
     justify-self: center;
