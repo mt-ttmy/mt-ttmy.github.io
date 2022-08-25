@@ -301,12 +301,13 @@ div#webinarFilters {
     display: flex;
     align-items: center;
     column-gap: 20px;
-    padding: 40px var(--grid-padding) 0px var(--grid-padding);
+    padding: 40px calc(var(--grid-padding) + 40px) 0px calc(var(--grid-padding) + 40px);
+    flex-wrap: wrap;
+    row-gap: 20px;
 }
 
 .discover-calendar.text-uppercase:before {
     content: 'filter by';
-    margin-left: 40px;
     text-transform: uppercase;
     color: var(--neutral-70);
     font-size: 10px;
@@ -331,7 +332,7 @@ div#webinarFilters {
     flex-grow: 2;
     justify-content: space-between;
     display: flex;
-    padding-right: 50px;
+    /* padding-right: 50px; */
     align-items: center;
 }
 
@@ -420,6 +421,8 @@ button.btn.dropdown-toggle.btn-default {
 div#webinar-date-filters {
     display: flex;
     column-gap: 32px;
+    flex-wrap: wrap;
+    row-gap: 32px;
 }
 
 .dropdown.bootstrap-select.show-tick {
@@ -433,6 +436,24 @@ div#webinar-date-filters {
     box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.2);
     height: auto;
     max-height: 300px !important;
+}
+
+@media (max-width: 767px) {
+    .dropdown-menu.open {
+        position: fixed !important;
+        top: calc(100vh - 300px) !important;
+        z-index: 1000 !important;
+        left: 0 !important;
+        right: 0 !important;
+    }
+
+    .dropdown-menu.open:before {
+        content: '';
+        position: fixed;
+        inset: 0;
+        background: #36363675;
+        z-index: -1;
+    }    
 }
 
 ul.dropdown-menu.inner {
@@ -868,6 +889,7 @@ div#upcomingWebinars, div#allWebinars {
     margin: 0;
     padding: 0;
     border: none;
+    padding-bottom: 80px;
 }
 
 .bootstrap-select.show-tick .dropdown-menu li a span.text {
@@ -887,6 +909,11 @@ div#upcomingWebinars, div#allWebinars {
 
 .panel-default>.panel-heading {
     display: none;
+}
+
+.form-group {
+    padding: 0px !important;
+    margin: 0px;
 }
 
 .form-group.view-select-filter {
@@ -948,6 +975,7 @@ a.btn.btn-default.pager-more {
 
 #webinarFilters .widget_padding {
     margin-left: 40px;
+    margin-right: 40px;
 }
 
 div#calendarWebinarsInner .discover-calendar {
