@@ -1572,3 +1572,9 @@ div#event-image-container {
 #login-modal-area .modal-content {
     background: var(--neutral-20);
 }
+
+.esquire-message-container .editing {
+    position: absolute;
+    right: var(--grid-padding);
+    top: var(--grid-padding);
+}
