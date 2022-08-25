@@ -1484,3 +1484,23 @@ div#event-image-container {
     margin-left: 12px;
     text-transform: uppercase;
 }
+
+#login-modal-area .modal-header {
+    background: none;
+}
+
+#login-modal-area .modal-header:after {
+    display: none !important;
+}
+
+#login-modal-area h4.modal-title {
+    display: none;
+}
+
+.cognito-login-enabled #login-modal-area iframe {
+    border: none;
+}
+
+#login-modal-area .modal-content {
+    background: var(--neutral-20);
+}
