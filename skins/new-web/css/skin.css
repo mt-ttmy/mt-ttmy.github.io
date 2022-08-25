@@ -6,4 +6,8 @@
 /* @import url("fixCssAngelo.css"); */
 @import url("reply-header.css");
 @import url("ckeditor-headless.css");
+
+
+/** New skin style | in order to revert edits just comment the two following lines and uncomment fixCssAngelo.css (line: 6) **/
+@import url("../remixicons/remixicon.css");
 @import url("new_skin.css");
