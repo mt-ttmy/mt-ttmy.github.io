@@ -253,9 +253,7 @@ button.btn.btn-default.action {
 }
 
 
-button.btn.btn-default.action span {
-    display: none;
-}
+button.btn.btn-default.action span {font-family: 'AlaskaExpanded';}
 
 section.event-list-item.event-card {
     height: 100%;
@@ -1139,6 +1137,50 @@ section.container.container-event-detail {
     font-weight: 500;
 }
 
+.video-container.col-sm-12 {
+    display: grid;
+    grid-template-columns: repeat(var(--grid-columns), minmax(0, 1fr));
+    grid-column-gap: var(--grid-gutter);
+    padding: var(--spacer-l) var(--grid-padding);
+    width: var(--grid-width);
+    grid-row-gap: var(--paragraph-title-bottom-space);
+}
+
+.video-container div:first-child {
+    grid-row: 1;
+    grid-column: 1 / span 4;
+}
+
+.video-container div:nth-child(2) {
+    grid-row: 2;
+    grid-column: 1 / span 4;
+}
+
+@media (min-width: 768px) {
+    .video-container div:first-child {
+        grid-row: 1;
+        grid-column: 1 / span 8;
+    }
+
+    .video-container div:nth-child(2) {
+        grid-row: 2;
+        grid-column: 1 / span 8;
+    }
+}
+
+@media (min-width: 1024px) {
+    .video-container div:first-child {
+        grid-row: 1;
+        grid-column: 2 / span 10;
+    }
+
+    .video-container div:nth-child(2) {
+        grid-row: 2;
+        grid-column: 2 / span 10;
+        max-width: none !important;
+    }
+}
+
 .rich.about.col-sm-12 {
     background: none !important;
     display: grid;
@@ -1328,6 +1370,22 @@ h3.section_title {
     row-gap: var(--spacer-l);
 }
 
+.rich.when-where.col-sm-12 {
+    background: none !important;
+    display: grid;
+    grid-template-columns: repeat(var(--grid-columns), minmax(0, 1fr));
+    grid-column-gap: var(--grid-gutter);
+    padding: var(--spacer-l) var(--grid-padding);
+    width: var(--grid-width);
+    grid-row-gap: var(--paragraph-title-bottom-space);
+}
+
+.rich.when-where.col-sm-12 div{
+    grid-column: 1/-1;
+}
+
+
+
 .fx-sm-display.fx-sm-justify-space-around.fx-sm-wrap {
     width: 100%;
 }
@@ -1483,6 +1541,10 @@ div#event-image-container {
     border-radius: 42px;
     margin-left: 12px;
     text-transform: uppercase;
+}
+
+.days-until:empty {
+    display: none;
 }
 
 #login-modal-area .modal-header {
