@@ -253,7 +253,13 @@ button.btn.btn-default.action {
 }
 
 
-button.btn.btn-default.action span {font-family: 'AlaskaExpanded';}
+button.btn.btn-default.action span {
+    font-family: 'AlaskaExpanded';
+}
+
+button.btn.btn-default.action span.fa {
+    display: none;
+}
 
 section.event-list-item.event-card {
     height: 100%;
